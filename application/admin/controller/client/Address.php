@@ -1,7 +1,5 @@
 <?php
-
 namespace app\admin\controller\client;
-
 use app\common\controller\Backend;
 use think\Db;
 /**
