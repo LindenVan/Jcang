@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2020-04-22T15:52:26+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/address/index?addtabs=1&sort=address_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587541645761
+[ error ] [0]致命错误: Call to a member function where() on null
+---------------------------------------------------------------
+[ 2020-04-22T15:52:27+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/address/index?addtabs=1&sort=address_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587541645762
+[ error ] [0]致命错误: Call to a member function where() on null
+---------------------------------------------------------------
+[ 2020-04-22T15:52:32+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/address/index?addtabs=1&sort=address_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587541952152
+[ error ] [0]致命错误: Call to a member function where() on null
+---------------------------------------------------------------
+[ 2020-04-22T15:52:32+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/address/index?addtabs=1&sort=address_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587541952153
+[ error ] [0]致命错误: Call to a member function where() on null
