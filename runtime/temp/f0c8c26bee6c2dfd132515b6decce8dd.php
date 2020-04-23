@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:87:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\auth\rule\add.html";i:1583049507;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\auth\rule\tpl.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\edit.html";i:1587622009;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -50,116 +50,83 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
-    <?php echo token(); ?>
+                                <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Ismenu'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_key'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <?php echo build_radios('row[ismenu]', ['1'=>__('Yes'), '0'=>__('No')]); ?>
+            <input id="c-user_key" class="form-control" name="row[user_key]" type="text" value="<?php echo htmlentities($row['user_key']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label  class="control-label col-xs-12 col-sm-2"><?php echo __('Parent'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Tel'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <?php echo build_select('row[pid]', $ruledata, null, ['class'=>'form-control', 'required'=>'']); ?>
+            <input id="c-tel" class="form-control" name="row[tel]" type="text" value="<?php echo htmlentities($row['tel']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label for="name" class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Level'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input type="text" class="form-control" id="name" name="row[name]" data-placeholder-node="<?php echo __('Node tips'); ?>" data-placeholder-menu="<?php echo __('Menu tips'); ?>" value="" data-rule="required" />
+            <input id="c-level" class="form-control" name="row[level]" type="number" value="<?php echo htmlentities($row['level']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Title'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Money'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input type="text" class="form-control" id="title" name="row[title]" value="" data-rule="required" />
+            <input id="c-money" class="form-control" step="0.01" name="row[money]" type="number" value="<?php echo htmlentities($row['money']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label for="icon" class="control-label col-xs-12 col-sm-2"><?php echo __('Icon'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Pending'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <div class="input-group input-groupp-md">
-                <input type="text" class="form-control" id="icon" name="row[icon]" value="fa fa-circle-o" />
-                <a href="javascript:;" class="btn-search-icon input-group-addon"><?php echo __('Search icon'); ?></a>
-            </div>
+            <input id="c-pending" class="form-control" step="0.01" name="row[pending]" type="number" value="<?php echo htmlentities($row['pending']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label for="weigh" class="control-label col-xs-12 col-sm-2"><?php echo __('Weigh'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input type="text" class="form-control" id="weigh" name="row[weigh]" value="0" data-rule="required" />
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="<?php echo htmlentities($row['name']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label for="remark" class="control-label col-xs-12 col-sm-2"><?php echo __('Condition'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_number'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea class="form-control" id="condition" name="row[condition]"></textarea>
+            <input id="c-id_number" class="form-control" name="row[id_number]" type="text" value="<?php echo htmlentities($row['id_number']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label for="remark" class="control-label col-xs-12 col-sm-2"><?php echo __('Remark'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_time'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea class="form-control" id="remark" name="row[remark]"></textarea>
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="<?php echo $row['create_time']; ?>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Last_time'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-last_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[last_time]" type="text" value="<?php echo $row['last_time']; ?>">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Status'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <?php echo build_radios('row[status]', ['normal'=>__('Normal'), 'hidden'=>__('Hidden')]); ?>
+            <input id="c-status" class="form-control" name="row[status]" type="number" value="<?php echo htmlentities($row['status']); ?>">
         </div>
     </div>
-    <div class="form-group hidden layer-footer">
-        <div class="col-xs-2"></div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Comment'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-comment" class="form-control" name="row[comment]" type="text" value="<?php echo htmlentities($row['comment']); ?>">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
         <div class="col-xs-12 col-sm-8">
             <button type="submit" class="btn btn-success btn-embossed disabled"><?php echo __('OK'); ?></button>
             <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
         </div>
     </div>
 </form>
-<style>
-    #chooseicon {
-        margin:10px;
-    }
-    #chooseicon ul {
-        margin:5px 0 0 0;
-    }
-    #chooseicon ul li{
-        width:41px;height:42px;
-        line-height:42px;
-        border:1px solid #efefef;
-        padding:1px;
-        margin:1px;
-        text-align: center;
-        font-size:18px;
-    }
-    #chooseicon ul li:hover{
-        border:1px solid #2c3e50;
-        cursor:pointer;
-    }
-</style>
-<script id="chooseicontpl" type="text/html">
-    <div id="chooseicon">
-        <div>
-            <form onsubmit="return false;">
-                <div class="input-group input-groupp-md">
-                    <div class="input-group-addon"><?php echo __('Search icon'); ?></div>
-                    <input class="js-icon-search form-control" type="text" placeholder="">
-                </div>
-            </form>
-        </div>
-        <div>
-            <ul class="list-inline">
-                <% for(var i=0; i<iconlist.length; i++){ %>
-                    <li data-font="<%=iconlist[i]%>" data-toggle="tooltip" title="<%=iconlist[i]%>">
-                    <i class="fa fa-<%=iconlist[i]%>"></i>
-                </li>
-                <% } %>
-            </ul>
-        </div>
 
-    </div>
-</script>
                             </div>
                         </div>
                     </div>

@@ -29,7 +29,14 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'address_name', title: __('Address_name')},
                         {field: 'user_tel', title: __('User_tel')},
                         {field: 'address_comment', title: __('Address_comment')},
-                        {field: 'is_default', title: __('Is_default')},
+                        /*{field: 'is_default', title: __('Is_default')},*/
+                        {field: 'is_default',title: __('Is_default'),formatter:function(value){
+                                if (value == 0) {
+                                    return '否';
+                                } else if (value == 1) {
+                                    return '是';
+                                }
+                            },operate:false},
                         {field: 'add_time', title: __('Add_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

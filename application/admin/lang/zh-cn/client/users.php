@@ -3,7 +3,7 @@
 return [
     'Id'          => '编号',
     'User_key'    => '佳藏号',
-    'Tel'         => '手机',
+    'Tel'         => '手机号码',
     'Level'       => '会员级别',
     'Money'       => '余额',
     'Pending'     => '待结算金额',

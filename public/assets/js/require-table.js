@@ -47,6 +47,8 @@ define(['jquery', 'bootstrap', 'moment', 'moment/locale/zh-cn', 'bootstrap-table
                 edit_url: '',
                 del_url: '',
                 import_url: '',
+                banned_url:'',
+                sealed_url:'',
                 multi_url: '',
                 dragsort_url: 'ajax/weigh',
             }
@@ -63,6 +65,8 @@ define(['jquery', 'bootstrap', 'moment', 'moment/locale/zh-cn', 'bootstrap-table
             addbtn: '.btn-add',
             editbtn: '.btn-edit',
             delbtn: '.btn-del',
+            bannedbtn:'btn-banned',
+            sealedbtn:'btn-sealed',
             importbtn: '.btn-import',
             multibtn: '.btn-multi',
             disabledbtn: '.btn-disabled',
