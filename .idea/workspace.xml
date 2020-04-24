@@ -3,22 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="61c4deef-c926-4a05-8d2f-a5de75891df9" name="默认" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/client/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/client/Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/client/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/client/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/goods/Good.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/goods/Good.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/goods/good.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/goods/good.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/client/address/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/client/address/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/client/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/client/users/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/client/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/client/address.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/goods/good/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/goods/good/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/goods/good/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/goods/good/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/backend/client/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/client/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/require-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/require-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/10d12fc50c46bcc051b6137d36440d02.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/21810671e12b0d91d6af98d12dad83dd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/33bf07a51b29d133e9c94547acbdb973.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/order/goreder.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/order/goreder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/order/voreder.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/order/voreder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/require-backend.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/require-backend.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/240929fb52c8e14e2006ee13f8b4137f.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/runtime/temp/7f533c099edfbcef946fe7beef1a40ae.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/7f533c099edfbcef946fe7beef1a40ae.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/97692d464495734b424db07c9202d4d0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/84badbfd5befb901ea9702befe695433.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/runtime/temp/a57901dcee30f1a90b05ddca875d69e8.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/a57901dcee30f1a90b05ddca875d69e8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a89dac8a0a478a94ae6661aa511c29cc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/c3fab0bbfdec6727e962c9b3e86a1392.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c3fab0bbfdec6727e962c9b3e86a1392.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/c3fab0bbfdec6727e962c9b3e86a1392.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/fdde41b0b5d820c1699909761fc221a8.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,20 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Backend.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Backend.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/library/traits/Backend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="23">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="e#44#71#0#PHP" expanded="true" />
               </folding>
@@ -53,47 +46,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backend-init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/backend-init.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-table-commonsearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-commonsearch.js">
+      <file leaf-file-name="Good.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/goods/Good.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3273">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-table-template.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="backend.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/backend.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="adminlte.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/adminlte.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="10" column="181" lean-forward="true" selection-start-line="10" selection-start-column="181" selection-end-line="10" selection-end-column="181" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addons.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/addons.js">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/database.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="require-backend.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/require-backend.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-897" />
+            <state relative-caret-position="92">
+              <caret line="10282" column="46" selection-start-line="10282" selection-start-column="38" selection-end-line="10282" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/client/Address.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/client/address/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="11" column="220" selection-start-line="11" selection-start-column="220" selection-end-line="11" selection-end-column="220" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -105,8 +122,14 @@
       <find>multi:</find>
       <find>fil</find>
       <find>showToggle</find>
+      <find>formatter</find>
+      <find>cli</find>
+      <find>确定删除选中</find>
+      <find>Are you sure you want to delete the</find>
+      <find>btn-del</find>
     </findStrings>
     <dirStrings>
+      <dir>E:\phpStudy\PHPTutorial\WWW\jiacang\public\assets\js</dir>
       <dir>E:\phpStudy\PHPTutorial\WWW\jiacang</dir>
     </dirStrings>
   </component>
@@ -120,15 +143,20 @@
         <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/client/address.php" />
         <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/goods/good.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/client/Address.php" />
-        <option value="$PROJECT_DIR$/application/admin/controller/goods/Good.php" />
-        <option value="$PROJECT_DIR$/application/admin/view/client/address/index.html" />
         <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/client/users.php" />
         <option value="$PROJECT_DIR$/public/assets/js/require.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/backend/client/users.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/backend/client/address.js" />
         <option value="$PROJECT_DIR$/application/admin/controller/client/Users.php" />
-        <option value="$PROJECT_DIR$/application/admin/view/client/users/index.html" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/client/address.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/order/goreder.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/order/voreder.js" />
         <option value="$PROJECT_DIR$/public/assets/js/require-table.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/require-backend.min.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/goods/Good.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/client/users.js" />
+        <option value="$PROJECT_DIR$/application/admin/view/client/users/index.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/client/address/index.html" />
       </list>
     </option>
   </component>
@@ -190,8 +218,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="148" />
+    <option name="x" value="187" />
+    <option name="y" value="62" />
     <option name="width" value="1164" />
     <option name="height" value="669" />
   </component>
@@ -201,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,25 +250,32 @@
             <path>
               <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiacang" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiacang" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiacang" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="address" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,12 +306,15 @@
       <option name="presentableId" value="Default" />
       <updated>1587534342356</updated>
       <workItem from="1587534347928" duration="10740000" />
-      <workItem from="1587604690602" duration="17611000" />
+      <workItem from="1587604690602" duration="18345000" />
+      <workItem from="1587647992292" duration="1272000" />
+      <workItem from="1587691865538" duration="16286000" />
+      <workItem from="1587717990487" duration="3873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28351000" />
+    <option name="totallyTimeSpent" value="50516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -290,10 +327,9 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17935579" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -303,6 +339,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,62 +349,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/goods/classes.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/goods/good.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/goods/Good.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/order/Voreder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/general/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/layout/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-966" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/client/address/edit.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/client/address/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/backend.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -416,13 +397,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/auth/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#45#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/user/User.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,24 +405,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/auth/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#45#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/client/Address.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/ajax.php">
@@ -469,13 +431,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/index.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -487,54 +443,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <element signature="e#47#81#0#PHP" expanded="true" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/edit.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="168" lean-forward="true" selection-start-line="16" selection-start-column="168" selection-end-line="16" selection-end-column="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="75" lean-forward="true" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2967" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-commonsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3273">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -542,10 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1187">
           <caret line="330" column="8" selection-start-line="330" selection-start-column="8" selection-end-line="330" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#26#32#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,47 +474,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/require-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/addons.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/adminlte.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/backend.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/adminlte.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend-init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/address.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/good.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/order/voreder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/order/goreder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="32" column="134" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-table-commonsearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="134" column="41" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/order/goreder/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/require-table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="357" column="19" lean-forward="true" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/general/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/client/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/library/traits/Backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/addons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend-init.js">
+    <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/library/traits/Backend.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/require-backend.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#44#71#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="10282" column="46" selection-start-line="10282" selection-start-column="38" selection-end-line="10282" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/goods/Good.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="10" column="181" lean-forward="true" selection-start-line="10" selection-start-column="181" selection-end-line="10" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/client/address/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="220" selection-start-line="11" selection-start-column="220" selection-end-line="11" selection-end-column="220" />
         </state>
       </provider>
     </entry>

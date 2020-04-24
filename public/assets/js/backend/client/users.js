@@ -75,5 +75,13 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             }
         }
     };
+    $(document).on('click', '.btn-banned', function () {
+        var data= table.bootstrapTable('getSelections');
+        console.log(data);
+        Layer.confirm(
+            __('确定禁言这几项？', 5),
+            {icon: 3, title: __('Warning'), offset: 0, shadeClose: true},
+        );
+    });
     return Controller;
 });

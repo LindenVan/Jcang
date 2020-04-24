@@ -5,6 +5,7 @@ return [
     'Title'       => '标题',
     'Class'       => '分类',
     'Price'       => '价格',
+    'Img'         => '示例图',
     'Num'         => '数量',
     'Browse'      => '浏览量',
     'Collect'     => '收藏量',

@@ -30,7 +30,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'buyer_key', title: __('Buyer_key')},
                         {field: 'buyer_name', title: __('Buyer_name')},
                         {field: 'goods_title', title: __('Goods_title')},
-                        {field: 'goods_img', title: __('Goods_img')},
+                        {field: 'goods_img', title: __('Goods_img'),formatter: Table.api.formatter.image, events: Table.api.events.img},
                         {field: 'comment', title: __('Comment')},
                         {field: 'is_goods', title: __('Is_goods')},
                         {field: 'issuer_tel', title: __('Issuer_tel')},

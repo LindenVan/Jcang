@@ -1,5 +1,7 @@
 <?php
+
 namespace app\admin\controller\goods;
+
 use app\common\controller\Backend;
 
 /**
@@ -14,6 +16,7 @@ class Good extends Backend
      * Good模型对象
      * @var \app\admin\model\goods\Good
      */
+
     protected $model = null;
 
     public function _initialize()

@@ -28,6 +28,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'title', title: __('Title')},
                         {field: 'class', title: __('Class')},
                         {field: 'price', title: __('Price'), operate:'BETWEEN'},
+                        {field: 'img', title: __('Img'),formatter: Table.api.formatter.image, events: Table.api.events.img},
                         {field: 'num', title: __('Num')},
                         {field: 'browse', title: __('Browse')},
                         {field: 'collect', title: __('Collect')},

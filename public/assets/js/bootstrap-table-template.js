@@ -12,7 +12,7 @@
 
     $.extend($.fn.bootstrapTable.defaults, {
         //是否启用模板渲染
-        templateView: false,
+        templateView: true,
         //数据格式化的模板ID或格式函数
         templateFormatter: "itemtpl",
         //添加的父类的class
