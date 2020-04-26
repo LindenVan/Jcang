@@ -7,5 +7,7 @@ return [
     'User_tel'        => '收货电话',
     'Address_comment' => '详细地址',
     'Is_default'      => '是否为默认',
+    'Is_default 1'      => '是',
+    'Is_default 0'      => '否',
     'Add_time'        => '创建时间'
 ];

@@ -1,11 +1,11 @@
 <?php
 
-namespace app\admin\model\client;
+namespace app\admin\model\msg;
 
 use think\Model;
 
 
-class Address extends Model
+class Feedback extends Model
 {
 
     
@@ -13,7 +13,7 @@ class Address extends Model
     
 
     // 表名
-    protected $table = 'address';
+    protected $table = 'feedback';
     
     // 自动写入时间戳字段
     protected $autoWriteTimestamp = false;
@@ -27,10 +27,6 @@ class Address extends Model
     protected $append = [
 
     ];
-
-    public function getDefaultList(){
-        return ['1'=>__('Is_default 1'),'0'=>__('Is_default 0')];
-    }
     
 
     

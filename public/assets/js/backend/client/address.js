@@ -30,7 +30,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'user_tel', title: __('User_tel')},
                         {field: 'address_comment', title: __('Address_comment')},
                         /*{field: 'is_default', title: __('Is_default')},*/
-                        {field: 'is_default',title: __('Is_default'),formatter:function(value){
+                        {field: 'is_default',title: __('Is_default'),
+                        searchList:{'1':__('Is_default 1'),'0':__('Is_default 0')},
+                        formatter:function(value){
                                 if (value == 0) {
                                     return '否';
                                 } else if (value == 1) {

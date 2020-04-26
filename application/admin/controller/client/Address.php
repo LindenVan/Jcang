@@ -20,7 +20,7 @@ class Address extends Backend
     {
         parent::_initialize();
         $this->model = new \app\admin\model\client\Address;
-
+        $this->view->assign('DefaultList',$this->model->getDefaultList());
     }
     /**
      * 编辑

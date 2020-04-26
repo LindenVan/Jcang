@@ -52,7 +52,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                 } else if (value == 2) {
                                     return '封号';
                                 }
-                        },operate:false},
+                        }},
 
                         {field: 'comment', title: __('Comment')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}

@@ -5,12 +5,12 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'order/voreder/index' + location.search,
-                    add_url: 'order/voreder/add',
-                    edit_url: 'order/voreder/edit',
-                    del_url: 'order/voreder/del',
-                    multi_url: 'order/voreder/multi',
-                    table: 'vorder',
+                    index_url: 'msg/message/index' + location.search,
+                    add_url: 'msg/message/add',
+                    edit_url: 'msg/message/edit',
+                    del_url: 'msg/message/del',
+                    multi_url: 'msg/message/multi',
+                    table: 'message',
                 }
             });
 
@@ -25,15 +25,14 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
-                        {field: 'order_key', title: __('Order_key')},
                         {field: 'username', title: __('Username')},
                         {field: 'user_key', title: __('User_key')},
                         {field: 'user_tel', title: __('User_tel')},
-                        {field: 'last_level', title: __('Last_level')},
-                        {field: 'shop_level', title: __('Shop_level')},
-                        {field: 'pay_price', title: __('Pay_price'), operate:'BETWEEN'},
-                        {field: 'pay_mode', title: __('Pay_mode')},
-                        {field: 'pay_time', title: __('Pay_time'), operate:'RANGE', addclass:'datetimerange'},
+                        // {field: 'comment', title: __('Comment')},
+                        {field: 'comment', title: __('Comment'), formatter: function(value){return value.toString().substr(0, 20)}},
+                        {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
+                        {field: 'tel', title: __('Tel')},
+                        {field: 'key', title: __('Key')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

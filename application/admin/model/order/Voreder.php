@@ -13,7 +13,7 @@ class Voreder extends Model
     
 
     // 表名
-    protected $table = 'order';
+    protected $table = 'vorder';
     
     // 自动写入时间戳字段
     protected $autoWriteTimestamp = false;
