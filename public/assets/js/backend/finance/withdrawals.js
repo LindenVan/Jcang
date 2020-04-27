@@ -33,9 +33,34 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'cash_account', title: __('Cash_account')},
                         {field: 'wdr_time', title: __('Wdr_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'tel', title: __('Tel')},
-                        {field: 'status', title: __('Status')},
+                        {field: 'status', title: __('Status'),formatter:function(value){
+                                if (value == 0) {
+                                    return '未处理';
+                                } else if (value == 1) {
+                                    return '已处理';
+                                }
+                            }},
                         {field: 'comment', title: __('Comment')},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'operate', title: __('Operate'), table: table,
+                            buttons: [
+                                {name: 'handling', text: '处理', title: '处理', icon: '',
+                                    classname: 'btn btn-xs btn-success btn-ajax',refresh:'true',
+                                    confirm:"确定通过提现申请？",
+                                    url: "finance/withdrawals/handling",
+                                }
+                            ],
+                            formatter:function(value,row,index){
+                                var that = $.extend({},this);
+                                var table = $(that.table).clone(true);
+                                if (row.status == 1){
+                                    $(table).data("operate-handling",'');
+                                }
+                                that.table = table;
+                                return Table.api.formatter.operate.call(that,value,row,index);
+                            },
+                            events: Table.api.events.operate,
+                            formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });

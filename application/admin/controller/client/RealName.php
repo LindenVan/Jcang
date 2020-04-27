@@ -3,6 +3,15 @@
 namespace app\admin\controller\client;
 
 use app\common\controller\Backend;
+use app\admin\library\Auth;
+use think\Config;
+use think\Controller;
+use think\DB;
+use think\Lang;
+use think\Loader;
+use think\Session;
+use fast\Tree;
+use think\Validate;
 
 /**
  * 
@@ -23,6 +32,22 @@ class RealName extends Backend
         parent::_initialize();
         $this->model = new \app\admin\model\client\RealName;
 
+    }
+    public function pass($ids = null){
+        $flag = DB::table('real_name')->where('id','=',$ids)->setField('status','1');
+        if (!$flag){
+            $this->error('操作失败');
+            die();
+        }
+        $this->success('操作成功');
+    }
+    public function refuse($ids = null){
+        $flag = DB::table('real_name')->where('id','=',$ids)->setField('status','2');
+        if (!$flag){
+            $this->error('操作失败');
+            die();
+        }
+        $this->success('操作成功');
     }
     
     /**

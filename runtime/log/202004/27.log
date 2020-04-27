@@ -1,0 +1,2876 @@
+---------------------------------------------------------------
+[ 2020-04-27T14:40:45+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\Lang' not found
+---------------------------------------------------------------
+[ 2020-04-27T14:40:47+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\Lang' not found
+---------------------------------------------------------------
+[ 2020-04-27T14:40:52+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\Lang' not found
+---------------------------------------------------------------
+[ 2020-04-27T14:47:19+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T14:47:20+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T14:47:34+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T14:49:57+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T14:50:16+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T15:02:24+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T15:02:25+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T15:02:34+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [2]Use of undefined constant ids - assumed 'ids' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-04-27T15:04:38+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [8]未定义变量: request
+---------------------------------------------------------------
+[ 2020-04-27T15:31:51+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::field(), 0 passed in E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\RealName.php on line 38 and at least 1 expected
+---------------------------------------------------------------
+[ 2020-04-27T15:36:27+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]method not exist:think\db\Query->getField
+---------------------------------------------------------------
+[ 2020-04-27T15:36:39+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]method not exist:think\db\Query->getField
+---------------------------------------------------------------
+[ 2020-04-27T18:03:32+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/goods/good/index?addtabs=1&search=zai&sort=goods_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587979379020
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:12:26+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\finance\DB' not found
+---------------------------------------------------------------
+[ 2020-04-27T18:13:31+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:13:44+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:14:37+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:16:57+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?ref=addtabs
+[运行时间：0.191780s] [吞吐率：5.21req/s] [内存消耗：3,314.70kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.023441s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001530s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000253s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:57+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.149618s] [吞吐率：6.68req/s] [内存消耗：3,771.02kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002855s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002927s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000161s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1
+[运行时间：0.128212s] [吞吐率：7.80req/s] [内存消耗：3,596.29kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005331s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002211s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000236s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1
+[运行时间：0.193432s] [吞吐率：5.17req/s] [内存消耗：3,526.10kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004303s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002812s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\finance\withdrawals\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000431s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.077065s] [吞吐率：12.98req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007025s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.077248s] [吞吐率：12.95req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005512s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.051255s] [吞吐率：19.51req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007871s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:58+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.056848s] [吞吐率：17.59req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009386s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:59+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.054049s] [吞吐率：18.50req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004081s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1587982617
+[运行时间：0.175601s] [吞吐率：5.69req/s] [内存消耗：3,584.62kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006004s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1587982617',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.014901s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000250s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=finance.withdrawals&v=1587982618
+[运行时间：0.198552s] [吞吐率：5.04req/s] [内存消耗：3,581.20kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005656s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'finance.withdrawals',
+  'v' => '1587982618',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.013562s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000266s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:16:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=dashboard&v=1587982618
+[运行时间：0.328172s] [吞吐率：3.05req/s] [内存消耗：3,583.19kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005579s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1587982618',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003169s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000326s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:00+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.102965s] [吞吐率：9.71req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000248s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008677s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:01+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/index?addtabs=1&sort=wdr_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587982619346
+[运行时间：0.116430s] [吞吐率：8.59req/s] [内存消耗：3,563.42kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003384s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'wdr_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1587982619346',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001867s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000402s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.131265s] [吞吐率：7.62req/s] [内存消耗：3,769.76kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003112s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001715s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000160s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1
+[运行时间：0.099800s] [吞吐率：10.02req/s] [内存消耗：3,596.29kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002578s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000364s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.045584s] [吞吐率：21.94req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003920s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+le
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.077904s] [吞吐率：12.84req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018961s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.040842s] [吞吐率：24.48req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003180s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.042415s] [吞吐率：23.58req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003558s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:03+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.043065s] [吞吐率：23.22req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004296s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:04+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1587982623
+[运行时间：0.119659s] [吞吐率：8.36req/s] [内存消耗：3,584.62kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004108s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1587982623',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000307s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:04+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=dashboard&v=1587982623
+[运行时间：0.146600s] [吞吐率：6.82req/s] [内存消耗：3,583.19kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004447s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1587982623',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002095s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000265s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:04+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.035703s] [吞吐率：28.01req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003354s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:08+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?ref=addtabs
+[运行时间：0.111456s] [吞吐率：8.97req/s] [内存消耗：3,314.77kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004508s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003899s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.149079s] [吞吐率：6.71req/s] [内存消耗：3,771.09kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004339s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001759s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000300s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1
+[运行时间：0.125708s] [吞吐率：7.95req/s] [内存消耗：3,596.29kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006589s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002220s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.047252s] [吞吐率：21.16req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003566s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.055172s] [吞吐率：18.13req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005316s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1
+[运行时间：0.238240s] [吞吐率：4.20req/s] [内存消耗：3,526.10kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003641s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\finance\withdrawals\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000296s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.041461s] [吞吐率：24.12req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004375s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.042454s] [吞吐率：23.55req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004466s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.044276s] [吞吐率：22.59req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004812s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.046698s] [吞吐率：21.41req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004753s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1587982628
+[运行时间：0.152522s] [吞吐率：6.56req/s] [内存消耗：3,584.62kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004764s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1587982628',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003375s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000278s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=finance.withdrawals&v=1587982629
+[运行时间：0.126894s] [吞吐率：7.88req/s] [内存消耗：3,581.20kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004386s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'finance.withdrawals',
+  'v' => '1587982629',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001995s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000518s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=dashboard&v=1587982629
+[运行时间：0.181956s] [吞吐率：5.50req/s] [内存消耗：3,583.19kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016011s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1587982629',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006652s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000357s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:10+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.050507s] [吞吐率：19.80req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006660s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:10+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.049301s] [吞吐率：20.28req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006674s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:17:11+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/index?addtabs=1&sort=wdr_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587982630033
+[运行时间：0.155461s] [吞吐率：6.43req/s] [内存消耗：3,563.42kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003200s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'wdr_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1587982630033',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003149s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000163s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:03+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?ref=addtabs
+[运行时间：0.228427s] [吞吐率：4.38req/s] [内存消耗：3,315.22kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004353s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001800s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:03+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.136318s] [吞吐率：7.34req/s] [内存消耗：3,771.55kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004910s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000230s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1
+[运行时间：0.160592s] [吞吐率：6.23req/s] [内存消耗：3,596.29kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003541s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003170s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000273s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.062784s] [吞吐率：15.93req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002941s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1
+[运行时间：0.258524s] [吞吐率：3.87req/s] [内存消耗：3,526.10kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005723s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002100s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\finance\withdrawals\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000300s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.043172s] [吞吐率：23.16req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006356s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.040513s] [吞吐率：24.68req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004368s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:04+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=dashboard&v=1587982683
+[运行时间：0.138483s] [吞吐率：7.22req/s] [内存消耗：3,583.19kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004974s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1587982683',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004106s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000285s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:05+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.048234s] [吞吐率：20.73req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004211s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+,
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1587982683',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001925s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000255s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:05+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=finance.withdrawals&v=1587982683
+[运行时间：0.407319s] [吞吐率：2.46req/s] [内存消耗：3,581.20kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003916s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'finance.withdrawals',
+  'v' => '1587982683',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002347s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000324s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:05+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.136663s] [吞吐率：7.32req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000239s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006095s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:05+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.078274s] [吞吐率：12.78req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000203s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004205s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:06+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/index?addtabs=1&sort=wdr_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587982684732
+[运行时间：0.127864s] [吞吐率：7.82req/s] [内存消耗：3,563.42kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005358s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'wdr_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1587982684732',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002744s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000411s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users?ref=addtabs
+[运行时间：0.085371s] [吞吐率：11.71req/s] [内存消耗：3,324.69kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002607s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001277s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.123796s] [吞吐率：8.08req/s] [内存消耗：3,771.08kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002673s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001289s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000200s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1
+[运行时间：0.116089s] [吞吐率：8.61req/s] [内存消耗：3,535.05kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006691s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002951s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000371s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.052174s] [吞吐率：19.17req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004350s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.048586s] [吞吐率：20.58req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007408s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.059725s] [吞吐率：16.74req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014690s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.052405s] [吞吐率：19.08req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004597s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1
+[运行时间：0.258977s] [吞吐率：3.86req/s] [内存消耗：3,596.29kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004080s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002593s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/backend.css.map
+[运行时间：0.045003s] [吞吐率：22.22req/s] [内存消耗：1,697.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007953s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.046970s] [吞吐率：21.29req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003521s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.048536s] [吞吐率：20.60req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003094s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.079538s] [吞吐率：12.57req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003383s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/bootstrap.css.map
+[运行时间：0.043734s] [吞吐率：22.87req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/fastadmin.css.map
+[运行时间：0.044469s] [吞吐率：22.49req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004204s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:09+08:00 ] 127.0.0.1 GET www.f1f2.com/assets/css/skins/skin-green.css.map
+[运行时间：0.091484s] [吞吐率：10.93req/s] [内存消耗：1,697.67kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005449s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1587982689
+[运行时间：0.135697s] [吞吐率：7.37req/s] [内存消耗：3,584.62kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017149s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1587982689',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002312s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=client.users&v=1587982689
+[运行时间：0.187537s] [吞吐率：5.33req/s] [内存消耗：3,581.08kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017044s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'client.users',
+  'v' => '1587982689',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000363s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:10+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=dashboard&v=1587982689
+[运行时间：0.251898s] [吞吐率：3.97req/s] [内存消耗：3,583.19kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003760s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1587982689',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005839s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000252s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:18:11+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1587982690015
+[运行时间：0.154591s] [吞吐率：6.47req/s] [内存消耗：3,575.40kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004832s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=7t38sjf48u11m9790s112k9d34; keeplogin=1%7C86400%7C1588056590%7Cc75860c3b4df0e79d58e580f8ae1cd93',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1587982690015',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004195s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-27T18:20:03+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:20:11+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:21:32+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-04-27T18:22:03+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/handling/ids/1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'

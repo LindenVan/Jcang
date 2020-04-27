@@ -31,7 +31,17 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'attachment', title: __('Attachment')},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'status', title: __('Status')},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'operate', title: __('Operate'), table: table,
+                            bottons:[
+                                {name: 'handling', text: '处理', title: '处理', icon: '',
+                                    classname: 'btn btn-xs btn-success btn-ajax',refresh:'true',
+                                    confirm:"确定完成处理了吗？",
+                                    url: "identify/ident/handling",
+                                },
+                            ],
+                            events: Table.api.events.operate,
+                            formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });
