@@ -112,6 +112,7 @@ class Ajax extends Backend
             '{suffix}'   => $suffix,
             '{.suffix}'  => $suffix ? '.' . $suffix : '',
             '{filemd5}'  => md5_file($fileInfo['tmp_name']),
+            '{filename}' => $fileInfo['name'],
         ];
         $savekey = $upload['savekey'];
         $savekey = str_replace(array_keys($replaceArr), array_values($replaceArr), $savekey);

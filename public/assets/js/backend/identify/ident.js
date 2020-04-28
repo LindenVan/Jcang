@@ -28,18 +28,26 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'username', title: __('Username')},
                         {field: 'user_tel', title: __('User_tel')},
                         {field: 'user_key', title: __('User_key')},
+                        {field: 'filename', title: __('Filename')},
                         {field: 'attachment', title: __('Attachment')},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
-                        {field: 'status', title: __('Status')},
-                        {field: 'operate', title: __('Operate'), table: table,
-                            bottons:[
+                        {field: 'status', title: __('Status'),
+                            formatter:function(value){
+                                if (value == 0) {
+                                    return '未处理';
+                                } else if (value == 1) {
+                                    return '已处理';
+                                }
+                            }
+                        },
+                        {field: 'operate', title: __('Operate'),
+                            buttons: [
                                 {name: 'handling', text: '处理', title: '处理', icon: '',
-                                    classname: 'btn btn-xs btn-success btn-ajax',refresh:'true',
-                                    confirm:"确定完成处理了吗？",
-                                    url: "identify/ident/handling",
-                                },
+                                    classname: 'btn btn-xs btn-success btn-dialog',refresh:'true',
+                                    url: "identify/ident/handview",
+                                }
                             ],
-                            events: Table.api.events.operate,
+                            table: table, events: Table.api.events.operate,
                             formatter: Table.api.formatter.operate
                         }
                     ]

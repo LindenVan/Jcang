@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:99:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\finance\withdrawals\index.html";i:1587983329;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\msg\message\index.html";i:1587892096;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -50,7 +50,14 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <div class="panel panel-default panel-intro">
+                                <style>
+    table td{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+</style>
+<div class="panel panel-default panel-intro">
     <?php echo build_heading(); ?>
 
     <div class="panel-body">
@@ -59,26 +66,23 @@
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
                         <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
-                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('finance/withdrawals/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
-                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('finance/withdrawals/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
-                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('finance/withdrawals/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
-                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('finance/withdrawals/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('msg/message/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('msg/message/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('msg/message/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('msg/message/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
 
-                        <div class="dropdown btn-group <?php echo $auth->check('finance/withdrawals/multi')?'':'hide'; ?>">
+                        <div class="dropdown btn-group <?php echo $auth->check('msg/message/multi')?'':'hide'; ?>">
                             <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> <?php echo __('More'); ?></a>
                             <ul class="dropdown-menu text-left" role="menu">
                                 <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> <?php echo __('Set to normal'); ?></a></li>
                                 <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=hidden"><i class="fa fa-eye-slash"></i> <?php echo __('Set to hidden'); ?></a></li>
                             </ul>
                         </div>
-
-                        
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-handling="<?php echo $auth->check('finance/withdrawals/handling'); ?>"
-                           data-operate-edit="<?php echo $auth->check('finance/withdrawals/edit'); ?>" 
-                           data-operate-del="<?php echo $auth->check('finance/withdrawals/del'); ?>" 
-                           width="100%">
+                           data-operate-edit="<?php echo $auth->check('msg/message/edit'); ?>" 
+                           data-operate-del="<?php echo $auth->check('msg/message/del'); ?>" 
+                           width="100%" style="table-layout: fixed">
                     </table>
                 </div>
             </div>

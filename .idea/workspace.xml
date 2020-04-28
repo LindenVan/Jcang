@@ -2,46 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c4deef-c926-4a05-8d2f-a5de75891df9" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/client/RealName.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/client/RealName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Ajax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/controller/identify/Ident.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/identify/Ident.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/client/real_name/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/client/real_name/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/client/real_name.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/client/real_name.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/finance/withdrawals.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/finance/withdrawals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/identify/ident.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/identify/ident.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/identify/ident/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/identify/ident/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/identify/ident/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/identify/ident/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/general/attachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/general/attachment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/backend/identify/ident.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/identify/ident.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/08109abb401ab6027e86188a627d166d.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/16b99dae5e59b8077e6d640cc3f4f799.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/21810671e12b0d91d6af98d12dad83dd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/30ff5988921bf93d67c084bca873d3ec.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/442d6410e137f9dee010bb59ae69d0de.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/442d6410e137f9dee010bb59ae69d0de.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6853e466a433b41bcf3930dfa5e4b70a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6deeddc742e5bced9895e4737fcba089.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/79532dbb835dca92e3d579e0f9176922.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/7d32025d32706aac0b9d41d8e7f8c6db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/7f533c099edfbcef946fe7beef1a40ae.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/8b7b6d50e9681cd956668aa2c030f592.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/90a5b4bef61751c66d378ff8077fda17.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/97692d464495734b424db07c9202d4d0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/9b7a9c0771c72d3574b121ba6b1b1bf0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a10d3299a8e12bc85abaccc161654774.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a57901dcee30f1a90b05ddca875d69e8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a89dac8a0a478a94ae6661aa511c29cc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/b2b2b0214c881b1bd9f04284a70cb780.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bcd70dc266f0661d1a4ca3caf59cb893.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bd1cfeb7f6dcac55d40fa110e97bd108.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/c3fab0bbfdec6727e962c9b3e86a1392.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/d5056fe76dc90cb05a1c8a9b84a9bf7f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/d681e71a4d57873dd759c7142ffe10ea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/dd5650f54e94cb0172ae1b8f18a15706.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/edbf3f2a4934ba7ad6e850017f6bf292.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/f0c8c26bee6c2dfd132515b6decce8dd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/f633d4fc8831018fee20eb66073d0721.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/442d6410e137f9dee010bb59ae69d0de.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,32 +24,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RealName.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/client/RealName.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-109">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="e#47#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ident.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/backend/identify/ident.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+            <state relative-caret-position="345">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="withdrawals.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/identify/ident/handview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/Ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-363">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/identify/ident/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="withdrawals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/backend/finance/withdrawals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Withdrawals.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="e#48#82#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="46" column="38" selection-start-line="44" selection-start-column="28" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -88,45 +84,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="327">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config.php">
+      <file leaf-file-name="Ident.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/identify/Ident.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env.sample" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.sample">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/database.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="classes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/classes.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="good.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/good.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            <state relative-caret-position="161">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="e#49#83#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +105,7 @@
       <file leaf-file-name="real_name.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/real_name.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="245">
               <caret line="42" column="29" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="42" selection-end-column="29" />
             </state>
           </provider>
@@ -208,14 +179,17 @@
         <option value="$PROJECT_DIR$/public/assets/js/backend/client/real_name.js" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/goods/good.js" />
         <option value="$PROJECT_DIR$/public/assets/js/backend-init.js" />
-        <option value="$PROJECT_DIR$/application/admin/controller/identify/Ident.php" />
-        <option value="$PROJECT_DIR$/public/assets/js/backend/identify/ident.js" />
         <option value="$PROJECT_DIR$/application/admin/controller/client/RealName.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/.env.sample" />
-        <option value="$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php" />
         <option value="$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/finance/withdrawals.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/general/attachment.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Ajax.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/identify/ident/handview.html" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/identify/ident.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/identify/Ident.php" />
       </list>
     </option>
   </component>
@@ -276,9 +250,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -312,6 +285,21 @@
               <item name="jiacang" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="identify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,7 +308,7 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="finance" type="462c0819:PsiDirectoryNode" />
+              <item name="identify" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
@@ -328,8 +316,43 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="finance" type="462c0819:PsiDirectoryNode" />
-              <item name="withdrawals" type="462c0819:PsiDirectoryNode" />
+              <item name="identify" type="462c0819:PsiDirectoryNode" />
+              <item name="ident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiacang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiacang" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,15 +395,16 @@
       <workItem from="1587717990487" duration="5280000" />
       <workItem from="1587867007495" duration="18393000" />
       <workItem from="1587895850579" duration="1544000" />
-      <workItem from="1587953229688" duration="24228000" />
+      <workItem from="1587953229688" duration="24644000" />
+      <workItem from="1588038616408" duration="14021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96088000" />
+    <option name="totallyTimeSpent" value="110525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-10" y="0" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,23 +436,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/js/require-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="357" column="19" lean-forward="true" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/general/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/lang/zh-cn.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/client/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -530,13 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/client/real_name/pass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/client/real_name/pass.html" />
     <entry file="file://$PROJECT_DIR$/application/admin/controller/Dashboard.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -544,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="e#44#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common/controller/Backend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -606,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/application/admin/view/client/real_name/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/identify/Ident.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/client/users/index.html">
@@ -668,89 +649,130 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/adminlte.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/backend.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/classes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/good.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="690">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.env.sample">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/client/RealName.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#47#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/identify/ident.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/real_name.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="42" selection-end-column="29" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="253">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/general/attachment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="105" column="74" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/finance/Withdrawals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="235">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#48#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html">
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="-363">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/goods/classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/backend/finance/withdrawals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+        <state relative-caret-position="299">
+          <caret line="46" column="38" selection-start-line="44" selection-start-column="28" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/client/real_name.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/identify/ident/handview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/client/RealName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#47#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/finance/withdrawals/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/identify/ident/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/identify/ident.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/identify/Ident.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#49#83#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

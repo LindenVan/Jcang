@@ -111,6 +111,7 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
                             field: 'mimetype', title: __('Mimetype'), operate: 'LIKE %...%',
                             process: function (value, arg) {
                                 return value.replace(/\*/g, '%');
+                                return '' + row.filename + '';
                             }
                         },
                         {field: 'createtime', title: __('Createtime'), formatter: Table.api.formatter.datetime, operate: 'RANGE', addclass: 'datetimerange', sortable: true},

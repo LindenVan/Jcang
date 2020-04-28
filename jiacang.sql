@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2020-04-26 18:34:27
+Date: 2020-04-28 18:35:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -99,7 +99,7 @@ CREATE TABLE `fa_admin_log` (
   `createtime` int(10) DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`),
   KEY `name` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=198 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=288 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
 
 -- ----------------------------
 -- Records of fa_admin_log
@@ -301,6 +301,96 @@ INSERT INTO `fa_admin_log` VALUES ('194', '1', 'lindenvan', '/rWPFXdqobO.php/ind
 INSERT INTO `fa_admin_log` VALUES ('195', '1', 'lindenvan', '/rWPFXdqobO.php/goods/classes/add?dialog=1', '商品管理 分类管理', '{\"dialog\":\"1\",\"row\":{\"class_name\":\"\\u7389\\u5668\",\"have_num\":\"0\",\"cerate_time\":\"2020-04-26 18:14:48\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587896112');
 INSERT INTO `fa_admin_log` VALUES ('196', '1', 'lindenvan', '/rWPFXdqobO.php/goods/classes/add?dialog=1', '商品管理 分类管理', '{\"dialog\":\"1\",\"row\":{\"class_name\":\"\\u9752\\u94dc\\u5668\",\"have_num\":\"0\",\"cerate_time\":\"2020-04-26 18:15:15\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587896129');
 INSERT INTO `fa_admin_log` VALUES ('197', '1', 'lindenvan', '/rWPFXdqobO.php/goods/classes/add?dialog=1', '商品管理 分类管理', '{\"dialog\":\"1\",\"row\":{\"class_name\":\"\\u53e4\\u73a9\",\"have_num\":\"0\",\"cerate_time\":\"2020-04-26 18:15:32\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587896146');
+INSERT INTO `fa_admin_log` VALUES ('198', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952107');
+INSERT INTO `fa_admin_log` VALUES ('199', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952107');
+INSERT INTO `fa_admin_log` VALUES ('200', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952109');
+INSERT INTO `fa_admin_log` VALUES ('201', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952109');
+INSERT INTO `fa_admin_log` VALUES ('202', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952112');
+INSERT INTO `fa_admin_log` VALUES ('203', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952112');
+INSERT INTO `fa_admin_log` VALUES ('204', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952115');
+INSERT INTO `fa_admin_log` VALUES ('205', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952115');
+INSERT INTO `fa_admin_log` VALUES ('206', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/95', '菜单规则', '{\"action\":\"\",\"ids\":\"95\",\"params\":\"ismenu=0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952117');
+INSERT INTO `fa_admin_log` VALUES ('207', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952117');
+INSERT INTO `fa_admin_log` VALUES ('208', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/95', '菜单规则', '{\"action\":\"\",\"ids\":\"95\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952121');
+INSERT INTO `fa_admin_log` VALUES ('209', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952121');
+INSERT INTO `fa_admin_log` VALUES ('210', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/95', '菜单规则', '{\"action\":\"\",\"ids\":\"95\",\"params\":\"ismenu=0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952126');
+INSERT INTO `fa_admin_log` VALUES ('211', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952127');
+INSERT INTO `fa_admin_log` VALUES ('212', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/multi/ids/95', '菜单规则', '{\"action\":\"\",\"ids\":\"95\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952130');
+INSERT INTO `fa_admin_log` VALUES ('213', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952130');
+INSERT INTO `fa_admin_log` VALUES ('214', '1', 'lindenvan', '/rWPFXdqobO.php/client/users/multi/ids/6,3,2,1', '客户管理 客户列表 批量更新', '{\"ids\":\"6,3,2,1\",\"params\":\"password=dc483e80a7a0bd9ef71d8cf973673924\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952816');
+INSERT INTO `fa_admin_log` VALUES ('215', '1', 'lindenvan', '/rWPFXdqobO.php/client/users/multi/ids/6,3,2,1', '客户管理 客户列表 批量更新', '{\"ids\":\"6,3,2,1\",\"params\":\"password=dc483e80a7a0bd9ef71d8cf973673924\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587952822');
+INSERT INTO `fa_admin_log` VALUES ('216', '1', 'lindenvan', '/rWPFXdqobO.php/goods/good/del/ids/3', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"3\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587959374');
+INSERT INTO `fa_admin_log` VALUES ('217', '1', 'lindenvan', '/rWPFXdqobO.php/goods/good/del/ids/2', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"2\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587967121');
+INSERT INTO `fa_admin_log` VALUES ('218', '1', 'lindenvan', '/rWPFXdqobO.php/goods/good/del/ids/4', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"4\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587967248');
+INSERT INTO `fa_admin_log` VALUES ('219', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969222');
+INSERT INTO `fa_admin_log` VALUES ('220', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969235');
+INSERT INTO `fa_admin_log` VALUES ('221', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969316');
+INSERT INTO `fa_admin_log` VALUES ('222', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969322');
+INSERT INTO `fa_admin_log` VALUES ('223', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969323');
+INSERT INTO `fa_admin_log` VALUES ('224', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969715');
+INSERT INTO `fa_admin_log` VALUES ('225', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969717');
+INSERT INTO `fa_admin_log` VALUES ('226', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969720');
+INSERT INTO `fa_admin_log` VALUES ('227', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969722');
+INSERT INTO `fa_admin_log` VALUES ('228', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969723');
+INSERT INTO `fa_admin_log` VALUES ('229', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969860');
+INSERT INTO `fa_admin_log` VALUES ('230', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969862');
+INSERT INTO `fa_admin_log` VALUES ('231', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969863');
+INSERT INTO `fa_admin_log` VALUES ('232', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969864');
+INSERT INTO `fa_admin_log` VALUES ('233', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587969963');
+INSERT INTO `fa_admin_log` VALUES ('234', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587970063');
+INSERT INTO `fa_admin_log` VALUES ('235', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971224');
+INSERT INTO `fa_admin_log` VALUES ('236', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971240');
+INSERT INTO `fa_admin_log` VALUES ('237', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971263');
+INSERT INTO `fa_admin_log` VALUES ('238', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971294');
+INSERT INTO `fa_admin_log` VALUES ('239', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971295');
+INSERT INTO `fa_admin_log` VALUES ('240', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971296');
+INSERT INTO `fa_admin_log` VALUES ('241', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971309');
+INSERT INTO `fa_admin_log` VALUES ('242', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587971334');
+INSERT INTO `fa_admin_log` VALUES ('243', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587973084');
+INSERT INTO `fa_admin_log` VALUES ('244', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587973163');
+INSERT INTO `fa_admin_log` VALUES ('245', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974435');
+INSERT INTO `fa_admin_log` VALUES ('246', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974437');
+INSERT INTO `fa_admin_log` VALUES ('247', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974528');
+INSERT INTO `fa_admin_log` VALUES ('248', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974558');
+INSERT INTO `fa_admin_log` VALUES ('249', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974766');
+INSERT INTO `fa_admin_log` VALUES ('250', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974767');
+INSERT INTO `fa_admin_log` VALUES ('251', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974769');
+INSERT INTO `fa_admin_log` VALUES ('252', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974770');
+INSERT INTO `fa_admin_log` VALUES ('253', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974771');
+INSERT INTO `fa_admin_log` VALUES ('254', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974772');
+INSERT INTO `fa_admin_log` VALUES ('255', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974975');
+INSERT INTO `fa_admin_log` VALUES ('256', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587974976');
+INSERT INTO `fa_admin_log` VALUES ('257', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587975001');
+INSERT INTO `fa_admin_log` VALUES ('258', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass?id=ids', '客户管理 实名认证', '{\"id\":\"ids\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976057');
+INSERT INTO `fa_admin_log` VALUES ('259', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976070');
+INSERT INTO `fa_admin_log` VALUES ('260', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976271');
+INSERT INTO `fa_admin_log` VALUES ('261', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976427');
+INSERT INTO `fa_admin_log` VALUES ('262', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976429');
+INSERT INTO `fa_admin_log` VALUES ('263', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976434');
+INSERT INTO `fa_admin_log` VALUES ('264', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976555');
+INSERT INTO `fa_admin_log` VALUES ('265', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976556');
+INSERT INTO `fa_admin_log` VALUES ('266', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976557');
+INSERT INTO `fa_admin_log` VALUES ('267', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976715');
+INSERT INTO `fa_admin_log` VALUES ('268', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587976717');
+INSERT INTO `fa_admin_log` VALUES ('269', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977050');
+INSERT INTO `fa_admin_log` VALUES ('270', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977092');
+INSERT INTO `fa_admin_log` VALUES ('271', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977294');
+INSERT INTO `fa_admin_log` VALUES ('272', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977321');
+INSERT INTO `fa_admin_log` VALUES ('273', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977539');
+INSERT INTO `fa_admin_log` VALUES ('274', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587977543');
+INSERT INTO `fa_admin_log` VALUES ('275', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587982452');
+INSERT INTO `fa_admin_log` VALUES ('276', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1587982966');
+INSERT INTO `fa_admin_log` VALUES ('277', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588041167');
+INSERT INTO `fa_admin_log` VALUES ('278', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/multi/ids/1', '客户管理 实名认证 批量更新', '{\"ids\":\"1\",\"params\":\"status=hidden\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588042437');
+INSERT INTO `fa_admin_log` VALUES ('279', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588042445');
+INSERT INTO `fa_admin_log` VALUES ('280', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/multi/ids/1', '客户管理 实名认证 批量更新', '{\"ids\":\"1\",\"params\":\"status=normal\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588042451');
+INSERT INTO `fa_admin_log` VALUES ('281', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/multi/ids/1', '客户管理 实名认证 批量更新', '{\"ids\":\"1\",\"params\":\"status=hidden\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588042458');
+INSERT INTO `fa_admin_log` VALUES ('282', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588042463');
+INSERT INTO `fa_admin_log` VALUES ('283', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043144');
+INSERT INTO `fa_admin_log` VALUES ('284', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043523');
+INSERT INTO `fa_admin_log` VALUES ('285', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043620');
+INSERT INTO `fa_admin_log` VALUES ('286', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043657');
+INSERT INTO `fa_admin_log` VALUES ('287', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043722');
 
 -- ----------------------------
 -- Table structure for fa_attachment
@@ -399,7 +489,7 @@ CREATE TABLE `fa_auth_rule` (
 -- ----------------------------
 -- Records of fa_auth_rule
 -- ----------------------------
-INSERT INTO `fa_auth_rule` VALUES ('1', 'file', '0', 'dashboard', '控制台', 'fa fa-dashboard', '', 'Dashboard tips', '1', '1497429920', '1587541263', '150', 'normal');
+INSERT INTO `fa_auth_rule` VALUES ('1', 'file', '0', 'dashboard', '控制台', 'fa fa-dashboard', '', 'Dashboard tips', '1', '1497429920', '1587952115', '150', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('2', 'file', '0', 'general', '常规管理', 'fa fa-cogs', '', '', '1', '1497429920', '1587722472', '94', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('3', 'file', '0', 'category', '分类管理', 'fa fa-leaf', '', 'Category tips', '1', '1497429920', '1587540685', '4', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('4', 'file', '0', 'addon', '插件管理', 'fa fa-rocket', '', 'Addon tips', '1', '1502035509', '1587722455', '0', 'hidden');
@@ -481,7 +571,7 @@ INSERT INTO `fa_auth_rule` VALUES ('81', 'file', '79', 'user/rule/del', 'Del', '
 INSERT INTO `fa_auth_rule` VALUES ('82', 'file', '79', 'user/rule/add', 'Add', 'fa fa-circle-o', '', '', '0', '1516374729', '1516374729', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('83', 'file', '79', 'user/rule/edit', 'Edit', 'fa fa-circle-o', '', '', '0', '1516374729', '1516374729', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('84', 'file', '79', 'user/rule/multi', 'Multi', 'fa fa-circle-o', '', '', '0', '1516374729', '1516374729', '0', 'normal');
-INSERT INTO `fa_auth_rule` VALUES ('95', 'file', '0', 'client', '客户管理', 'fa fa-address-card', '', '', '1', '1587537208', '1587540704', '99', 'normal');
+INSERT INTO `fa_auth_rule` VALUES ('95', 'file', '0', 'client', '客户管理', 'fa fa-address-card', '', '', '1', '1587537208', '1587952129', '99', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('97', 'file', '95', 'client/address', '地址列表', 'fa fa-align-justify', '', '', '1', '1587540598', '1587540730', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('98', 'file', '97', 'client/address/edit', '编辑', 'fa fa-circle-o', '', '', '0', '1587542989', '1587542989', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('99', 'file', '97', 'client/address/del', '删除', 'fa fa-circle-o', '', '', '0', '1587542989', '1587542989', '0', 'normal');
@@ -900,12 +990,14 @@ CREATE TABLE `goods` (
   `create_time` datetime DEFAULT NULL COMMENT '发布时间',
   `comment` varchar(255) DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`goods_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of goods
 -- ----------------------------
 INSERT INTO `goods` VALUES ('1', '汉五铢', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '暂无简介');
+INSERT INTO `goods` VALUES ('2', '汉五铢', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '暂无简介');
+INSERT INTO `goods` VALUES ('3', '汉五铢', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '暂无简介');
 
 -- ----------------------------
 -- Table structure for identify
@@ -917,16 +1009,17 @@ CREATE TABLE `identify` (
   `user_tel` char(11) DEFAULT NULL COMMENT '联系手机',
   `user_key` varchar(50) DEFAULT NULL COMMENT '佳藏号',
   `describe` text COMMENT '描述',
-  `attachment` varchar(255) DEFAULT NULL COMMENT '附件',
+  `filename` varchar(255) DEFAULT NULL COMMENT '附件',
+  `attachment` varchar(255) DEFAULT NULL COMMENT '附件路径',
   `create_time` datetime DEFAULT NULL COMMENT '创建时间',
-  `status` tinyint(1) DEFAULT NULL COMMENT '状态',
+  `status` tinyint(1) DEFAULT '0' COMMENT '状态',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of identify
 -- ----------------------------
-INSERT INTO `identify` VALUES ('1', '张三', '18801057596', 'xiaoli02', 'identifyidentifyidentifyidentifyidentify', '/img/qrcode.png', '2020-04-24 14:27:06', '1');
+INSERT INTO `identify` VALUES ('1', '张三', '18801057596', 'xiaoli02', '鉴定鉴定鉴定鉴定鉴定鉴定', 'qrcode.png', '/img/qrcode.png', '2020-04-24 14:27:06', '1');
 
 -- ----------------------------
 -- Table structure for message
@@ -1003,7 +1096,7 @@ CREATE TABLE `real_name` (
 -- ----------------------------
 -- Records of real_name
 -- ----------------------------
-INSERT INTO `real_name` VALUES ('1', '王某', '130430145310112118', '18569647201', 'xiaowa10', '../../uploads/log.png,../../uploads/log.png', '2020-04-26 17:27:18', '0', 'test');
+INSERT INTO `real_name` VALUES ('1', '王某', '130430145310112118', '18569647201', 'xiaowa10', '../../uploads/log.png,../../uploads/log.png', '2020-04-26 17:27:18', '1', 'test');
 
 -- ----------------------------
 -- Table structure for users
@@ -1079,4 +1172,4 @@ CREATE TABLE `withdrawals` (
 -- ----------------------------
 -- Records of withdrawals
 -- ----------------------------
-INSERT INTO `withdrawals` VALUES ('1', '张三', '15340319850813', '200.00', '20.00', '180.00', '15900000', '2020-04-22 09:23:36', '15360785590', '0', '暂无简介');
+INSERT INTO `withdrawals` VALUES ('1', '张三', '15340319850813', '200.00', '20.00', '180.00', '15900000', '2020-04-22 09:23:36', '15360785590', '1', '暂无简介');
