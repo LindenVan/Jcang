@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\index.html";i:1588148907;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:93:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\classes\index.html";i:1587548872;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -55,16 +55,28 @@
 
     <div class="panel-body">
         <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="one">ss
+            <div class="tab-pane fade active in" id="one">
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
                         <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
-                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('identify/ident/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('goods/classes/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('goods/classes/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('goods/classes/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('goods/classes/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
+
+                        <div class="dropdown btn-group <?php echo $auth->check('goods/classes/multi')?'':'hide'; ?>">
+                            <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> <?php echo __('More'); ?></a>
+                            <ul class="dropdown-menu text-left" role="menu">
+                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> <?php echo __('Set to normal'); ?></a></li>
+                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=hidden"><i class="fa fa-eye-slash"></i> <?php echo __('Set to hidden'); ?></a></li>
+                            </ul>
+                        </div>
+
                         
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-edit=""
-                           data-operate-del="<?php echo $auth->check('identify/ident/del'); ?>" 
+                           data-operate-edit="<?php echo $auth->check('goods/classes/edit'); ?>" 
+                           data-operate-del="<?php echo $auth->check('goods/classes/del'); ?>" 
                            width="100%">
                     </table>
                 </div>

@@ -44,7 +44,14 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                             buttons: [
                                 {name: 'handling', text: '处理', title: '处理', icon: '',
                                     classname: 'btn btn-xs btn-success btn-dialog',refresh:'true',
-                                    url: "identify/ident/handview",
+                                    url: "identify/ident/hand",
+                                    visible:function (row) {
+                                        if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
                                 }
                             ],
                             table: table, events: Table.api.events.operate,
@@ -62,6 +69,10 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
         },
         edit: function () {
             Controller.api.bindevent();
+        },
+        hand:function(){
+            Controller.api.bindevent();
+            Form.api.bindevent();
         },
         api: {
             bindevent: function () {

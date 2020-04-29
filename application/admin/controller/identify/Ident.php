@@ -26,20 +26,20 @@ class Ident extends Backend
 
     }
 
-    public function handview(){
-        return $this->view();
-    }
-
     //鉴定处理
-    public function handling($ids = null){
-        $flag = DB::table('withdrawals')->where('wdr_id','=',$ids)->setField('status','1');
-        if (!$flag){
-            $this->error('操作失败');
-            die();
+    public function hand($ids = null){
+        if ($this->request->isPost()) {
+            $params = $this->request->post();
+            $data['comment'] = $params['comment'];
+            $data['status'] = '1';
+            $flag = DB::table('identify')->where("id","=","$ids")->setField($data);
+            if (!$flag){
+                $this->error();
+            }
+            $this->success();
         }
-        $this->success('操作成功');
+        return $this->view->fetch();
     }
-    
     /**
      * 默认生成的控制器所继承的父类中有index/add/edit/del/multi五个基础方法、destroy/restore/recyclebin三个回收站方法
      * 因此在当前控制器中可不用编写增删改查的代码,除非需要自己控制这部分逻辑

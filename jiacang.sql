@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2020-04-28 18:35:15
+Date: 2020-04-29 18:27:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,6 +34,22 @@ CREATE TABLE `address` (
 -- Records of address
 -- ----------------------------
 INSERT INTO `address` VALUES ('1', 'xiaoli10', '张三', '18805013713', '四川成都市高新区软件园A区1栋505', '1', '2020-04-22 15:44:33');
+
+-- ----------------------------
+-- Table structure for banner
+-- ----------------------------
+DROP TABLE IF EXISTS `banner`;
+CREATE TABLE `banner` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `banner_name` varchar(255) DEFAULT NULL COMMENT 'Banner名',
+  `url` varchar(255) DEFAULT NULL COMMENT '跳转地址',
+  `is_index` varchar(255) DEFAULT NULL COMMENT '首页',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of banner
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for class
@@ -99,7 +115,7 @@ CREATE TABLE `fa_admin_log` (
   `createtime` int(10) DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`),
   KEY `name` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=288 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=339 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
 
 -- ----------------------------
 -- Records of fa_admin_log
@@ -391,6 +407,57 @@ INSERT INTO `fa_admin_log` VALUES ('284', '1', 'lindenvan', '/rWPFXdqobO.php/ide
 INSERT INTO `fa_admin_log` VALUES ('285', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043620');
 INSERT INTO `fa_admin_log` VALUES ('286', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043657');
 INSERT INTO `fa_admin_log` VALUES ('287', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/handling/ids/1', '鉴定管理 在线鉴定', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588043722');
+INSERT INTO `fa_admin_log` VALUES ('288', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132140');
+INSERT INTO `fa_admin_log` VALUES ('289', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132141');
+INSERT INTO `fa_admin_log` VALUES ('290', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132143');
+INSERT INTO `fa_admin_log` VALUES ('291', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132177');
+INSERT INTO `fa_admin_log` VALUES ('292', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132177');
+INSERT INTO `fa_admin_log` VALUES ('293', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132178');
+INSERT INTO `fa_admin_log` VALUES ('294', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132179');
+INSERT INTO `fa_admin_log` VALUES ('295', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588132179');
+INSERT INTO `fa_admin_log` VALUES ('296', '1', 'lindenvan', '/rWPFXdqobO.php/auth/rule/edit/ids/4?dialog=1', '菜单规则 编辑', '{\"dialog\":\"1\",\"__token__\":\"0d640212df77bdfbb29e25d2215fd848\",\"row\":{\"ismenu\":\"1\",\"pid\":\"0\",\"name\":\"addon\",\"title\":\"\\u63d2\\u4ef6\\u7ba1\\u7406\",\"icon\":\"fa fa-rocket\",\"weigh\":\"0\",\"condition\":\"\",\"remark\":\"Addon tips\",\"status\":\"normal\"},\"ids\":\"4\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140665');
+INSERT INTO `fa_admin_log` VALUES ('297', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140665');
+INSERT INTO `fa_admin_log` VALUES ('298', '1', 'lindenvan', '/rWPFXdqobO.php/addon/install', '插件管理', '{\"name\":\"nkeditor\",\"force\":\"0\",\"uid\":\"21588\",\"token\":\"bec38bee-d27f-437d-bcea-9c6c2941da09\",\"version\":\"1.0.8\",\"faversion\":\"1.0.0.20200228_beta\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140687');
+INSERT INTO `fa_admin_log` VALUES ('299', '1', 'lindenvan', '/rWPFXdqobO.php/addon/state', '插件管理 禁用启用', '{\"name\":\"markdown\",\"action\":\"disable\",\"force\":\"0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140815');
+INSERT INTO `fa_admin_log` VALUES ('300', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140816');
+INSERT INTO `fa_admin_log` VALUES ('301', '1', 'lindenvan', '/rWPFXdqobO.php/addon/install', '插件管理', '{\"name\":\"summernote\",\"force\":\"0\",\"uid\":\"21588\",\"token\":\"bec38bee-d27f-437d-bcea-9c6c2941da09\",\"version\":\"1.0.4\",\"faversion\":\"1.0.0.20200228_beta\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140826');
+INSERT INTO `fa_admin_log` VALUES ('302', '1', 'lindenvan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588140826');
+INSERT INTO `fa_admin_log` VALUES ('303', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145042');
+INSERT INTO `fa_admin_log` VALUES ('304', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145045');
+INSERT INTO `fa_admin_log` VALUES ('305', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145120');
+INSERT INTO `fa_admin_log` VALUES ('306', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145359');
+INSERT INTO `fa_admin_log` VALUES ('307', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145360');
+INSERT INTO `fa_admin_log` VALUES ('308', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145361');
+INSERT INTO `fa_admin_log` VALUES ('309', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145420');
+INSERT INTO `fa_admin_log` VALUES ('310', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145743');
+INSERT INTO `fa_admin_log` VALUES ('311', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588145784');
+INSERT INTO `fa_admin_log` VALUES ('312', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146212');
+INSERT INTO `fa_admin_log` VALUES ('313', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"test\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146414');
+INSERT INTO `fa_admin_log` VALUES ('314', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"text\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146468');
+INSERT INTO `fa_admin_log` VALUES ('315', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"test\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146484');
+INSERT INTO `fa_admin_log` VALUES ('316', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"123\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146499');
+INSERT INTO `fa_admin_log` VALUES ('317', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"test\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146543');
+INSERT INTO `fa_admin_log` VALUES ('318', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u662f\\u7684\\u6492\\u591a\\u6492\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146654');
+INSERT INTO `fa_admin_log` VALUES ('319', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"123\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588146728');
+INSERT INTO `fa_admin_log` VALUES ('320', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u6b63\\u54c1\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147204');
+INSERT INTO `fa_admin_log` VALUES ('321', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u53d1\\u90fd\\u662f\\u53d1\\u80dc\\u591a\\u8d1f\\u5c11\\u7684\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147218');
+INSERT INTO `fa_admin_log` VALUES ('322', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u6b63\\u54c1\\uff0c\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147352');
+INSERT INTO `fa_admin_log` VALUES ('323', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/1?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"123456\\u554a\",\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147669');
+INSERT INTO `fa_admin_log` VALUES ('324', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/1?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u5927\\u8428\\u8fbe\\u6240\",\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147722');
+INSERT INTO `fa_admin_log` VALUES ('325', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/1?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u53d1\\u591a\\u5c11\",\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147775');
+INSERT INTO `fa_admin_log` VALUES ('326', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147841');
+INSERT INTO `fa_admin_log` VALUES ('327', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147868');
+INSERT INTO `fa_admin_log` VALUES ('328', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u9632\\u5b88\\u6253\\u6cd5\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588147876');
+INSERT INTO `fa_admin_log` VALUES ('329', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u6c34\\u7535\\u8d39\\u6c34\\u7535\\u8d39\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588148015');
+INSERT INTO `fa_admin_log` VALUES ('330', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u6c34\\u7535\\u8d39\\u6c34\\u7535\\u8d39\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588148093');
+INSERT INTO `fa_admin_log` VALUES ('331', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588148201');
+INSERT INTO `fa_admin_log` VALUES ('332', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/1?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"\\u5982\\u5047\\u5305\\u6362\",\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588148375');
+INSERT INTO `fa_admin_log` VALUES ('333', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588149042');
+INSERT INTO `fa_admin_log` VALUES ('334', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/refuse/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588151902');
+INSERT INTO `fa_admin_log` VALUES ('335', '1', 'lindenvan', '/rWPFXdqobO.php/client/real_name/pass/ids/1', '客户管理 实名认证', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588151906');
+INSERT INTO `fa_admin_log` VALUES ('336', '1', 'lindenvan', '/rWPFXdqobO.php/identify/ident/hand/ids/2?dialog=1', '鉴定管理 在线鉴定', '{\"dialog\":\"1\",\"comment\":\"00001 00010 00100 01000 10000\",\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588153235');
+INSERT INTO `fa_admin_log` VALUES ('337', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588155214');
+INSERT INTO `fa_admin_log` VALUES ('338', '1', 'lindenvan', '/rWPFXdqobO.php/finance/withdrawals/handling/ids/1', '财务管理 提现管理', '{\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36', '1588155509');
 
 -- ----------------------------
 -- Table structure for fa_attachment
@@ -492,7 +559,7 @@ CREATE TABLE `fa_auth_rule` (
 INSERT INTO `fa_auth_rule` VALUES ('1', 'file', '0', 'dashboard', '控制台', 'fa fa-dashboard', '', 'Dashboard tips', '1', '1497429920', '1587952115', '150', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('2', 'file', '0', 'general', '常规管理', 'fa fa-cogs', '', '', '1', '1497429920', '1587722472', '94', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('3', 'file', '0', 'category', '分类管理', 'fa fa-leaf', '', 'Category tips', '1', '1497429920', '1587540685', '4', 'hidden');
-INSERT INTO `fa_auth_rule` VALUES ('4', 'file', '0', 'addon', '插件管理', 'fa fa-rocket', '', 'Addon tips', '1', '1502035509', '1587722455', '0', 'hidden');
+INSERT INTO `fa_auth_rule` VALUES ('4', 'file', '0', 'addon', '插件管理', 'fa fa-rocket', '', 'Addon tips', '1', '1502035509', '1588140664', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('5', 'file', '0', 'auth', '权限管理', 'fa fa-group', '', '', '1', '1497429920', '1587722463', '3', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('6', 'file', '2', 'general/config', 'Config', 'fa fa-cog', '', 'Config tips', '1', '1497429920', '1497430683', '60', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('7', 'file', '2', 'general/attachment', 'Attachment', 'fa fa-file-image-o', '', 'Attachment tips', '1', '1497429920', '1497430699', '53', 'normal');
@@ -1013,13 +1080,15 @@ CREATE TABLE `identify` (
   `attachment` varchar(255) DEFAULT NULL COMMENT '附件路径',
   `create_time` datetime DEFAULT NULL COMMENT '创建时间',
   `status` tinyint(1) DEFAULT '0' COMMENT '状态',
+  `comment` text COMMENT '鉴定结果',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of identify
 -- ----------------------------
-INSERT INTO `identify` VALUES ('1', '张三', '18801057596', 'xiaoli02', '鉴定鉴定鉴定鉴定鉴定鉴定', 'qrcode.png', '/img/qrcode.png', '2020-04-24 14:27:06', '1');
+INSERT INTO `identify` VALUES ('1', '张三', '18801057596', 'xiaoli02', '鉴定鉴定鉴定鉴定鉴定鉴定', 'qrcode.png', '/img/qrcode.png', '2020-04-24 14:27:06', '1', '<div style=\"text-align: center;\"><b>如假包换</b></div><hr><div style=\"text-align: center;\"><b><br></b></div>');
+INSERT INTO `identify` VALUES ('2', '张三', '18801057596', 'xiaoli02', '鉴定', 'qrcode.png', '/img/qrcode.png', '2020-04-24 14:27:06', '1', '00001 00010 00100 01000 10000');
 
 -- ----------------------------
 -- Table structure for message
@@ -1117,7 +1186,7 @@ CREATE TABLE `users` (
   `comment` varchar(255) DEFAULT NULL COMMENT '备注',
   `password` varchar(25) DEFAULT NULL COMMENT '密码',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of users
@@ -1125,7 +1194,14 @@ CREATE TABLE `users` (
 INSERT INTO `users` VALUES ('1', 'xiaoli1', '18801057371', '0', '5066.00', '50.00', '张三', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '0', '法外狂徒', 'dc483e80a7a0bd9ef71d8cf97');
 INSERT INTO `users` VALUES ('2', 'xiaoli2', '18801057371', '0', '200.00', '50.00', '张二', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '0', '没有简介', 'dc483e80a7a0bd9ef71d8cf97');
 INSERT INTO `users` VALUES ('3', 'xiaoli2', '18801057371', '1', '300.00', '50.00', '王某', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '0', '没有', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('4', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('5', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
 INSERT INTO `users` VALUES ('6', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('7', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('8', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('9', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('10', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('11', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
 
 -- ----------------------------
 -- Table structure for vorder

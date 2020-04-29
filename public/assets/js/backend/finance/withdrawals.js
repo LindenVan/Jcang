@@ -44,9 +44,16 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
                                 {name: 'handling', text: '处理', title: '处理', icon: '',
-                                    classname: 'btn btn-xs btn-success btn-ajax',refresh:'true',
+                                    classname: 'btn btn-xs btn-success btn-ajax ',refresh:'true',
                                     confirm:"确定通过提现申请？",
                                     url: "finance/withdrawals/handling",
+                                    visible:function (row) {
+                                        if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
                                 }
                             ],
                             formatter:function(value,row,index){

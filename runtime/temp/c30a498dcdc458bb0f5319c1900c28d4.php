@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\index.html";i:1588148907;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:93:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\hand.html";i:1588147298;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -50,29 +50,21 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <div class="panel panel-default panel-intro">
-    <?php echo build_heading(); ?>
-
-    <div class="panel-body">
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="one">ss
-                <div class="widget-body no-padding">
-                    <div id="toolbar" class="toolbar">
-                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
-                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('identify/ident/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
-                        
-                    </div>
-                    <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-edit=""
-                           data-operate-del="<?php echo $auth->check('identify/ident/del'); ?>" 
-                           width="100%">
-                    </table>
-                </div>
-            </div>
-
+                                <form id="hand-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">鉴定结果:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-comment" class="form-control editor" rows="5" name="comment" cols="50"></textarea>
         </div>
     </div>
-</div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed"><?php echo __('OK'); ?></button>
+            <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
+        </div>
+    </div>
+</form>
 
                             </div>
                         </div>

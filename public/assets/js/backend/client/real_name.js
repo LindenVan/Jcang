@@ -68,6 +68,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
         edit: function () {
             Controller.api.bindevent();
         },
+        hand:function(){
+            Controller.api.bindevent();
+        },
         pass: function () {
             Fast.api.ajax({
                 url: '/admin/customer/user/order_cancel',
