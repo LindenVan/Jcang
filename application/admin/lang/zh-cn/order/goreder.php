@@ -7,7 +7,7 @@ return [
     'Buyer_key'        => '购买者佳藏号',
     'Buyer_name'       => '购买者姓名',
     'Goods_title'      => '商品标题',
-    'Goods_img'        => '商品图片',
+    'Goods_image'      => '商品图片',
     'Comment'          => '商品详情',
     'Is_goods'         => '是不是商品订单',
     'Issuer_tel'       => '发布人电话',

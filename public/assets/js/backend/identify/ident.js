@@ -28,7 +28,12 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'username', title: __('Username')},
                         {field: 'user_tel', title: __('User_tel')},
                         {field: 'user_key', title: __('User_key')},
-                        {field: 'filename', title: __('Filename')},
+                        {field: 'filename', title: __('Filename')
+                            process: function (value, arg) {
+                                return value.replace(/\*/g, '%');
+                                return '' + row.filename + '';
+                            }
+                        },
                         {field: 'attachment', title: __('Attachment')},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'status', title: __('Status'),

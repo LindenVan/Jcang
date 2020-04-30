@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\real_name\index.html";i:1587970938;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\real_name\index.html";i:1588215146;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -75,8 +75,6 @@
                         
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-pass="<?php echo $auth->check('client/real_name/pass'); ?>"
-                           data-operate-refuse="<?php echo $auth->check('client/real_name/refuse'); ?>"
                            data-operate-edit=""
                            data-operate-del=""
                            width="100%">

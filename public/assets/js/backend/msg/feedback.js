@@ -29,12 +29,28 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'user_name', title: __('User_name')},
                         {field: 'comment', title: __('Comment'), formatter: function(value){return value.toString().substr(0, 20)}},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
-                        {field: 'status', title: __('Status')},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'status', title: __('Status'),
+                            formatter:function(value){
+                                if (value == 0) {
+                                    return '未处理';
+                                } else if (value == 1) {
+                                    return '已处理';
+                                }
+                            }
+                        },
+                        {field: 'operate', title: __('Operate'), table: table,
+                            buttons: [
+                                {name: 'handling', text: '处理', title: '处理', icon: '',
+                                    classname: 'btn btn-xs btn-success btn-ajax ',refresh:'true',
+                                    url: "msg/feedback/handling",
+                                }
+                            ],
+                            events: Table.api.events.operate,
+                            formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });
-
             // 为表格绑定事件
             Table.api.bindevent(table);
         },

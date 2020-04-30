@@ -9,7 +9,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     add_url: 'client/real_name/add',
                     edit_url: 'client/real_name/edit',
                     del_url: 'client/real_name/del',
-                    pass_url: 'client/real_name/pass',
                     multi_url: 'client/real_name/multi',
                     table: 'real_name',
                 }
@@ -30,9 +29,10 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'id_key', title: __('Id_key')},
                         {field: 'tel', title: __('Tel')},
                         {field: 'user_key', title: __('User_key')},
-                        {field: 'id_img', title: __('Id_img'),formatter: Table.api.formatter.images, events: Table.api.events.img,operate:false},
+                        {field: 'id_images', title: __('Id_images'), events: Table.api.events.image, formatter: Table.api.formatter.images},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
-                        {field: 'status', title: __('Status'),formatter:function(value){
+                        {field: 'status', title: __('Status'),
+                            formatter:function(value){
                                 if (value == 0) {
                                     return '未审核';
                                 } else if (value == 1) {
@@ -40,7 +40,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                 }else if (value == 2) {
                                     return '被拒绝';
                                 }
-                            }},
+                            }
+                        },
                         {field: 'comment', title: __('Comment')},
                         {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
@@ -48,13 +49,39 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     classname: 'btn btn-xs btn-success btn-ajax',refresh:'true',
                                     confirm:"确定要审核通过吗？",
                                     url: "client/real_name/pass",
+                                    visible:function (row) {
+                                        if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
                                 },
                                 {name: 'refuse', text: '拒绝', title: '拒绝', icon: '',
                                     classname: 'btn btn-xs btn-danger btn-ajax',refresh:'true',
                                     confirm:"确定要拒绝通过吗？",
-                                    url: 'client/real_name/refuse'}
+                                    url: 'client/real_name/refuse',
+                                    visible:function (row) {
+                                        if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
+                                },
+                                {name: 'been_operating', text: '已被操作', title: '已被操作', icon: '',
+                                    classname: 'btn btn-xs btn-primary btn-ajax disabled',refresh:'true',
+                                    visible:function (row) {
+                                        if (row['status']!=0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
+                                }
                             ],
-                            events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                            events: Table.api.events.operate, formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });
@@ -67,24 +94,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
         },
         edit: function () {
             Controller.api.bindevent();
-        },
-        hand:function(){
-            Controller.api.bindevent();
-        },
-        pass: function () {
-            Fast.api.ajax({
-                url: '/admin/customer/user/order_cancel',
-                data: {"ids": order_sn},
-            }, function (data, ret) {
-                if(ret.code == 1){
-                    Layer.closeAll();
-                    Toastr.success(ret.msg);
-                }else{
-                    Layer.alert(ret.msg);
-                }
-            }, function (data, ret) {
-                Layer.alert(ret.msg);
-            });
         },
         api: {
             bindevent: function () {

@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2020-04-30T10:53:26+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/pass/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\DB' not found
+---------------------------------------------------------------
+[ 2020-04-30T10:53:29+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/refuse/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\DB' not found
+---------------------------------------------------------------
+[ 2020-04-30T10:54:21+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/client/real_name/refuse/ids/1
+[ error ] [0]致命错误: Class 'app\admin\controller\client\DB' not found

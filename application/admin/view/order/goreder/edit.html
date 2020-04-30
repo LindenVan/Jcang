@@ -31,9 +31,17 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Goods_img')}:</label>
+        <label class="control-label col-xs-12 col-sm-2">{:__('Goods_image')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-goods_img" class="form-control" name="row[goods_img]" type="text" value="{$row.goods_img|htmlentities}">
+            <div class="input-group">
+                <input id="c-goods_image" class="form-control" size="50" name="row[goods_image]" type="text" value="{$row.goods_image|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-goods_image" class="btn btn-danger plupload" data-input-id="c-goods_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-goods_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-goods_image" class="btn btn-primary fachoose" data-input-id="c-goods_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-goods_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-goods_image"></ul>
         </div>
     </div>
     <div class="form-group">
