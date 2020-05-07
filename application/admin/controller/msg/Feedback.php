@@ -3,7 +3,6 @@
 namespace app\admin\controller\msg;
 
 use app\common\controller\Backend;
-use think\Db;
 
 /**
  * 
@@ -24,15 +23,6 @@ class Feedback extends Backend
         parent::_initialize();
         $this->model = new \app\admin\model\msg\Feedback;
 
-    }
-
-    public function handling($ids = null){
-        $flag = DB::table('feedback')->where('id','=',$ids)->setField('status','1');
-        if (!$flag){
-            $this->error('操作失败');
-            die();
-        }
-        $this->success('操作成功');
     }
     
     /**

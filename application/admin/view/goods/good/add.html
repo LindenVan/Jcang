@@ -7,9 +7,19 @@
         </div>
     </div>
     <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Details')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-details" class="form-control" name="row[details]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Class')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-class" class="form-control" name="row[class]" type="text">
+            <select id="c-class" class="form-control selectpicker" name="row[class]">
+                {foreach name='classList' item='v'}
+                    <option value="{$v['id']}" {in name="key" value="1"}selected{/in}>{$v['name']}</option>
+                {/foreach}
+            </select>
         </div>
     </div>
     <div class="form-group">
@@ -19,27 +29,23 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Img')}:</label>
+        <label class="control-label col-xs-12 col-sm-2">{:__('Goods_image')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-img" class="form-control" name="row[img]" type="text">
+            <div class="input-group">
+                <input id="c-goods_image" class="form-control" size="50" name="row[goods_image]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-goods_image" class="btn btn-danger plupload" data-input-id="c-goods_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-goods_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-goods_image" class="btn btn-primary fachoose" data-input-id="c-goods_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-goods_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-goods_image"></ul>
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Num')}:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-num" class="form-control" name="row[num]" type="number">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Browse')}:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-browse" class="form-control" name="row[browse]" type="number">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Collect')}:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-collect" class="form-control" name="row[collect]" type="number">
         </div>
     </div>
     <div class="form-group">
@@ -54,16 +60,14 @@
             <input id="c-user_key" class="form-control" name="row[user_key]" type="text">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{:date('Y-m-d H:i:s')}">
-        </div>
-    </div>
+
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="hidden" value="{:date('Y-m-d H:i:s')}">
+            <input id="c-status" value="0" class="form-control" name="row[status]" type="hidden">
+
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Comment')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-comment" class="form-control" name="row[comment]" type="text">
+            <textarea id="c-comment" class="form-control " rows="5" name="row[comment]" cols="50"></textarea>
         </div>
     </div>
     <div class="form-group layer-footer">

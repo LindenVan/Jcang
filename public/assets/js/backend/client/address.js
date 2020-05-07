@@ -24,11 +24,11 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'address_id', title: __('Address_id')},
+                        {field: 'address_id', title: __('Address_id'),operate:false},
                         {field: 'address_key', title: __('Address_key')},
                         {field: 'address_name', title: __('Address_name')},
                         {field: 'user_tel', title: __('User_tel')},
-                        {field: 'address_comment', title: __('Address_comment')},
+                        {field: 'address_comment', title: __('Address_comment'),operate:false},
                         /*{field: 'is_default', title: __('Is_default')},*/
                         {field: 'is_default',title: __('Is_default'),
                         searchList:{'1':__('Is_default 1'),'0':__('Is_default 0')},

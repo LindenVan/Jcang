@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\index.html";i:1588233609;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\index.html";i:1588234645;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -38,9 +38,9 @@
                             <?php if(!IS_DIALOG && !\think\Config::get('fastadmin.multiplenav')): ?>
                             <!-- RIBBON -->
                             <div id="ribbon">
-                                <ol class="breadcrumb pull-left">
-                                    <li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>
-                                </ol>
+                                <!--<ol class="breadcrumb pull-left">-->
+                                    <!--<li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>-->
+                                <!--</ol>-->
                                 <ol class="breadcrumb pull-right">
                                     <?php foreach($breadcrumb as $vo): ?>
                                     <li><a href="javascript:;" data-url="<?php echo $vo['url']; ?>"><?php echo $vo['title']; ?></a></li>
@@ -60,7 +60,6 @@
                     <div id="toolbar" class="toolbar">
                         <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
                         <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('identify/ident/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
-                        
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
                            data-operate-edit=""

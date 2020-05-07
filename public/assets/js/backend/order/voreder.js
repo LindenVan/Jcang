@@ -24,17 +24,17 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'id', title: __('Id')},
+                        {field: 'id', title: __('Id'),operate:false},
                         {field: 'order_key', title: __('Order_key')},
-                        {field: 'username', title: __('Username')},
+                        {field: 'username', title: __('Username'),operate:false},
                         {field: 'user_key', title: __('User_key')},
                         {field: 'user_tel', title: __('User_tel')},
-                        {field: 'last_level', title: __('Last_level')},
-                        {field: 'shop_level', title: __('Shop_level')},
-                        {field: 'pay_price', title: __('Pay_price'), operate:'BETWEEN'},
-                        {field: 'pay_mode', title: __('Pay_mode')},
-                        {field: 'pay_time', title: __('Pay_time'), operate:'RANGE', addclass:'datetimerange'},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'last_level', title: __('Last_level'),operate:false},
+                        {field: 'shop_level', title: __('Shop_level'),operate:false},
+                        {field: 'pay_price', title: __('Pay_price'),operate:false},
+                        {field: 'pay_mode', title: __('Pay_mode'),operate:false},
+                        {field: 'pay_time', title: __('Pay_time'),operate:false, addclass:'datetimerange'},
+                        {field: 'operate', title: __('Operate'),operate:false, table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]
             });

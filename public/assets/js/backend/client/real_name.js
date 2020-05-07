@@ -24,14 +24,15 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'id', title: __('Id')},
-                        {field: 'username', title: __('Username')},
+                        {field: 'id', title: __('Id'),operate:false},
+                        {field: 'username', title: __('Username'),operate:'LIKE %'},
                         {field: 'id_key', title: __('Id_key')},
                         {field: 'tel', title: __('Tel')},
                         {field: 'user_key', title: __('User_key')},
-                        {field: 'id_images', title: __('Id_images'), events: Table.api.events.image, formatter: Table.api.formatter.images},
-                        {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
+                        {field: 'id_images', title: __('Id_images'), events: Table.api.events.image, formatter: Table.api.formatter.images,operate:false},
+                        {field: 'create_time', title: __('Create_time'), operate:false, addclass:'datetimerange'},
                         {field: 'status', title: __('Status'),
+                            searchList:{'0':'未审核','1':'已通过','2':'被拒绝'},
                             formatter:function(value){
                                 if (value == 0) {
                                     return '未审核';
@@ -42,7 +43,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                 }
                             }
                         },
-                        {field: 'comment', title: __('Comment')},
+                        {field: 'comment', title: __('Comment'),operate:false},
                         {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
                                 {name: 'pass', text: '通过', title: '通过', icon: '',

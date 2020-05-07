@@ -3,6 +3,7 @@
 namespace app\admin\controller\goods;
 
 use app\common\controller\Backend;
+use think\DB;
 
 /**
  * 
@@ -16,38 +17,31 @@ class Good extends Backend
      * Good模型对象
      * @var \app\admin\model\goods\Good
      */
-
     protected $model = null;
 
     public function _initialize()
     {
         parent::_initialize();
         $this->model = new \app\admin\model\goods\Good;
-
+        $this->view->assign('statusList',$this->model->statusList());
+        $this->view->assign('classList',$this->model->classList());
     }
 
-//    public function index()
-//    {
-//        if ($this->request->isAjax())
-//        {
-//            list($where, $sort, $order, $offset, $limit) = $this->buildparams();
-//            $total = $this->model
-//                ->with(["category"])
-//                ->where($where)
-//                ->order($sort, $order)
-//                ->count();
-//            $list = $this->model
-//                ->with(["category"])
-//                ->where($where)
-//                ->order($sort, $order)
-//                ->limit($offset, $limit)
-//                ->select();
-//            $result = array("total" => $total, "rows" => $list);
-//
-//            return json($result);
+    public function SearchList(){
+//        $json = cache('source');
+//        if ($json===false){
+            $list = Db::table('class')->select();
+
+            $arr = [];
+            foreach ($list as $key =>$val){
+                $id = $val['class_id'];
+                $arr[$id] = $val['class_name'];
+            }
+            $json = json($arr);
+//            cache('source',$json);
 //        }
-//        return $this->view->fetch();
-//    }
+        return $json;
+    }
     
     /**
      * 默认生成的控制器所继承的父类中有index/add/edit/del/multi五个基础方法、destroy/restore/recyclebin三个回收站方法

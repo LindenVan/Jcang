@@ -29,7 +29,7 @@ class Address extends Model
     ];
 
     public function getDefaultList(){
-        return ['1'=>__('Is_default 1'),'0'=>__('Is_default 0')];
+        return ['1'=>'是','0'=>'否'];
     }
     
 

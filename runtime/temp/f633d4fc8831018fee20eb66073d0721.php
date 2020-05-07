@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\real_name\add.html";i:1588214947;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:88:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\good\add.html";i:1588838164;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -53,59 +53,73 @@
                                 <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Username'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Title'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text">
+            <input id="c-title" class="form-control" name="row[title]" type="text">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_key'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Details'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-id_key" data-rule="required" class="form-control" name="row[id_key]" type="text">
+            <input id="c-details" class="form-control" name="row[details]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Class'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-class" class="form-control selectpicker" name="row[class]">
+                <?php if(is_array($classList) || $classList instanceof \think\Collection || $classList instanceof \think\Paginator): if( count($classList)==0 ) : echo "" ;else: foreach($classList as $key=>$v): ?>
+                    <option value="<?php echo $v['id']; ?>" <?php if(in_array(($key), explode(',',"1"))): ?>selected<?php endif; ?>><?php echo $v['name']; ?></option>
+                <?php endforeach; endif; else: echo "" ;endif; ?>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Price'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" class="form-control" step="0.01" name="row[price]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Goods_image'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-goods_image" class="form-control" size="50" name="row[goods_image]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-goods_image" class="btn btn-danger plupload" data-input-id="c-goods_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-goods_image"><i class="fa fa-upload"></i> <?php echo __('Upload'); ?></button></span>
+                    <span><button type="button" id="fachoose-goods_image" class="btn btn-primary fachoose" data-input-id="c-goods_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> <?php echo __('Choose'); ?></button></span>
+                </div>
+                <span class="msg-box n-right" for="c-goods_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-goods_image"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Num'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-num" class="form-control" name="row[num]" type="number">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Tel'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-tel" data-rule="required" class="form-control" name="row[tel]" type="text">
+            <input id="c-tel" class="form-control" name="row[tel]" type="text">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_key'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-user_key" data-rule="required" class="form-control" name="row[user_key]" type="text">
+            <input id="c-user_key" class="form-control" name="row[user_key]" type="text">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_images'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <div class="input-group">
-                <input id="c-id_images" data-rule="required" class="form-control" size="50" name="row[id_images]" type="text">
-                <div class="input-group-addon no-border no-padding">
-                    <span><button type="button" id="plupload-id_images" class="btn btn-danger plupload" data-input-id="c-id_images" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-id_images"><i class="fa fa-upload"></i> <?php echo __('Upload'); ?></button></span>
-                    <span><button type="button" id="fachoose-id_images" class="btn btn-primary fachoose" data-input-id="c-id_images" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> <?php echo __('Choose'); ?></button></span>
-                </div>
-                <span class="msg-box n-right" for="c-id_images"></span>
-            </div>
-            <ul class="row list-inline plupload-preview" id="p-id_images"></ul>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_time'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="<?php echo date('Y-m-d H:i:s'); ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Status'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-status" class="form-control" name="row[status]" type="number" value="0">
-        </div>
-    </div>
+
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="hidden" value="<?php echo date('Y-m-d H:i:s'); ?>">
+            <input id="c-status" value="0" class="form-control" name="row[status]" type="hidden">
+
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Comment'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-comment" class="form-control" name="row[comment]" type="text">
+            <textarea id="c-comment" class="form-control " rows="5" name="row[comment]" cols="50"></textarea>
         </div>
     </div>
     <div class="form-group layer-footer">

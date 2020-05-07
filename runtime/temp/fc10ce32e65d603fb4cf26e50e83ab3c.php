@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:90:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\msg\message\edit.html";i:1588144951;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:90:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\add.html";i:1588842270;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -38,9 +38,9 @@
                             <?php if(!IS_DIALOG && !\think\Config::get('fastadmin.multiplenav')): ?>
                             <!-- RIBBON -->
                             <div id="ribbon">
-                                <ol class="breadcrumb pull-left">
-                                    <li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>
-                                </ol>
+                                <!--<ol class="breadcrumb pull-left">-->
+                                    <!--<li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>-->
+                                <!--</ol>-->
                                 <ol class="breadcrumb pull-right">
                                     <?php foreach($breadcrumb as $vo): ?>
                                     <li><a href="javascript:;" data-url="<?php echo $vo['url']; ?>"><?php echo $vo['title']; ?></a></li>
@@ -50,48 +50,44 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+                                <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Username'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-username" class="form-control" name="row[username]" type="text" value="<?php echo htmlentities($row['username']); ?>">
-        </div>
-    </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_key'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-user_key" class="form-control" name="row[user_key]" type="text" value="<?php echo htmlentities($row['user_key']); ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_tel'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-user_tel" class="form-control" name="row[user_tel]" type="text" value="<?php echo htmlentities($row['user_tel']); ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Comment'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <textarea id="c-comment" class="form-control editor" rows="5" name="row[comment]" cols="50"><?php echo htmlentities($row['comment']); ?></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_time'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="<?php echo $row['create_time']; ?>">
+            <input id="c-user_key" class="form-control" name="row[user_key]" type="text">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Tel'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-tel" class="form-control" name="row[tel]" type="text" value="<?php echo htmlentities($row['tel']); ?>">
+            <input id="c-tel" class="form-control" name="row[tel]" type="text">
+        </div>
+    </div>
+
+            <input id="c-level" class="form-control" name="row[level]" type="hidden" value="0">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Key'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_number'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-key" class="form-control" name="row[key]" type="text" value="<?php echo htmlentities($row['key']); ?>">
+            <input id="c-id_number" class="form-control" name="row[id_number]" type="text">
+        </div>
+    </div>
+
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="hidden" value="<?php echo date('Y-m-d H:i:s'); ?>">
+
+            <input id="c-status" class="form-control" name="row[status]" type="hidden" value="0">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Comment'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-comment" class="form-control" name="row[comment]" type="text">
         </div>
     </div>
     <div class="form-group layer-footer">

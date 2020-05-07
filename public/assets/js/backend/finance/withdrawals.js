@@ -24,23 +24,25 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'wdr_id', title: __('Wdr_id')},
-                        {field: 'user_name', title: __('User_name')},
-                        {field: 'id_number', title: __('Id_number')},
-                        {field: 'money', title: __('Money'), operate:'BETWEEN'},
-                        {field: 'poundage', title: __('Poundage'), operate:'BETWEEN'},
-                        {field: 'actual_money', title: __('Actual_money'), operate:'BETWEEN'},
-                        {field: 'cash_account', title: __('Cash_account')},
-                        {field: 'wdr_time', title: __('Wdr_time'), operate:'RANGE', addclass:'datetimerange'},
+                        {field: 'wdr_id', title: __('Wdr_id'),operate:false},
+                        {field: 'user_name', title: __('User_name'),operate:false},
+                        {field: 'id_number', title: __('Id_number')},{field: 'user_key', title: __('User_key')},
+                        {field: 'money', title: __('Money'),operate:false},
+                        {field: 'poundage', title: __('Poundage'),operate:false},
+                        {field: 'actual_money', title: __('Actual_money'),operate:false},
+                        {field: 'cash_account', title: __('Cash_account'),operate:false},
+                        {field: 'wdr_time', title: __('Wdr_time'),operate:false, addclass:'datetimerange'},
                         {field: 'tel', title: __('Tel')},
-                        {field: 'status', title: __('Status'),formatter:function(value){
+                        {field: 'status', title: __('Status'),
+                            searchList: {"0": __('未处理'), "1": __('已处理')},
+                            formatter:function(value){
                                 if (value == 0) {
                                     return '未处理';
                                 } else if (value == 1) {
                                     return '已处理';
                                 }
                             }},
-                        {field: 'comment', title: __('Comment')},
+                        {field: 'comment', title: __('Comment'),operate:false},
                         {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
                                 {name: 'handling', text: '处理', title: '处理', icon: '',

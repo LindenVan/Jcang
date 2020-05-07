@@ -3,7 +3,6 @@
 namespace app\admin\controller\finance;
 
 use app\common\controller\Backend;
-use think\DB;
 
 /**
  * 
@@ -24,15 +23,6 @@ class Withdrawals extends Backend
         parent::_initialize();
         $this->model = new \app\admin\model\finance\Withdrawals;
 
-    }
-
-    public function handling($ids = null){
-        $flag = DB::table('withdrawals')->where('wdr_id','=',$ids)->setField('status','1');
-        if (!$flag){
-            $this->error('操作失败');
-            die();
-        }
-        $this->success('操作成功');
     }
     
     /**

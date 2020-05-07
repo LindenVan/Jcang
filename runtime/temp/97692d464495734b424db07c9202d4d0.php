@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:93:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\classes\index.html";i:1587548872;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:93:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\classes\index.html";i:1588746952;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -38,9 +38,9 @@
                             <?php if(!IS_DIALOG && !\think\Config::get('fastadmin.multiplenav')): ?>
                             <!-- RIBBON -->
                             <div id="ribbon">
-                                <ol class="breadcrumb pull-left">
-                                    <li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>
-                                </ol>
+                                <!--<ol class="breadcrumb pull-left">-->
+                                    <!--<li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>-->
+                                <!--</ol>-->
                                 <ol class="breadcrumb pull-right">
                                     <?php foreach($breadcrumb as $vo): ?>
                                     <li><a href="javascript:;" data-url="<?php echo $vo['url']; ?>"><?php echo $vo['title']; ?></a></li>

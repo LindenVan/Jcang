@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:87:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\datatest\edit.html";i:1588228938;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\classes\add.html";i:1588845261;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -38,9 +38,9 @@
                             <?php if(!IS_DIALOG && !\think\Config::get('fastadmin.multiplenav')): ?>
                             <!-- RIBBON -->
                             <div id="ribbon">
-                                <ol class="breadcrumb pull-left">
-                                    <li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>
-                                </ol>
+                                <!--<ol class="breadcrumb pull-left">-->
+                                    <!--<li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>-->
+                                <!--</ol>-->
                                 <ol class="breadcrumb pull-right">
                                     <?php foreach($breadcrumb as $vo): ?>
                                     <li><a href="javascript:;" data-url="<?php echo $vo['url']; ?>"><?php echo $vo['title']; ?></a></li>
@@ -50,28 +50,18 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+                                <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('File'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Class_name'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <div class="input-group">
-                <input id="c-file" class="form-control" size="50" name="row[file]" type="text" value="<?php echo htmlentities($row['file']); ?>">
-                <div class="input-group-addon no-border no-padding">
-                    <span><button type="button" id="plupload-file" class="btn btn-danger plupload" data-input-id="c-file" data-multiple="false" data-preview-id="p-file"><i class="fa fa-upload"></i> <?php echo __('Upload'); ?></button></span>
-                    <span><button type="button" id="fachoose-file" class="btn btn-primary fachoose" data-input-id="c-file" data-multiple="false"><i class="fa fa-list"></i> <?php echo __('Choose'); ?></button></span>
-                </div>
-                <span class="msg-box n-right" for="c-file"></span>
-            </div>
-            <ul class="row list-inline plupload-preview" id="p-file"></ul>
+            <input id="c-class_name" class="form-control" name="row[class_name]" type="text">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Path'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-path" class="form-control" name="row[path]" type="text" value="<?php echo htmlentities($row['path']); ?>">
-        </div>
-    </div>
+
+            <input id="c-have_num" class="form-control" name="row[have_num]" type="hidden" value="0">
+            <input id="c-cerate_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[cerate_time]" type="hidden" value="<?php echo date('Y-m-d H:i:s'); ?>">
+
     <div class="form-group layer-footer">
         <label class="control-label col-xs-12 col-sm-2"></label>
         <div class="col-xs-12 col-sm-8">

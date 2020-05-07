@@ -24,19 +24,20 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'id', title: __('Id')},
+                        {field: 'id', title: __('Id'),operate:false,},
                         {field: 'username', title: __('Username')},
                         {field: 'user_tel', title: __('User_tel')},
-                        {field: 'user_key', title: __('User_key')},
-                        {field: 'filename', title: __('Filename')
+                        {field: 'user_key', title: __('User_key'),operate:false,},
+                        {field: 'filename', title: __('Filename'),
                             process: function (value, arg) {
                                 return value.replace(/\*/g, '%');
                                 return '' + row.filename + '';
-                            }
+                            },operate:false,
                         },
-                        {field: 'attachment', title: __('Attachment')},
+                        {field: 'attachment', title: __('Attachment'),operate:false},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'status', title: __('Status'),
+                            searchList: {"0": __('未处理'), "1": __('已处理')},
                             formatter:function(value){
                                 if (value == 0) {
                                     return '未处理';

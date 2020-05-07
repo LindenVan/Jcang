@@ -3,6 +3,7 @@
 namespace app\admin\model\goods;
 
 use think\Model;
+use think\DB;
 
 
 class Good extends Model
@@ -27,6 +28,19 @@ class Good extends Model
     protected $append = [
 
     ];
+    public function classList(){
+        $list = Db::table('class')->select();
+        $arr = [];
+        foreach ($list as $key =>$val){
+            $id = $val['class_id'];
+            $name = $val['class_name'];
+            $arr[] = ['id'=>$id,'name'=>$name];
+        }
+        return $arr;
+    }
+    public function statusList(){
+        return ['0'=>'待审核','1'=>'已审核','2'=>'审核未通过'];
+    }
     
 
     

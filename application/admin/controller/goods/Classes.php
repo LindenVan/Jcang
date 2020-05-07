@@ -22,7 +22,6 @@ class Classes extends Backend
     {
         parent::_initialize();
         $this->model = new \app\admin\model\goods\Classes;
-
     }
     
     /**

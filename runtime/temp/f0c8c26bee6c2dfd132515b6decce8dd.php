@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:93:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\auth\adminlog\index.html";i:1583049507;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1583049507;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\edit.html";i:1588842904;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -38,9 +38,9 @@
                             <?php if(!IS_DIALOG && !\think\Config::get('fastadmin.multiplenav')): ?>
                             <!-- RIBBON -->
                             <div id="ribbon">
-                                <ol class="breadcrumb pull-left">
-                                    <li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>
-                                </ol>
+                                <!--<ol class="breadcrumb pull-left">-->
+                                    <!--<li><a href="dashboard" class="addtabsit"><i class="fa fa-dashboard"></i> <?php echo __('Dashboard'); ?></a></li>-->
+                                <!--</ol>-->
                                 <ol class="breadcrumb pull-right">
                                     <?php foreach($breadcrumb as $vo): ?>
                                     <li><a href="javascript:;" data-url="<?php echo $vo['url']; ?>"><?php echo $vo['title']; ?></a></li>
@@ -50,27 +50,43 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <div class="panel panel-default panel-intro">
-    <?php echo build_heading(); ?>
+                                <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
-    <div class="panel-body">
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="one">
-                <div class="widget-body no-padding">
-                    <div id="toolbar" class="toolbar">
-                        <?php echo build_toolbar('refresh,delete'); ?>
-                    </div>
-                    <table id="table" class="table table-striped table-bordered table-hover" 
-                           data-operate-detail="<?php echo $auth->check('auth/adminlog/index'); ?>" 
-                           data-operate-del="<?php echo $auth->check('auth/adminlog/del'); ?>" 
-                           width="100%">
-                    </table>
-                </div>
-            </div>
-
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="<?php echo htmlentities($row['name']); ?>">
         </div>
     </div>
-</div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Tel'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tel" class="form-control" name="row[tel]" type="text" value="<?php echo htmlentities($row['tel']); ?>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_number'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-id_number" class="form-control" name="row[id_number]" type="text" value="<?php echo htmlentities($row['id_number']); ?>">
+        </div>
+    </div>
+    <div class="form-group">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Comment'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-comment" class="form-control" name="row[comment]" type="text" value="<?php echo htmlentities($row['comment']); ?>">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled"><?php echo __('OK'); ?></button>
+            <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
+        </div>
+    </div>
+</form>
+
                             </div>
                         </div>
                     </div>

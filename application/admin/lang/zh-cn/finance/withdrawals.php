@@ -4,6 +4,7 @@ return [
     'Wdr_id'       => '序号',
     'User_name'    => '真实姓名',
     'Id_number'    => '身份证',
+    'User_key'     => '佳藏号',
     'Money'        => '提现金额',
     'Poundage'     => '手续费',
     'Actual_money' => '实际到账',
