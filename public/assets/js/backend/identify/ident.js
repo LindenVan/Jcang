@@ -28,13 +28,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'username', title: __('Username')},
                         {field: 'user_tel', title: __('User_tel')},
                         {field: 'user_key', title: __('User_key'),operate:false,},
-                        {field: 'filename', title: __('Filename'),
-                            process: function (value, arg) {
-                                return value.replace(/\*/g, '%');
-                                return '' + row.filename + '';
-                            },operate:false,
-                        },
-                        {field: 'attachment', title: __('Attachment'),operate:false},
+                        {field: 'attachment', title: __('Attachment'),operate:false,  formatter:function(value, row, index){
+                                return '<a href="'+value+'" target="_blank">'+'<img style="height: 50px" src="/uploads/u3252.svg" alt="">'+'</a>';
+                            }},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'status', title: __('Status'),
                             searchList: {"0": __('未处理'), "1": __('已处理')},

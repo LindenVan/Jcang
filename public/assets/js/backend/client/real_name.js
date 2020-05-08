@@ -71,7 +71,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     }
                                 },
                                 {name: 'been_operating', text: '已被操作', title: '已被操作', icon: '',
-                                    classname: 'btn btn-xs btn-primary btn-ajax disabled',refresh:'true',
+                                    classname: 'btn btn-xs btn-primary btn-ajax disabled',
                                     visible:function (row) {
                                         if (row['status']!=0){
                                             return true;

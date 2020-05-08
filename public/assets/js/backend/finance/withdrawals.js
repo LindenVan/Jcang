@@ -40,6 +40,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     return '未处理';
                                 } else if (value == 1) {
                                     return '已处理';
+                                }else if (value == 2) {
+                                    return '被拒绝';
                                 }
                             }},
                         {field: 'comment', title: __('Comment'),operate:false},
@@ -48,9 +50,31 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                 {name: 'handling', text: '处理', title: '处理', icon: '',
                                     classname: 'btn btn-xs btn-success btn-ajax ',refresh:'true',
                                     confirm:"确定通过提现申请？",
-                                    url: "finance/withdrawals/handling",
+                                    url: "finance/withdrawals/pass",
                                     visible:function (row) {
                                         if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
+                                },
+                                {name: 'handling', text: '拒绝', title: '拒绝', icon: '',
+                                    classname: 'btn btn-xs btn-danger btn-ajax ',refresh:'true',
+                                    confirm:"确定拒绝提现申请？",
+                                    url: "finance/withdrawals/refuse",
+                                    visible:function (row) {
+                                        if (row['status']==0){
+                                            return true;
+                                        }else {
+                                            return false;
+                                        }
+                                    }
+                                },
+                                {name: 'handling', text: '已操作', title: '已操作', icon: '',
+                                    classname: 'btn btn-xs btn-primary btn-ajax disabled',refresh:'true',
+                                    visible:function (row) {
+                                        if (row['status']!=0){
                                             return true;
                                         }else {
                                             return false;

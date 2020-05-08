@@ -11,7 +11,6 @@ use app\common\controller\Backend;
  */
 class Message extends Backend
 {
-    
     /**
      * Message模型对象
      * @var \app\admin\model\msg\Message
@@ -22,7 +21,6 @@ class Message extends Backend
     {
         parent::_initialize();
         $this->model = new \app\admin\model\msg\Message;
-
     }
     
     /**

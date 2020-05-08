@@ -29,7 +29,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'user_key', title: __('User_key')},
                         {field: 'user_tel', title: __('User_tel')},
                         // {field: 'comment', title: __('Comment')},
-                        {field: 'comment', title: __('Comment'), formatter: function(value){return value.toString().substr(0, 20)}},
+                        {field: 'comment', title: __('Comment'), formatter: Table.api.formatter.content},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange'},
                         {field: 'tel', title: __('Tel')},
                         {field: 'key', title: __('Key')},
@@ -37,7 +37,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     ]
                 ]
             });
-
             // 为表格绑定事件
             Table.api.bindevent(table);
         },
