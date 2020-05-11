@@ -2,7 +2,8 @@
 
 return [
     'Id'          => '编号',
-    'User_key'    => '佳藏号',
+    'User_key'   => '佳藏号',
+    'Nickname'    => '昵称',
     'Tel'         => '手机号码',
     'Level'       => '会员级别',
     'Money'       => '余额',

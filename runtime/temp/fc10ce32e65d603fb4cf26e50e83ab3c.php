@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:90:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\add.html";i:1588842270;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:90:"E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\add.html";i:1589008271;s:78:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\layout\default.html";i:1588746048;s:75:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\meta.html";i:1583049507;s:77:"E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -59,6 +59,12 @@
         </div>
     </div>
     <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Nickname'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nickname" class="form-control" name="row[nickname]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Tel'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-tel" class="form-control" name="row[tel]" type="text">
@@ -66,19 +72,6 @@
     </div>
 
             <input id="c-level" class="form-control" name="row[level]" type="hidden" value="0">
-
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-name" class="form-control" name="row[name]" type="text">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Id_number'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-id_number" class="form-control" name="row[id_number]" type="text">
-        </div>
-    </div>
 
             <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="hidden" value="<?php echo date('Y-m-d H:i:s'); ?>">
 

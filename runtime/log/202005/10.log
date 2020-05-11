@@ -1,0 +1,391 @@
+---------------------------------------------------------------
+[ 2020-05-10T20:53:45+08:00 ] 127.0.0.1 POST www.f1f2.com/api/app/user/login
+[运行时间：0.375037s] [吞吐率：2.67req/s] [内存消耗：3,057.41kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000555s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.030935s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5nWoASxAVETHqhWS',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '247',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001823s ]
+[ info ] [ RUN ] app\api\controller\app\User->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property 'id' of non-object[E:\phpStudy\PHPTutorial\WWW\jiacang\application\common\library\Auth.php:215]
+---------------------------------------------------------------
+[ 2020-05-10T20:54:38+08:00 ] 127.0.0.1 POST www.f1f2.com/api/app/user/login
+[运行时间：1.051403s] [吞吐率：0.95req/s] [内存消耗：3,132.00kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA7a6d48OToo0vjqm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '247',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001376s ]
+[ info ] [ RUN ] app\api\controller\app\User->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:57:41+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/test3
+[运行时间：0.255671s] [吞吐率：3.91req/s] [内存消耗：2,980.60kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003617s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'test3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaE3QltSYV53YRf29',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001865s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:57:48+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/test3
+[运行时间：0.093535s] [吞吐率：10.69req/s] [内存消耗：2,640.93kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003245s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'test3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySOnGIoz2qqBpbRGo',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '339',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001320s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:58:12+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/test3
+[运行时间：0.106748s] [吞吐率：9.37req/s] [内存消耗：2,640.93kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002942s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'test3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary48QUogT5Tjgjot1d',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '339',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001246s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:58:17+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/test3
+[运行时间：0.141538s] [吞吐率：7.07req/s] [内存消耗：2,980.60kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003348s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'test3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyu0fmaBWmZfpkQu2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001484s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:58:39+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/test3
+[运行时间：0.152110s] [吞吐率：6.57req/s] [内存消耗：2,981.18kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003043s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'test3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyHqbAzJt0PtB7Jxx',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001222s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:58:44+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/tests
+[运行时间：0.132340s] [吞吐率：7.56req/s] [内存消耗：2,981.18kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005190s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'tests',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZflFlLtbQYfetFbh',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001365s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:58:47+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/tests
+[运行时间：0.125183s] [吞吐率：7.99req/s] [内存消耗：2,981.18kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002848s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'tests',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytIx7X8hq2eTatYjE',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001228s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-10T20:59:08+08:00 ] 127.0.0.1 POST www.f1f2.com/api/demo/tests
+[运行时间：0.091388s] [吞吐率：10.94req/s] [内存消耗：2,964.15kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002943s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'demo',
+    2 => 'tests',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=m6r67kntle2pm0l7j7rppjek67',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyTItMmJ3lGbjUUha',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '375',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'token' => '91f0343f-a2bc-4854-9a2e-c8741b0b9bbc',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001687s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Demo->tests[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File

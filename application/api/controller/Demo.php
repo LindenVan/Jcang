@@ -17,7 +17,7 @@ class Demo extends Api
     // 无需登录的接口,*表示全部
     protected $noNeedLogin = ['test', 'test1'];
     // 无需鉴权的接口,*表示全部
-    protected $noNeedRight = ['test2'];
+    protected $noNeedRight = ['*'];
 
     /**
      * 测试方法
@@ -66,6 +66,10 @@ class Demo extends Api
      *
      */
     public function test3()
+    {
+        $this->success('返回成功', ['action' => 'test3']);
+    }
+    public function tests()
     {
         $this->success('返回成功', ['action' => 'test3']);
     }

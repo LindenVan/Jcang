@@ -26,7 +26,7 @@ class Auth
     //默认配置
     protected $config = [];
     protected $options = [];
-    protected $allowFields = ['id', 'username', 'nickname', 'mobile', 'avatar', 'score'];
+    protected $allowFields = ['id', 'username','user_key','level', 'nickname', 'mobile', 'avatar', 'score'];
 
     public function __construct($options = [])
     {
@@ -46,7 +46,6 @@ class Auth
         if (is_null(self::$instance)) {
             self::$instance = new static($options);
         }
-
         return self::$instance;
     }
 
@@ -90,12 +89,12 @@ class Auth
         }
         $user_id = intval($data['user_id']);
         if ($user_id > 0) {
-            $user = User::get($user_id);
+            $user = Db::table('users')->where('id','=',"$user_id")->find();
             if (!$user) {
                 $this->setError('Account not exist');
                 return false;
             }
-            if ($user['status'] != 'normal') {
+            if ($user['status'] == '2') {
                 $this->setError('Account is locked');
                 return false;
             }
@@ -186,6 +185,12 @@ class Auth
         return true;
     }
 
+    public function test($token){
+    $data = Token::get($token);
+    $user_id = intval($data['user_id']);
+    return json_encode($this->_user);
+}
+
     /**
      * 用户登录
      *
@@ -193,28 +198,54 @@ class Auth
      * @param string $password 密码
      * @return boolean
      */
-    public function login($account, $password)
+    public function login($tel, $password)
     {
-        $field = Validate::is($account, 'email') ? 'email' : (Validate::regex($account, '/^1\d{10}$/') ? 'mobile' : 'username');
-        $user = User::get([$field => $account]);
+        $user = Db::table('users')->where("tel=$tel")->find();
         if (!$user) {
             $this->setError('Account is incorrect');
             return false;
         }
 
-        if ($user->status != 'normal') {
+        if ($user["status"] == '2') {
             $this->setError('Account is locked');
             return false;
         }
-        if ($user->password != $this->getEncryptPassword($password, $user->salt)) {
-            $this->setError('Password is incorrect');
+        if ($user['password'] != md5($password)) {
+            $str = $user['password'].'+'.md5($password);
+            $this->setError($str);
             return false;
         }
 
-        //直接登录会员
-        $this->direct($user->id);
+        if ($user) {
+            $id = $user['id'];
+            Db::startTrans();
+            try {
+                $ip = request()->ip();
+                $time = datetime(time(),'Y-m-d H:i:s');
 
-        return true;
+                Db::table('users')->where('id','=',$user['id'])
+                    ->setField('last_time',$time);
+
+                $this->_user = $user;
+                $this->_logined = true;
+                $this->_token = Random::uuid();
+                Token::set($this->_token, "$id", $this->keeptime);
+
+
+                //登录成功的事件
+                Hook::listen("user_login_successed", $this->_user);
+                Db::commit();
+            } catch (Exception $e) {
+                Db::rollback();
+                $this->setError($e->getMessage());
+                return false;
+            }
+            return true;
+        } else {
+            return false;
+        }
+
+//        return true;
     }
 
     /**
@@ -372,7 +403,7 @@ class Auth
      */
     public function getUserinfo()
     {
-        $data = $this->_user->toArray();
+        $data = $this->_user;
         $allowFields = $this->getAllowFields();
         $userinfo = array_intersect_key($data, array_flip($allowFields));
         $userinfo = array_merge($userinfo, Token::get($this->_token));

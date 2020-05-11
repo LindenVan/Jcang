@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2020-05-08 18:30:51
+Date: 2020-05-11 18:28:48
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -50,8 +50,8 @@ CREATE TABLE `banner` (
 -- ----------------------------
 -- Records of banner
 -- ----------------------------
-INSERT INTO `banner` VALUES ('1', '/uploads/log.png', 'https://www.baidu.com/', '1');
-INSERT INTO `banner` VALUES ('2', '/uploads/20200430/50de2b33343e218bcd8d3a1a939c7966.jpg', 'https://github.com/', '0');
+INSERT INTO `banner` VALUES ('1', '/uploads/20200511/8a70e1113df14da75caadb1c4d955e94.jpg', 'https://www.baidu.com/', '1');
+INSERT INTO `banner` VALUES ('2', '/uploads/20200511/254fdde9b4e96edea4c6501c98d2827b.jpg', 'https://github.com/', '1');
 
 -- ----------------------------
 -- Table structure for class
@@ -116,8 +116,8 @@ CREATE TABLE `fa_admin` (
 -- ----------------------------
 -- Records of fa_admin
 -- ----------------------------
-INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1588933733', '127.0.0.1', '1492186163', '1588933784', '', 'normal');
-INSERT INTO `fa_admin` VALUES ('3', 'admin1', '超管', '6188be37f2157d0d561fc9b47a0dc633', 'BJ0YG4', '/assets/img/avatar.png', 'test@test.com', '0', '1588933791', '127.0.0.1', '1588745058', '1588933791', '531f84b2-baef-4a6b-9318-64672b3a53e1', 'normal');
+INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1588992794', '127.0.0.1', '1492186163', '1589016424', '', 'normal');
+INSERT INTO `fa_admin` VALUES ('3', 'admin1', '超管', '6188be37f2157d0d561fc9b47a0dc633', 'BJ0YG4', '/assets/img/avatar.png', 'test@test.com', '0', '1589164189', '127.0.0.1', '1588745058', '1589164189', '09684675-a78c-4b73-ad80-af592fca5f7a', 'normal');
 
 -- ----------------------------
 -- Table structure for fa_admin_log
@@ -135,7 +135,7 @@ CREATE TABLE `fa_admin_log` (
   `createtime` int(10) DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`),
   KEY `name` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=545 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=582 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
 
 -- ----------------------------
 -- Records of fa_admin_log
@@ -684,6 +684,43 @@ INSERT INTO `fa_admin_log` VALUES ('541', '1', 'LindenVan', '/rWPFXdqobO.php/aut
 INSERT INTO `fa_admin_log` VALUES ('542', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36', '1588933702');
 INSERT INTO `fa_admin_log` VALUES ('543', '1', 'LindenVan', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"65a3739140e497be134e8c370cdba017\",\"username\":\"Lindenvan\",\"captcha\":\"YYUZ\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36', '1588933733');
 INSERT INTO `fa_admin_log` VALUES ('544', '3', 'admin1', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"b5f4d81dd4ebe7d253013d0b875d7ac7\",\"username\":\"admin1\",\"captcha\":\"bufn\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36', '1588933791');
+INSERT INTO `fa_admin_log` VALUES ('545', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"4e9c2a8b7cef8934c4747ad8a95b674f\",\"username\":\"Lindenvan\",\"captcha\":\"GYDM\",\"keeplogin\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588986732');
+INSERT INTO `fa_admin_log` VALUES ('546', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/edit/ids/8?dialog=1', '角色与权限 菜单规则 编辑', '{\"dialog\":\"1\",\"__token__\":\"6ad83da414a699ca7262a0d585fb28d4\",\"row\":{\"ismenu\":\"0\",\"pid\":\"0\",\"name\":\"general\\/profile\",\"title\":\"\\u4e2a\\u4eba\\u8d44\\u6599\",\"icon\":\"fa fa-user\",\"weigh\":\"1134\",\"condition\":\"\",\"remark\":\"\",\"status\":\"normal\"},\"ids\":\"8\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992633');
+INSERT INTO `fa_admin_log` VALUES ('547', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/multi/ids/8', '角色与权限 菜单规则', '{\"action\":\"\",\"ids\":\"8\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992639');
+INSERT INTO `fa_admin_log` VALUES ('548', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992639');
+INSERT INTO `fa_admin_log` VALUES ('549', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/edit/ids/8?dialog=1', '角色与权限 菜单规则 编辑', '{\"dialog\":\"1\",\"__token__\":\"3a89ec055caf36be6254f9642ba52a83\",\"row\":{\"ismenu\":\"1\",\"pid\":\"0\",\"name\":\"general\\/profile\",\"title\":\"\\u4e2a\\u4eba\\u8d44\\u6599\",\"icon\":\"fa fa-user\",\"weigh\":\"1134\",\"condition\":\"\",\"remark\":\"\",\"status\":\"normal\"},\"ids\":\"8\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992645');
+INSERT INTO `fa_admin_log` VALUES ('550', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992645');
+INSERT INTO `fa_admin_log` VALUES ('551', '1', 'LindenVan', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"823fc754d09f0e03229e3d5dc7d29205\",\"username\":\"Lindenvan\",\"captcha\":\"TCME\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992665');
+INSERT INTO `fa_admin_log` VALUES ('552', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '角色与权限 菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992677');
+INSERT INTO `fa_admin_log` VALUES ('553', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992677');
+INSERT INTO `fa_admin_log` VALUES ('554', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/edit/ids/1?dialog=1', '角色与权限 菜单规则 编辑', '{\"dialog\":\"1\",\"__token__\":\"a133a14a5b0a2a1554793379bac01f85\",\"row\":{\"ismenu\":\"1\",\"pid\":\"0\",\"name\":\"dashboard\",\"title\":\"\\u63a7\\u5236\\u53f0\",\"icon\":\"fa fa-dashboard\",\"weigh\":\"150\",\"condition\":\"\",\"remark\":\"Dashboard tips\",\"status\":\"hidden\"},\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992759');
+INSERT INTO `fa_admin_log` VALUES ('555', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992759');
+INSERT INTO `fa_admin_log` VALUES ('556', '1', 'LindenVan', '/rWPFXdqobO.php/auth/rule/multi/ids/1', '角色与权限 菜单规则', '{\"action\":\"\",\"ids\":\"1\",\"params\":\"ismenu=0\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992761');
+INSERT INTO `fa_admin_log` VALUES ('557', '1', 'LindenVan', '/rWPFXdqobO.php/index/index', '', '{\"action\":\"refreshmenu\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992762');
+INSERT INTO `fa_admin_log` VALUES ('558', '1', 'LindenVan', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"9a49ce7f6e36ca395513301b1fe475cf\",\"username\":\"Lindenvan\",\"captcha\":\"UXDX\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992794');
+INSERT INTO `fa_admin_log` VALUES ('559', '1', 'LindenVan', '/rWPFXdqobO.php/general.config/edit', '常规管理 系统配置 编辑', '{\"__token__\":\"4a39715c86e7ada63ee14b72b41b4939\",\"row\":{\"name\":\"\\u4f73\\u85cf\",\"beian\":\"\",\"cdnurl\":\"\",\"version\":\"1.0.1\",\"timezone\":\"Asia\\/Shanghai\",\"forbiddenip\":\"\",\"languages\":\"{&quot;backend&quot;:&quot;zh-cn&quot;,&quot;frontend&quot;:&quot;zh-cn&quot;}\",\"fixedpage\":\"dashboard\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1588992815');
+INSERT INTO `fa_admin_log` VALUES ('560', '1', 'LindenVan', '/rWPFXdqobO.php/addon/install', '插件管理', '{\"name\":\"qcloudsms\",\"force\":\"0\",\"uid\":\"21588\",\"token\":\"bec38bee-d27f-437d-bcea-9c6c2941da09\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20200228_beta\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589005001');
+INSERT INTO `fa_admin_log` VALUES ('561', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/add?dialog=1', '客户管理 客户列表 添加', '{\"dialog\":\"1\",\"row\":{\"user_key\":\"lopll10\",\"tel\":\"15599661793\",\"level\":\"0\",\"name\":\"\",\"id_number\":\"\",\"create_time\":\"2020-05-09 14:48:05\",\"status\":\"0\",\"comment\":\"ffdsfds\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589006897');
+INSERT INTO `fa_admin_log` VALUES ('562', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/add?dialog=1', '客户管理 客户列表 添加', '{\"dialog\":\"1\",\"row\":{\"user_key\":\"lopll10\",\"nickname\":\"Test\",\"tel\":\"15918364696\",\"level\":\"0\",\"name\":\"\",\"id_number\":\"\",\"create_time\":\"2020-05-09 15:07:22\",\"status\":\"0\",\"comment\":\"\\u6682\\u65e0\\u5907\\u6ce8\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589008098');
+INSERT INTO `fa_admin_log` VALUES ('563', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/add?dialog=1', '客户管理 客户列表 添加', '{\"dialog\":\"1\",\"row\":{\"user_key\":\"26968525\",\"nickname\":\"Test\",\"tel\":\"18639243804\",\"level\":\"0\",\"create_time\":\"2020-05-09 15:09:09\",\"status\":\"0\",\"comment\":\"\\u6682\\u65e0\\u5907\\u6ce8\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589008172');
+INSERT INTO `fa_admin_log` VALUES ('564', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/edit/ids/1?dialog=1', '客户管理 客户列表 编辑', '{\"dialog\":\"1\",\"row\":{\"name\":\"\",\"nickname\":\"\\u6d4b\\u8bd5\\u8005\",\"tel\":\"15696937525\",\"id_number\":\"\",\"comment\":\"\\u6682\\u65e0\\u5907\\u6ce8\"},\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589008379');
+INSERT INTO `fa_admin_log` VALUES ('565', '3', 'admin1', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"149e4b32547e2eda14debea9b05b1eda\",\"username\":\"admin1\",\"captcha\":\"5JUU\",\"keeplogin\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164189');
+INSERT INTO `fa_admin_log` VALUES ('566', '3', 'admin1', '/rWPFXdqobO.php/ajax/upload', '', '{\"name\":\"apple-1.jpg\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164280');
+INSERT INTO `fa_admin_log` VALUES ('567', '3', 'admin1', '/rWPFXdqobO.php/system/banner/edit/ids/2?dialog=1', '系统管理 Banner 编辑', '{\"dialog\":\"1\",\"row\":{\"image\":\"\\/uploads\\/20200511\\/254fdde9b4e96edea4c6501c98d2827b.jpg\",\"url\":\"https:\\/\\/github.com\\/\",\"is_index\":\"0\"},\"ids\":\"2\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164282');
+INSERT INTO `fa_admin_log` VALUES ('568', '3', 'admin1', '/rWPFXdqobO.php/ajax/upload', '', '{\"name\":\"apple-1.jpg\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164289');
+INSERT INTO `fa_admin_log` VALUES ('569', '3', 'admin1', '/rWPFXdqobO.php/system/banner/edit/ids/1?dialog=1', '系统管理 Banner 编辑', '{\"dialog\":\"1\",\"row\":{\"image\":\"\\/uploads\\/20200511\\/254fdde9b4e96edea4c6501c98d2827b.jpg\",\"url\":\"https:\\/\\/www.baidu.com\\/\",\"is_index\":\"1\"},\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164291');
+INSERT INTO `fa_admin_log` VALUES ('570', '3', 'admin1', '/rWPFXdqobO.php/ajax/upload', '', '{\"name\":\"apple-2.jpg\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164297');
+INSERT INTO `fa_admin_log` VALUES ('571', '3', 'admin1', '/rWPFXdqobO.php/system/banner/edit/ids/1?dialog=1', '系统管理 Banner 编辑', '{\"dialog\":\"1\",\"row\":{\"image\":\"\\/uploads\\/20200511\\/8a70e1113df14da75caadb1c4d955e94.jpg\",\"url\":\"https:\\/\\/www.baidu.com\\/\",\"is_index\":\"1\"},\"ids\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164298');
+INSERT INTO `fa_admin_log` VALUES ('572', '3', 'admin1', '/rWPFXdqobO.php/system/banner/multi/ids/2', '系统管理 Banner 批量更新', '{\"action\":\"\",\"ids\":\"2\",\"params\":\"is_index=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589164303');
+INSERT INTO `fa_admin_log` VALUES ('573', '3', 'admin1', '/rWPFXdqobO.php/goods/good/del/ids/6', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"6\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165248');
+INSERT INTO `fa_admin_log` VALUES ('574', '3', 'admin1', '/rWPFXdqobO.php/goods/good/del/ids/3', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"3\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165249');
+INSERT INTO `fa_admin_log` VALUES ('575', '3', 'admin1', '/rWPFXdqobO.php/goods/good/del/ids/2', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"2\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165250');
+INSERT INTO `fa_admin_log` VALUES ('576', '3', 'admin1', '/rWPFXdqobO.php/goods/good/del/ids/1', '商品管理 商品列表 删除', '{\"action\":\"del\",\"ids\":\"1\",\"params\":\"\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165254');
+INSERT INTO `fa_admin_log` VALUES ('577', '3', 'admin1', '/rWPFXdqobO.php/ajax/upload', '', '{\"name\":\"swiper2.5ba8b45f.jpg\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165322');
+INSERT INTO `fa_admin_log` VALUES ('578', '3', 'admin1', '/rWPFXdqobO.php/goods/good/add?dialog=1', '商品管理 商品列表 添加', '{\"dialog\":\"1\",\"row\":{\"title\":\"\\u9ec4\\u7389\\u9e9f\",\"details\":\"\\u7cbe\\u54c1\\u9ec4\\u7389\\u9e9f\",\"class\":\"2\",\"price\":\"1999\",\"goods_image\":\"\\/uploads\\/20200511\\/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg\",\"num\":\"2\",\"tel\":\"18639243804\",\"user_key\":\"95865eb8bec61de07\",\"create_time\":\"2020-05-11 10:47:49\",\"status\":\"0\",\"comment\":\"\\u7fe1\\u7fe0\\u4e0d\\u540c\\u4e8e\\u4e00\\u822c\\u7684\\u5546\\u54c1\\uff0c\\u5176\\u4ef7\\u503c\\u4e3b\\u8981\\u53d6\\u51b3\\u4e8e\\u7fe1\\u7fe0\\u672c\\u8eab\\u7684\\u8d28\\u5730; \\u5927\\u5bb6\\u8033\\u719f\\u80fd\\u8be6\\u7684\\u300c\\u79cd\\u300d\\u3001\\u300c\\u6c34\\u300d\\u3001\\u300c\\u8272\\u300d\\u3001\\u300c\\u5730\\u300d\\u3001\\u300c\\u5de5\\u300d \\u4e94\\u5927\\u8981\\u7d20; \\u5176\\u4e2d\\u53ea\\u6709\\u5de5\\u827a\\u8fd9\\u4e00\\u4e2a\\u8981\\u7d20\\u662f\\u8ddf\\u540e\\u5929\\u52a0\\u5de5\\u6709\\u5173\\uff0c\\u5176\\u4f59\\u56db\\u5927\\u8981\\u7d20\\u90fd\\u662f\\u5929\\u7136\\u8d28\\u5730\\uff0c\\u800c\\u4e14\\u662f\\u540e\\u5929\\u4e0d\\u53ef\\u6539\\u53d8\\u7684 ; \\u5f53\\u7136\\u901a\\u8fc7\\u5316\\u5b66\\u624b\\u6bb5\\u53ef\\u6539\\u53d8\\u79cd\\u6c34\\u548c\\u4e00\\u90e8\\u5206\\u7684\\u8272\\uff0c\\u4f46\\u8fd9\\u6837\\u5c31\\u53d8\\u6210\\u4e86\\u7fe1\\u7fe0B\\u8d27\\u4e0d\\u503c\\u94b1\\u4e86\\u3002\\u7fe1\\u7fe0\\u7684\\u539f\\u4ea7\\u5730\\u5728\\u7f05\\u7538\\uff0c\\u8fd9\\u4e2a\\u5927\\u5bb6\\u90fd\\u77e5\\u9053\\u3002\\u540c\\u6837\\uff0c\\u5927\\u5bb6\\u4e5f\\u77e5\\u9053\\uff0c\\u5728\\u56fd\\u5185\\uff0c\\u7fe1\\u7fe0\\u52a0\\u5de5\\u5de5\\u827a\\u6c34\\u5e73\\u6700\\u597d\\u7684\\u5730\\u65b9\\u5c31\\u5728\\u5e7f\\u5dde\\u3002\\u6240\\u4ee5\\uff0c\\u4e5f\\u6709\\u5f88\\u591a\\u4eba\\u88ab\\u8bef\\u89e3\\u4e3a\\u5e7f\\u5dde\\u6240\\u4ea7\\u51fa\\u7684\\u7fe1\\u7fe0\\u6210\\u54c1\\u6027\\u4ef7\\u6bd4\\u5e94\\u8be5\\u662f\\u6700\\u9ad8\\u7684\\u3002\\u4f46\\u662f\\uff0c\\u5927\\u5bb6\\u4e0d\\u8981\\u5fd8\\u4e86\\uff0c\\u5728\\u4e2d\\u56fd\\uff0c\\u6700\\u9760\\u8fd1\\u7f05\\u7538\\u7684\\u5730\\u65b9\\u5c31\\u662f\\u4e91\\u5357\\uff0c\\u90a3\\u4e48\\u4e91\\u5357\\u7684\\u7fe1\\u7fe0\\u6210\\u54c1\\u6027\\u4ef7\\u6bd4\\u5230\\u5e95\\u600e\\u4e48\\u6837\\u5462\\uff1f \\u5176\\u5b9e\\uff0c\\u5728\\u51e0\\u5e74\\u524d\\uff0c\\u4e91\\u5357\\u7684\\u7fe1\\u7fe0\\u52a0\\u5de5\\u5de5\\u827a\\u771f\\u7684\\u662f\\u975e\\u5e38\\u5dee\\u3002\\u5f53\\u65f6\\u4e91\\u5357\\u6240\\u4ea7\\u51fa\\u7684\\u7fe1\\u7fe0\\u6bdb\\u6599\\u90fd\\u8981\\u9001\\u5230\\u5e7f\\u5dde\\u8fdb\\u884c\\u52a0\\u5de5\\uff0c\\u7136\\u540e\\u518d\\u8fd0\\u56de\\u4e91\\u5357\\uff0c\\u8fd9\\u6837\\u624d\\u80fd\\u51fa\\u73b0\\u975e\\u5e38\\u7cbe\\u7f8e\\u7684\\u7fe1\\u7fe0\\u9970\\u54c1\\uff0c\\u624d\\u80fd\\u5356\\u5f97\\u51fa\\u53bb\\u3002\\u4e0d\\u8fc7\\u8fd9\\u4e00\\u6765\\u4e00\\u56de\\u5c31\\u4f1a\\u51fa\\u73b0\\u975e\\u5e38\\u9ad8\\u7684\\u6210\\u672c\\uff01\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165859');
+INSERT INTO `fa_admin_log` VALUES ('579', '3', 'admin1', '/rWPFXdqobO.php/ajax/upload', '', '{\"name\":\"swiper2.5ba8b45f.jpg\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165901');
+INSERT INTO `fa_admin_log` VALUES ('580', '3', 'admin1', '/rWPFXdqobO.php/goods/good/add?dialog=1', '商品管理 商品列表 添加', '{\"dialog\":\"1\",\"row\":{\"title\":\"\\u548c\\u7530\\u7389\",\"details\":\"\\u7cbe\\u54c1\\u548c\\u7530\\u7389\",\"class\":\"2\",\"price\":\"1998\",\"goods_image\":\"\\/uploads\\/20200511\\/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg\",\"num\":\"5\",\"tel\":\"15599661793\",\"user_key\":\"95865eb8bec61de07\",\"create_time\":\"2020-05-11 10:57:44\",\"status\":\"0\",\"comment\":\"\\u7fe1\\u7fe0\\u4e0d\\u540c\\u4e8e\\u4e00\\u822c\\u7684\\u5546\\u54c1\\uff0c\\u5176\\u4ef7\\u503c\\u4e3b\\u8981\\u53d6\\u51b3\\u4e8e\\u7fe1\\u7fe0\\u672c\\u8eab\\u7684\\u8d28\\u5730; \\u5927\\u5bb6\\u8033\\u719f\\u80fd\\u8be6\\u7684\\u300c\\u79cd\\u300d\\u3001\\u300c\\u6c34\\u300d\\u3001\\u300c\\u8272\\u300d\\u3001\\u300c\\u5730\\u300d\\u3001\\u300c\\u5de5\\u300d \\u4e94\\u5927\\u8981\\u7d20; \\u5176\\u4e2d\\u53ea\\u6709\\u5de5\\u827a\\u8fd9\\u4e00\\u4e2a\\u8981\\u7d20\\u662f\\u8ddf\\u540e\\u5929\\u52a0\\u5de5\\u6709\\u5173\\uff0c\\u5176\\u4f59\\u56db\\u5927\\u8981\\u7d20\\u90fd\\u662f\\u5929\\u7136\\u8d28\\u5730\\uff0c\\u800c\\u4e14\\u662f\\u540e\\u5929\\u4e0d\\u53ef\\u6539\\u53d8\\u7684 ; \\u5f53\\u7136\\u901a\\u8fc7\\u5316\\u5b66\\u624b\\u6bb5\\u53ef\\u6539\\u53d8\\u79cd\\u6c34\\u548c\\u4e00\\u90e8\\u5206\\u7684\\u8272\\uff0c\\u4f46\\u8fd9\\u6837\\u5c31\\u53d8\\u6210\\u4e86\\u7fe1\\u7fe0B\\u8d27\\u4e0d\\u503c\\u94b1\\u4e86\\u3002\\u7fe1\\u7fe0\\u7684\\u539f\\u4ea7\\u5730\\u5728\\u7f05\\u7538\\uff0c\\u8fd9\\u4e2a\\u5927\\u5bb6\\u90fd\\u77e5\\u9053\\u3002\\u540c\\u6837\\uff0c\\u5927\\u5bb6\\u4e5f\\u77e5\\u9053\\uff0c\\u5728\\u56fd\\u5185\\uff0c\\u7fe1\\u7fe0\\u52a0\\u5de5\\u5de5\\u827a\\u6c34\\u5e73\\u6700\\u597d\\u7684\\u5730\\u65b9\\u5c31\\u5728\\u5e7f\\u5dde\\u3002\\u6240\\u4ee5\\uff0c\\u4e5f\\u6709\\u5f88\\u591a\\u4eba\\u88ab\\u8bef\\u89e3\\u4e3a\\u5e7f\\u5dde\\u6240\\u4ea7\\u51fa\\u7684\\u7fe1\\u7fe0\\u6210\\u54c1\\u6027\\u4ef7\\u6bd4\\u5e94\\u8be5\\u662f\\u6700\\u9ad8\\u7684\\u3002\\u4f46\\u662f\\uff0c\\u5927\\u5bb6\\u4e0d\\u8981\\u5fd8\\u4e86\\uff0c\\u5728\\u4e2d\\u56fd\\uff0c\\u6700\\u9760\\u8fd1\\u7f05\\u7538\\u7684\\u5730\\u65b9\\u5c31\\u662f\\u4e91\\u5357\\uff0c\\u90a3\\u4e48\\u4e91\\u5357\\u7684\\u7fe1\\u7fe0\\u6210\\u54c1\\u6027\\u4ef7\\u6bd4\\u5230\\u5e95\\u600e\\u4e48\\u6837\\u5462\\uff1f \\u5176\\u5b9e\\uff0c\\u5728\\u51e0\\u5e74\\u524d\\uff0c\\u4e91\\u5357\\u7684\\u7fe1\\u7fe0\\u52a0\\u5de5\\u5de5\\u827a\\u771f\\u7684\\u662f\\u975e\\u5e38\\u5dee\\u3002\\u5f53\\u65f6\\u4e91\\u5357\\u6240\\u4ea7\\u51fa\\u7684\\u7fe1\\u7fe0\\u6bdb\\u6599\\u90fd\\u8981\\u9001\\u5230\\u5e7f\\u5dde\\u8fdb\\u884c\\u52a0\\u5de5\\uff0c\\u7136\\u540e\\u518d\\u8fd0\\u56de\\u4e91\\u5357\\uff0c\\u8fd9\\u6837\\u624d\\u80fd\\u51fa\\u73b0\\u975e\\u5e38\\u7cbe\\u7f8e\\u7684\\u7fe1\\u7fe0\\u9970\\u54c1\\uff0c\\u624d\\u80fd\\u5356\\u5f97\\u51fa\\u53bb\\u3002\\u4e0d\\u8fc7\\u8fd9\\u4e00\\u6765\\u4e00\\u56de\\u5c31\\u4f1a\\u51fa\\u73b0\\u975e\\u5e38\\u9ad8\\u7684\\u6210\\u672c\\uff01\"}}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165926');
+INSERT INTO `fa_admin_log` VALUES ('581', '3', 'admin1', '/rWPFXdqobO.php/goods/good/multi/ids/8,7', '商品管理 商品列表 批量更新', '{\"ids\":\"8,7\",\"params\":\"status=1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589165988');
 
 -- ----------------------------
 -- Table structure for fa_attachment
@@ -707,7 +744,7 @@ CREATE TABLE `fa_attachment` (
   `storage` varchar(100) NOT NULL DEFAULT 'local' COMMENT '存储位置',
   `sha1` varchar(40) NOT NULL DEFAULT '' COMMENT '文件 sha1编码',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='附件表';
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COMMENT='附件表';
 
 -- ----------------------------
 -- Records of fa_attachment
@@ -722,6 +759,9 @@ INSERT INTO `fa_attachment` VALUES ('7', '1', '0', '/uploads/20200507/4941dc039e
 INSERT INTO `fa_attachment` VALUES ('8', '1', '0', '/uploads/20200508/a6c3c5f034f631351785dc60b2bad080.zip', '', '', 'zip', '0', '286373', 'application/x-zip-compressed', '{\"name\":\"San_Francisco.zip\"}', '1588904227', '1588904227', '1588904227', 'local', 'b93183d829c2ada1b814467ddf15b54abcc0c992');
 INSERT INTO `fa_attachment` VALUES ('10', '1', '0', '/uploads/20200508/e05c70a045af7264f0bc144bfbff1a18.rar', '', '', 'rar', '0', '368951', 'application/octet-stream', '{\"name\":\"jianli8772.rar\"}', '1588908790', '1588908790', '1588908790', 'local', '567597500cff7c618081c4d8e6dd3f1cb8d4e652');
 INSERT INTO `fa_attachment` VALUES ('11', '1', '0', '/uploads/20200508/60ae50bc996855de67408045d9369f51.docx', '', '', 'docx', '0', '11558', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', '{\"name\":\"55.docx\"}', '1588921070', '1588921070', '1588921070', 'local', '4180cc8b44511e02ae731dfdde76545f8e5ef1f6');
+INSERT INTO `fa_attachment` VALUES ('12', '3', '0', '/uploads/20200511/254fdde9b4e96edea4c6501c98d2827b.jpg', '660', '520', 'jpg', '0', '25106', 'image/jpeg', '{\"name\":\"apple-1.jpg\"}', '1589164280', '1589164280', '1589164280', 'local', 'a3a9ba0effa08c94c194cd7828f5f2a0bf59ef5f');
+INSERT INTO `fa_attachment` VALUES ('13', '3', '0', '/uploads/20200511/8a70e1113df14da75caadb1c4d955e94.jpg', '1600', '1295', 'jpg', '0', '116911', 'image/jpeg', '{\"name\":\"apple-2.jpg\"}', '1589164297', '1589164297', '1589164297', 'local', '7304d3865a199ce806dce4970c7c012ed1b95496');
+INSERT INTO `fa_attachment` VALUES ('14', '3', '0', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '640', '427', 'jpg', '0', '89125', 'image/jpeg', '{\"name\":\"swiper2.5ba8b45f.jpg\"}', '1589165322', '1589165322', '1589165322', 'local', '84188a31e2dfa464d85ebbeb06701a4ff67d32e6');
 
 -- ----------------------------
 -- Table structure for fa_auth_group
@@ -789,14 +829,14 @@ CREATE TABLE `fa_auth_rule` (
 -- ----------------------------
 -- Records of fa_auth_rule
 -- ----------------------------
-INSERT INTO `fa_auth_rule` VALUES ('1', 'file', '0', 'dashboard', '控制台', 'fa fa-dashboard', '', 'Dashboard tips', '0', '1497429920', '1588745828', '150', 'normal');
+INSERT INTO `fa_auth_rule` VALUES ('1', 'file', '0', 'dashboard', '控制台', 'fa fa-dashboard', '', 'Dashboard tips', '0', '1497429920', '1588992761', '150', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('2', 'file', '0', 'general', '常规管理', 'fa fa-cogs', '', '', '1', '1497429920', '1588923070', '10', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('3', 'file', '0', 'category', '分类管理', 'fa fa-leaf', '', 'Category tips', '1', '1497429920', '1587540685', '4', 'hidden');
 INSERT INTO `fa_auth_rule` VALUES ('4', 'file', '0', 'addon', '插件管理', 'fa fa-rocket', '', 'Addon tips', '1', '1502035509', '1588140664', '0', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('5', 'file', '181', 'auth', '角色与权限', 'fa fa-group', '', '', '1', '1497429920', '1588227529', '113', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('6', 'file', '2', 'general/config', 'Config', 'fa fa-cog', '', 'Config tips', '1', '1497429920', '1497430683', '60', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('7', 'file', '2', 'general/attachment', 'Attachment', 'fa fa-file-image-o', '', 'Attachment tips', '1', '1497429920', '1497430699', '53', 'normal');
-INSERT INTO `fa_auth_rule` VALUES ('8', 'file', '0', 'general/profile', '个人资料', 'fa fa-user', '', '', '0', '1497429920', '1588933701', '1134', 'hidden');
+INSERT INTO `fa_auth_rule` VALUES ('8', 'file', '0', 'general/profile', '个人资料', 'fa fa-user', '', '', '1', '1497429920', '1588992645', '1134', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('9', 'file', '5', 'auth/admin', 'Admin', 'fa fa-user', '', 'Admin tips', '1', '1497429920', '1497430320', '118', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('10', 'file', '181', 'auth/adminlog', '管理员日志', 'fa fa-list-alt', '', 'Admin log tips', '1', '1497429920', '1588227516', '93', 'normal');
 INSERT INTO `fa_auth_rule` VALUES ('11', 'file', '5', 'auth/group', 'Group', 'fa fa-group', '', 'Group tips', '1', '1497429920', '1497429920', '109', 'normal');
@@ -1022,7 +1062,7 @@ CREATE TABLE `fa_config` (
 -- ----------------------------
 -- Records of fa_config
 -- ----------------------------
-INSERT INTO `fa_config` VALUES ('1', 'name', 'basic', 'Site name', '请填写站点名称', 'string', '佳藏后台', '', 'required', '');
+INSERT INTO `fa_config` VALUES ('1', 'name', 'basic', 'Site name', '请填写站点名称', 'string', '佳藏', '', 'required', '');
 INSERT INTO `fa_config` VALUES ('2', 'beian', 'basic', 'Beian', '粤ICP备15000000号-1', 'string', '', '', '', '');
 INSERT INTO `fa_config` VALUES ('3', 'cdnurl', 'basic', 'Cdn url', '如果静态资源使用第三方云储存请配置该值', 'string', '', '', '', '');
 INSERT INTO `fa_config` VALUES ('4', 'version', 'basic', 'Version', '如果静态资源有变动请重新配置该值', 'string', '1.0.1', '', 'required', '');
@@ -1164,7 +1204,7 @@ CREATE TABLE `fa_user` (
 -- ----------------------------
 -- Records of fa_user
 -- ----------------------------
-INSERT INTO `fa_user` VALUES ('1', '1', 'admin', 'admin', 'c13f62012fd6a8fdf06b3452a94430e5', 'rpR6Bv', 'admin@163.com', '13888888888', '', '0', '0', '2017-04-15', '', '0.00', '0', '1', '1', '1516170492', '1516171614', '127.0.0.1', '0', '127.0.0.1', '1491461418', '0', '1516171614', '', 'normal', '');
+INSERT INTO `fa_user` VALUES ('1', '1', 'admin', 'admin', 'c13f62012fd6a8fdf06b3452a94430e5', 'rpR6Bv', 'admin@163.com', '13888888888', '', '0', '0', '2017-04-15', '', '0.00', '0', '2', '2', '1589163175', '1589169225', '127.0.0.1', '0', '127.0.0.1', '1491461418', '0', '1589169225', '', 'normal', '');
 
 -- ----------------------------
 -- Table structure for fa_user_group
@@ -1272,6 +1312,16 @@ CREATE TABLE `fa_user_token` (
 -- ----------------------------
 -- Records of fa_user_token
 -- ----------------------------
+INSERT INTO `fa_user_token` VALUES ('155d843be55f693b5d539937344c788ef087b73d', '2', '1589178913', '1591770913');
+INSERT INTO `fa_user_token` VALUES ('1da83741281067858ee73502f0f60726aae5d3b9', '2', '1589179127', '1591771127');
+INSERT INTO `fa_user_token` VALUES ('2b36b9e805210e355e0699ccd5d36d63a5b30927', '3', '1589192562', '1591784562');
+INSERT INTO `fa_user_token` VALUES ('4ff07633e1cc7b9d73f37a330e8c47e1b7e432e0', '3', '1589192699', '1591784699');
+INSERT INTO `fa_user_token` VALUES ('89ac6e09558612bc999d1e08d0556643ec6af9d3', '1', '1589189066', '1591781066');
+INSERT INTO `fa_user_token` VALUES ('8b99034b054a3d55971d42cde89fd1b77f871276', '1', '1589188730', '1591780730');
+INSERT INTO `fa_user_token` VALUES ('ad97402f2092ddaab80127e7da44f104da032c21', '2', '1589179307', '1591771307');
+INSERT INTO `fa_user_token` VALUES ('cbb784de9866c1a87dcebaff281987d05e27078e', '1', '1589179367', '1591771367');
+INSERT INTO `fa_user_token` VALUES ('f0b1dfb52f1f9368be75e24c68ae33334253b2b6', '1', '1589179378', '1591771378');
+INSERT INTO `fa_user_token` VALUES ('f2993c62d249542d95e516a6737d0a7e8f008394', '3', '1589190034', '1591782034');
 
 -- ----------------------------
 -- Table structure for feedback
@@ -1315,15 +1365,19 @@ CREATE TABLE `goods` (
   `status` tinyint(1) DEFAULT NULL COMMENT '状态',
   `comment` text COMMENT '备注',
   PRIMARY KEY (`goods_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of goods
 -- ----------------------------
-INSERT INTO `goods` VALUES ('1', '汉五铢', '这就是详情', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '1', '暂无简介');
-INSERT INTO `goods` VALUES ('2', '汉五铢', '这里就是', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '2', '暂无简介');
-INSERT INTO `goods` VALUES ('3', '汉五铢', '我是详情', '1', '366.00', 'http://www.f1f2.com/assets/img/qrcode.png', '2', '1', '1', '40006299999', 'xiaoli01', '2020-04-22 17:08:12', '0', '暂无简介');
-INSERT INTO `goods` VALUES ('6', '测试', '我是详情', '3', '9.98', '/uploads/20200430/049abffc2beb4ce171f639605907045f.jpg', '6', '0', '0', '15599661793', 'lopll10', '2020-05-07 15:54:36', '0', '发顺丰到付');
+INSERT INTO `goods` VALUES ('7', '黄玉麟', '精品黄玉麟', '2', '1999.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '2', '599', '0', '18639243804', '95865eb8bec', '2020-05-11 10:47:49', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！');
+INSERT INTO `goods` VALUES ('8', '和田玉3', '精品和田玉', '1', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '588', '0', '15599661793', '95865eb8bec', '2020-05-11 10:27:04', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('9', '和田玉2', '精品和田玉', '2', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '699', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:42', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('10', '和田玉1', '精品和田玉', '1', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '611', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:50', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('11', '玉麒麟2', '精品玉麒麟', '2', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '336', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:45', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('12', '玉麒麟3', '精品玉麒麟', '3', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '336', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:45', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('13', '玉麒麟5', '精品玉麒麟', '5', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '336', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:45', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
+INSERT INTO `goods` VALUES ('14', '玉麒麟4', '精品玉麒麟', '2', '1998.00', '/uploads/20200511/5ba8b45f1b84dfe37a77bc7e53cbed0d.jpg', '5', '336', '0', '15599661793', '95865eb8bec', '2020-05-11 10:57:45', '1', '翡翠不同于一般的商品，其价值主要取决于翡翠本身的质地; 大家耳熟能详的「种」、「水」、「色」、「地」、「工」 五大要素; 其中只有工艺这一个要素是跟后天加工有关，其余四大要素都是天然质地，而且是后天不可改变的 ; 当然通过化学手段可改变种水和一部分的色，但这样就变成了翡翠B货不值钱了。翡翠的原产地在缅甸，这个大家都知道。同样，大家也知道，在国内，翡翠加工工艺水平最好的地方就在广州。所以，也有很多人被误解为广州所产出的翡翠成品性价比应该是最高的。但是，大家不要忘了，在中国，最靠近缅甸的地方就是云南，那么云南的翡翠成品性价比到底怎么样呢？ 其实，在几年前，云南的翡翠加工工艺真的是非常差。当时云南所产出的翡翠毛料都要送到广州进行加工，然后再运回云南，这样才能出现非常精美的翡翠饰品，才能卖得出去。不过这一来一回就会出现非常高的成本！\r\n');
 
 -- ----------------------------
 -- Table structure for identify
@@ -1437,35 +1491,29 @@ INSERT INTO `real_name` VALUES ('2', '张某', '15166118960325211X', '1559966179
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(5) NOT NULL AUTO_INCREMENT COMMENT '编号',
-  `user_key` varchar(11) CHARACTER SET armscii8 DEFAULT NULL COMMENT '佳藏号',
+  `user_key` varchar(25) CHARACTER SET armscii8 DEFAULT NULL COMMENT '佳藏号',
+  `nickname` varchar(50) DEFAULT NULL COMMENT '昵称',
   `tel` char(11) DEFAULT NULL COMMENT '手机',
   `level` tinyint(1) DEFAULT '0' COMMENT '会员级别',
-  `money` float(11,2) DEFAULT NULL COMMENT '余额',
-  `pending` float(11,2) DEFAULT NULL COMMENT '待结算金额',
+  `money` float(11,2) DEFAULT '0.00' COMMENT '余额',
+  `pending` float(11,2) DEFAULT '0.00' COMMENT '待结算金额',
   `name` varchar(50) DEFAULT NULL COMMENT '真实姓名',
   `id_number` char(18) DEFAULT NULL COMMENT '身份证',
   `create_time` datetime DEFAULT NULL COMMENT '注册时间',
   `last_time` datetime DEFAULT NULL COMMENT '最后登录',
   `status` tinyint(1) DEFAULT '0' COMMENT '状态',
   `comment` varchar(255) DEFAULT NULL COMMENT '备注',
-  `password` varchar(25) DEFAULT NULL COMMENT '密码',
+  `password` varchar(50) DEFAULT NULL COMMENT '密码',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES ('1', 'xiaoli1', '18801057371', '0', '5066.00', '50.00', '张三', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '0', '法外狂徒', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('2', 'xiaoli2', '18801057371', '0', '200.00', '50.00', '张二', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '1', '没有简介', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('3', 'xiaoli2', '18801057371', '1', '300.00', '50.00', '王某', '13043019971015263X', '2020-04-21 07:59:35', '2020-04-22 11:44:40', '0', '没有', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('4', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '2', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('5', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '2', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('6', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('7', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('8', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '2', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('9', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '1', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('10', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '0', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
-INSERT INTO `users` VALUES ('11', 'lopll10', '15599661793', '0', '260.00', '20.00', '陈五', '15023319850623', '2020-04-23 16:50:03', '2020-04-23 16:50:03', '2', '暂无备注', 'dc483e80a7a0bd9ef71d8cf97');
+INSERT INTO `users` VALUES ('1', '95865eb8bec61de07', 'dc483e80a7a0bd9ef71d8cf973673924', '18801057371', '0', '0.00', '0.00', null, null, '2020-05-09 16:06:00', '2020-05-11 17:24:26', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('2', '81305eb8beebd9ab5', 'dc483e80a7a0bd9ef71d8cf973673924', '18801053084', '0', '0.00', '0.00', null, null, '2020-05-09 16:06:30', '2020-05-11 14:41:47', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('3', '27015eb8bef396c67', 'dc483e80a7a0bd9ef71d8cf973673924', '18801053086', '0', '0.00', '0.00', null, null, '2020-05-09 16:51:42', '2020-05-11 18:24:59', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('5', '48905eb8cabeccbc5', 'dc483e80a7a0bd9ef71d8cf973673924', '15966693265', '0', '0.00', '0.00', null, null, '2020-05-11 11:47:10', null, '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
 
 -- ----------------------------
 -- Table structure for vorder

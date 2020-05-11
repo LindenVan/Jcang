@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'name' => '佳藏后台',
+  'name' => '佳藏',
   'beian' => '',
   'cdnurl' => '',
   'version' => '1.0.1',

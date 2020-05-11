@@ -26,8 +26,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {checkbox: true},
                         {field: 'id', title: __('Id'),operate:false},
                         {field: 'user_key', title: __('User_key')},
+                        {field: 'nickname', title: __('Nickname'),operate:false},
                         {field: 'tel', title: __('Tel')},
-                        /*{field: 'level', title: __('Level')},*/
                         {field: 'level',title: __('Level'),
                             searchList: {"0": __('无会员'), "1": __('一级会员'),"2":__('二级会员')},
                             formatter:function(value){
