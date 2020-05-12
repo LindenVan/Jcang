@@ -26,12 +26,12 @@ class Index extends Api
      * @ApiMethod   (POST)
      * @ApiRoute    (/api/app/index/IndexData)sssss
      * @ApiReturn   ({
-    'code':'1',
-    'mesg':'返回成功',
-    'data': {
+     'code':'1',
+     'mesg':'返回成功',
+     'data': {
 
-    }
-     * })
+     }
+     })
      */
     public function IndexData(){
         $banner = Db::table('banner')->where('is_index','=','1')
@@ -59,6 +59,7 @@ class Index extends Api
         $this->success('获取成功',$Indexdata);
     }
 
+    //随机推荐
     public function recommend(){
         $goodsList = Db::table('goods')->where('status','=','1')
             ->orderRaw('rand()')->limit('4')
@@ -68,6 +69,19 @@ class Index extends Api
             $this->error('获取失败');die();
         }
         $this->success('获取成功',$goodsList);
+    }
+
+    public function search(){
+        if(!$this->request->isPost()){
+            $this->error('禁止非Post请求');
+            die();
+        }
+        $data = input('post.data');
+        $searchData = Db::table('goods')->where('title','like',"%$data%")
+            ->where('status','=',"1")
+            ->order('browse desc')
+            ->select();
+        $this->success('查询成功',$searchData);
     }
 
     public function test(){

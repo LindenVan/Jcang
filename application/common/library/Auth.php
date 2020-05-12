@@ -58,6 +58,10 @@ class Auth
         return $this->_user;
     }
 
+    public function parsingToken($token){
+        return Token::get($token);
+    }
+
     /**
      * 兼容调用user模型的属性
      *

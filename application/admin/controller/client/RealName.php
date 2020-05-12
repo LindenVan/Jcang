@@ -27,7 +27,16 @@ class RealName extends Backend
     }
 
     public function pass($ids = null){
-        $flag = DB::table('real_name')->where('id','=',$ids)->setField('status','1');
+        $data = DB::table('real_name')->where('id','=',$ids)
+            ->field('id_key,username,user_keys')->find();
+        $save['name'] = $data['username'];
+        $save['id_number'] = $data['id_key'];
+        $key = $data['user_key'];
+        $flag = Db::transaction(function($key,$ids,$save){
+            DB::table('usrs')->where("user_key",'=',$key)->update($save);
+            DB::table('real_name')->where('id','=',$ids)->setField('status','1');
+        });
+
         if (!$flag){
             $this->error('操作失败');
             die();

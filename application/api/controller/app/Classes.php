@@ -19,6 +19,8 @@ class Classes extends Api
     protected $noNeedLogin = '*';
     protected $noNeedRight = '*';
 
+
+    //分类数据
     public function classList(){
         $classList= Db::table('class')->field('class_id,class_name')->select();
         if (!$classList){
@@ -26,6 +28,8 @@ class Classes extends Api
         }
         $this->success('获取成功',$classList);
     }
+
+    //分类下的商品
     public function classGoods(){
         $id = input('get.id');
         $classGoods = Db::table('goods')->where('class','=',"$id")
