@@ -75,7 +75,7 @@ class User extends Api
         if (!$tel || !$password) {
             $this->error(__('Invalid parameters'));
         }
-        $ret = $this->auth->login($tel, $password);
+        $ret = $this->auth->login($tel,$password);
         if ($ret) {
             $data = ['userinfo' => $this->auth->getUserinfo()];
             $this->success(__('Logged in successful'), $data);

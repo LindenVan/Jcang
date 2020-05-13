@@ -222,6 +222,7 @@ class Auth
 
         if ($user) {
             $id = $user['id'];
+            $key = $user['user_key'];
             Db::startTrans();
             try {
                 $ip = request()->ip();
@@ -233,7 +234,7 @@ class Auth
                 $this->_user = $user;
                 $this->_logined = true;
                 $this->_token = Random::uuid();
-                Token::set($this->_token, "$id", $this->keeptime);
+                Token::set($this->_token, "$id","$key", $this->keeptime);
 
 
                 //登录成功的事件

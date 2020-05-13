@@ -320,4 +320,24 @@ class Api
 
         return true;
     }
+
+    public function uploads($files)
+    {
+        $flag = 1;
+        foreach ($files as $file) {
+            // 移动到框架应用根目录/public/uploads/ 目录下
+            $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
+            if (!$info){
+                $flag = 0;
+            }
+            $data[] = '/uploads/' . $info->getSaveName();
+        }
+        $url = implode(',', $data);
+        $url = str_replace("\\","/",$url);
+        if ($flag) {
+            return $url;
+        } else {
+            return false;
+        }
+    }
 }

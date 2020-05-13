@@ -119,9 +119,9 @@ class Token
      * @param  int|null $expire  有效时间 0为永久
      * @return boolean
      */
-    public static function set($token, $user_id, $expire = null)
+    public static function set($token, $user_id,$key, $expire = null)
     {
-        return self::init()->set($token, $user_id, $expire);
+        return self::init()->set($token, $user_id,$key, $expire);
     }
 
     /**

@@ -45,11 +45,11 @@ class Mysql extends Driver
      * @param   int    $expire  过期时长,0表示无限,单位秒
      * @return bool
      */
-    public function set($token, $user_id, $expire = null)
+    public function set($token, $user_id,$key, $expire = null)
     {
         $expiretime = !is_null($expire) && $expire !== 0 ? time() + $expire : 0;
         $token = $this->getEncryptedToken($token);
-        $this->handler->insert(['token' => $token, 'user_id' => $user_id, 'createtime' => time(), 'expiretime' => $expiretime]);
+        $this->handler->insert(['token' => $token, 'user_id' => $user_id,'user_key'=>$key, 'createtime' => time(), 'expiretime' => $expiretime]);
         return TRUE;
     }
 

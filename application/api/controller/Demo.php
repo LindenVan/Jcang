@@ -56,9 +56,11 @@ class Demo extends Api
      * 需要登录的接口
      *
      */
-    public function test2()
+    public function test233()
     {
-        $this->success('返回成功', ['action' => 'test2']);
+        $token = input("post.token");
+        $da = $this->auth->parsingToken($token);
+        $this->success('返回成功',$da);
     }
 
     /**

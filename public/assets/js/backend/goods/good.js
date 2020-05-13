@@ -31,7 +31,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                             searchList:$.getJSON("goods/good/SearchList")
                         },
                         {field: 'price', title: __('Price'),operate:false},
-                        {field: 'goods_image', title: __('Goods_image'),operate:false, events: Table.api.events.image, formatter: Table.api.formatter.image},
+                        {field: 'goods_image', title: __('Goods_image'),operate:false, events: Table.api.events.image, formatter: Table.api.formatter.images},
                         {field: 'num', title: __('Num'),operate:false},
                         {field: 'browse', title: __('Browse'),operate:false},
                         {field: 'collect', title: __('Collect'),operate:false},
@@ -40,7 +40,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'create_time', title: __('Create_time'),operate:false, addclass:'datetimerange'},
                         {field: 'status', title: __('Status'),
                             searchList: {"0": __('待审核'), "1": __('已审核'),"2":__('不通过')},
-
                             formatter:function(value){
                                 if (value == 0) {
                                     return '待审核';

@@ -26,7 +26,7 @@ abstract class Driver
      * @param   int    $expire  过期时长,0表示无限,单位秒
      * @return bool
      */
-    abstract function set($token, $user_id, $expire = 0);
+    abstract function set($token, $user_id, $key,$expire = 0);
 
     /**
      * 获取Token内的信息
