@@ -34,6 +34,24 @@ class Goods extends Api
         }
         $this->success("成功",$data);
     }
+
+    public function goodsInfo(){
+        $token = input('get.token');
+        $id = input('get.id');
+        $key = $this->auth->parsingToken($token)['user_key'];
+
+        $goods = Db::table("goods")->where("goods_id","=","$id")
+            ->where('user_key','=',"$key")->find();
+        $user = Db::table("users")->where('user_key','=',"$key")
+            ->field('nickname,user_key')->find();
+        $goods['user'] = $user;
+        if (!$goods||!$user){
+            $this->error('获取失败');
+        }
+        $this->success('获取成功',$goods);
+    }
+
+
     public function addGoods(){
         $data = input("post.");
         $file = request()->file('file')?request()->file('file'):0;

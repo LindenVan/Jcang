@@ -1,0 +1,2216 @@
+---------------------------------------------------------------
+[ 2020-05-15T09:29:40+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.664704s] [吞吐率：1.50req/s] [内存消耗：2,874.38kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005425s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8AomeIpSZvwGy2vC',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002192s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T09:53:33+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.233375s] [吞吐率：4.28req/s] [内存消耗：2,923.66kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000153s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003575s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybMQMCHI0x4PjRSfq',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001720s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T09:54:08+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.148673s] [吞吐率：6.73req/s] [内存消耗：3,112.63kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002810s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDMPScBBDGlhtv3m7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001351s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:155]
+---------------------------------------------------------------
+[ 2020-05-15T09:54:28+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.125582s] [吞吐率：7.96req/s] [内存消耗：2,906.95kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003449s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5MB5xdDl3ZLHj2AZ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001387s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T09:56:51+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.377707s] [吞吐率：2.65req/s] [内存消耗：2,923.74kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003387s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJxz1t6lvMKIBU8H9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001560s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T09:57:24+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.451764s] [吞吐率：2.21req/s] [内存消耗：2,875.60kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004932s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUkDH6dkh6wAqKZwf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001327s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:06:02+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.238047s] [吞吐率：4.20req/s] [内存消耗：3,036.40kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003823s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykhB4H8g1YN8mivZy',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001686s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:08:26+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.144362s] [吞吐率：6.93req/s] [内存消耗：2,907.29kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003835s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjTAMb0KISYqzv4Gq',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001664s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:11:23+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.409961s] [吞吐率：2.44req/s] [内存消耗：2,907.29kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003793s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryF5MH62ZIUhsOKFaQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001592s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:11:40+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.250556s] [吞吐率：3.99req/s] [内存消耗：3,036.42kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003918s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFGHn8o6ZVP2AfHOz',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001292s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:11:46+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.215456s] [吞吐率：4.64req/s] [内存消耗：3,036.42kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004867s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy23j0BjGc7j5zxaW',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001262s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:11:55+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.221942s] [吞吐率：4.51req/s] [内存消耗：3,036.42kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002845s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPQkyqAOYzFJbqRcx',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001261s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:12:15+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.214701s] [吞吐率：4.66req/s] [内存消耗：3,036.48kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002713s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8WYPIe62QgSDZcPT',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001425s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:13:33+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.352979s] [吞吐率：2.83req/s] [内存消耗：3,038.72kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000178s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003535s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryey9LJnYFsi6Qul6C',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '0',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002278s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:14:38+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.270230s] [吞吐率：3.70req/s] [内存消耗：3,038.77kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004276s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynX9XogmwwHyBTphC',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '735',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => 'fffffffffffff',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001251s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:17:37+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.203937s] [吞吐率：4.90req/s] [内存消耗：3,036.96kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004207s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynPAK8qcqM0B0GXaA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002757s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:19:34+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/myAddress
+[运行时间：0.138978s] [吞吐率：7.20req/s] [内存消耗：3,113.08kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003181s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0XIpp6jpq7L6zYWX',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001846s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_key[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:83]
+---------------------------------------------------------------
+[ 2020-05-15T10:20:59+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/myAddress
+[运行时间：0.147497s] [吞吐率：6.78req/s] [内存消耗：2,906.36kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003312s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4NTwLt8MMyjQLS1s',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001418s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:23:53+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e
+[运行时间：0.199611s] [吞吐率：5.01req/s] [内存消耗：3,112.65kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004238s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002150s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:85]
+---------------------------------------------------------------
+[ 2020-05-15T10:23:54+08:00 ] 127.0.0.1 GET www.jcang.com/favicon.ico
+[运行时间：0.069986s] [吞吐率：14.29req/s] [内存消耗：1,717.35kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002822s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:24:31+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e
+[运行时间：0.142368s] [吞吐率：7.02req/s] [内存消耗：3,074.31kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002828s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001304s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:27:25+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e
+[运行时间：0.159616s] [吞吐率：6.27req/s] [内存消耗：3,072.37kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003379s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001638s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:41:01+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/myAddress
+[运行时间：0.185675s] [吞吐率：5.39req/s] [内存消耗：3,113.41kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000160s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003752s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCIEQu7f96mdKrEm5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001688s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_key[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:83]
+---------------------------------------------------------------
+[ 2020-05-15T10:41:31+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e
+[运行时间：0.268113s] [吞吐率：3.73req/s] [内存消耗：3,118.70kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003358s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary71GMA5GuwRoALdJH',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001948s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'if_default' in 'field list'[E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-05-15T10:41:43+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/myAddress?token=a96c5031-b294-4415-9699-39884583415e
+[运行时间：0.254845s] [吞吐率：3.92req/s] [内存消耗：3,073.84kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003840s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'myAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5tOGo1k50BpAqTvB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001793s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->myAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T10:50:10+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.134547s] [吞吐率：7.43req/s] [内存消耗：3,113.90kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004702s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCPbkkbhrpXw7E49d',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001715s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]数据表字段不存在:[id][E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2020-05-15T10:50:19+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addAddress
+[运行时间：0.237439s] [吞吐率：4.21req/s] [内存消耗：3,037.16kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003614s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNI74W1sRDSq690vm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002234s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:11:01+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=2
+[运行时间：0.114257s] [吞吐率：8.75req/s] [内存消耗：3,117.38kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000292s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004891s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryb8uNTv7LbvzADeD3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '2',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002270s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: addess_comment[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:107]
+---------------------------------------------------------------
+[ 2020-05-15T11:11:12+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=2
+[运行时间：0.176896s] [吞吐率：5.65req/s] [内存消耗：3,117.38kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002669s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrCBAUuBchNj6ZPxN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '723',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '2',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002865s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: addess_comment[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:107]
+---------------------------------------------------------------
+[ 2020-05-15T11:11:26+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=2
+[运行时间：0.448444s] [吞吐率：2.23req/s] [内存消耗：3,115.16kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002919s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '2',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001287s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: addess_comment[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:107]
+---------------------------------------------------------------
+[ 2020-05-15T11:11:40+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=9
+[运行时间：0.086536s] [吞吐率：11.56req/s] [内存消耗：3,115.17kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002811s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001259s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: addess_comment[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:107]
+---------------------------------------------------------------
+[ 2020-05-15T11:11:52+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=10
+[运行时间：0.355151s] [吞吐率：2.82req/s] [内存消耗：3,114.85kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004456s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '10',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001244s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:110]
+---------------------------------------------------------------
+[ 2020-05-15T11:12:34+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=16
+[运行时间：0.124477s] [吞吐率：8.03req/s] [内存消耗：3,115.23kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005062s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '16',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001594s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: addess_comment[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php:107]
+---------------------------------------------------------------
+[ 2020-05-15T11:13:18+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=16
+[运行时间：0.400843s] [吞吐率：2.49req/s] [内存消耗：2,908.84kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003311s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '16',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002682s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:13:49+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=16
+[运行时间：0.203797s] [吞吐率：4.91req/s] [内存消耗：3,071.47kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002958s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '16',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001172s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:14:00+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/myinfo/addressInfo?token=ab5601c6-2165-4303-a520-3959966ccae0&id=9
+[运行时间：0.150132s] [吞吐率：6.66req/s] [内存消耗：3,071.41kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003100s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'addressInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'ab5601c6-2165-4303-a520-3959966ccae0',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001221s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->addressInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:31:20+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.191450s] [吞吐率：5.22req/s] [内存消耗：3,037.26kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003781s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDH6RbnlSAN5VCrHA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001651s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:31:37+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.385092s] [吞吐率：2.60req/s] [内存消耗：3,037.26kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003956s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXNsk1FoHWDxtgBCa',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001274s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:31:48+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.260831s] [吞吐率：3.83req/s] [内存消耗：3,037.26kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003443s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryseBtBybDPlo6fGA9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001426s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:31:54+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.173286s] [吞吐率：5.77req/s] [内存消耗：3,039.20kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002854s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqwgfwOTnq67pHyuy',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '0',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001269s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:32:05+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.149213s] [吞吐率：6.70req/s] [内存消耗：3,039.20kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002894s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxKVca1a1pFXtmjM3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '18801057371',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '0',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002207s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T11:34:11+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/myinfo/saveAddress
+[运行时间：0.224597s] [吞吐率：4.45req/s] [内存消耗：3,039.26kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003589s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.myinfo',
+    2 => 'saveAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryI7SNEZ27Lh7XZu94',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '18801057371',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '0',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001680s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Myinfo->saveAddress[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Myinfo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T14:20:06+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/index/IndexData
+[运行时间：0.224970s] [吞吐率：4.45req/s] [内存消耗：2,950.70kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003992s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.index',
+    2 => 'IndexData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqqKUVNtfVtEXF1Mv',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001674s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Index->IndexData[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:01:43+08:00 ] 127.0.0.1 GET yuzhilongja.com/
+[运行时间：0.228930s] [吞吐率：4.37req/s] [内存消耗：2,480.48kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005570s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002237s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.010638s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:01:44+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.242371s] [吞吐率：4.13req/s] [内存消耗：3,100.94kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002891s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001467s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php:42]
+---------------------------------------------------------------
+[ 2020-05-15T15:01:45+08:00 ] 127.0.0.1 GET yuzhilongja.com/favicon.ico
+[运行时间：0.032345s] [吞吐率：30.92req/s] [内存消耗：1,716.89kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005012s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:02:46+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.171519s] [吞吐率：5.83req/s] [内存消耗：2,894.09kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004888s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002336s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:03:26+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.418701s] [吞吐率：2.39req/s] [内存消耗：2,904.21kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003681s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002023s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:05:26+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.192848s] [吞吐率：5.19req/s] [内存消耗：2,954.99kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004635s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001707s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:10:28+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.290747s] [吞吐率：3.44req/s] [内存消耗：2,948.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000167s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004101s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003516s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T15:10:57+08:00 ] 127.0.0.1 GET www.jcang.com/api/app/goods/goodsInfo?token=a96c5031-b294-4415-9699-39884583415e&id=7
+[运行时间：0.220844s] [吞吐率：4.53req/s] [内存消耗：2,948.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003478s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'id' => '7',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T16:24:33+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/user/login
+[运行时间：0.116127s] [吞吐率：8.61req/s] [内存消耗：2,945.85kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003743s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryj4lJphMSGIeLMnyQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '813',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002090s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\User->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-15T16:25:05+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/user/login
+[运行时间：0.266535s] [吞吐率：3.75req/s] [内存消耗：2,969.93kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003742s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycLCMGzCIY3a9N9p5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1016',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002323s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\User->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\User.php ]
+[ info ] [ LOG ] INIT File

@@ -83,6 +83,7 @@ class Myinfo extends Api
         $key = $this->auth->parsingToken($token)['user_key'];
         $address = Db::table("address")
             ->where('address_key','=',"$key")
+            ->field('address_id,address_name,user_tel,address_comment,is_default')
             ->order('is_default desc')->select();
         if (!$address){
             $this->error('未获取到地址');
@@ -103,7 +104,8 @@ class Myinfo extends Api
         $address = Db::table("address")
             ->where('address_key','=',"$key")
             ->where('address_id','=',"$id'")->find();
-        $temp = $address['addess_comment'];unset($address['addess_comment']);
+//        print_r($address);die();
+        $temp = $address['address_comment'];unset($address['address_comment']);
         $temp = explode('-',$temp);
         $address['addess1'] = $temp['0'];//拆分出市区
         $address['addess2'] = $temp['1'];//拆分出地址
@@ -124,19 +126,22 @@ class Myinfo extends Api
         $key = $this->auth->parsingToken($token)['user_key'];
         $id = $data['id'];unset($data['id']);
         $data['address_comment'] = implode('-',$data['address']);unset($data['address']);
-//        $data['create_time'] = date('Y-m-d H:i:s');
+        $toke = Db::startTrans();
+        $flag = 1;
         $save = Db::table('address')
             ->where("address_key","=","$key")
             ->where("address_id","=","$id")->update($data);
         if ($data['is_default']==1){
-            Db::table('address')
+            $flag = Db::table('address')
                 ->where("address_key","=","$key")
                 ->where("address_id","<>","$id")
                 ->setField('is_default','0');
         }
-        if (!$save){
+        if (!$save||!$flag){
+            Db::rollback();
             $this->error('信息更改失败');die();
         }
+        Db::commit();
         $this->success('修改成功');
 
     }
@@ -144,29 +149,39 @@ class Myinfo extends Api
     /*
      * 新增地址信息
      * post
-     * token,address_name,user_tel,is_default,id,address[1],address[2]
+     * token,address_name,user_tel,is_default,address[1],address[2]
      */
     public function addAddress(){
         $data = input('post.');
         $token = $data['token'];unset($data['token']);
-        $key = $this->auth->parsingToken($token)['user_key'];
+        $data['address_key'] = $key = $this->auth->parsingToken($token)['user_key'];
         $data['address_comment'] = implode('-',$data['address']);unset($data['address']);
         $data['add_time'] = date('Y-m-d H:i:s');
+//        print_r($data);die();
+        Db::startTrans();
+        $flag = 1;
         $save = Db::table('address')
             ->where("address_key","=","$key")
-            ->insert($data);
-        echo $save;die();
+            ->insertGetId($data);
         if ($data['is_default']==1){
-            Db::table('address')
+            $flag = Db::table('address')
                 ->where("address_key","=","$key")
                 ->where("address_id","<>","$save")
                 ->setField('is_default','0');
         }
-        if (!$save){
-            $this->error('信息更改失败');die();
+        if (!$save||!$flag){
+            Db::rollback();
+            $this->error('新增地址失败');die();
         }
-        $this->success('修改成功');
+        Db::commit();
+        $this->success('新增成功');
 
     }
+
+    public function myIdent(){
+        $token = input("get.token");
+        $key = $this->auth->parsingToken();
+    }
+
 
 }
