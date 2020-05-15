@@ -21,7 +21,7 @@ class Goods extends Api
 
     //我的商品展示
     public function myGoods(){
-        $token = input("post.token");
+        $token = input("get.token");
         $id = $this->auth->parsingToken($token)['user_id'];
         $data = Db::table("users")->where("id","=","$id")
             ->alias('a')->join(['goods' => 'g'],"a.user_key = g.user_key")
@@ -40,7 +40,6 @@ class Goods extends Api
         if (in_array("",$data)||!$file){
             $this->error("有数据为空");
         }
-
         $token = $data['token'];
         unset($data['token']);
         $data['user_key'] = $key = $this->auth->parsingToken($token)['user_key'];
@@ -51,25 +50,16 @@ class Goods extends Api
         $data['create_time'] = date("Y-m-d H:i:s");
         $data['goods_image'] = $this->uploads($file);
         $class = $data['class'];
-
         try {
-
             Db::startTrans();
-
-            //将数据1存入表1，并获取ID:
             $re['t1'] = Db::table('goods')
                 ->data($data)->insert();
-
-            //将数据2写入表2
             $re['t2'] = Db::table('class')
                 ->where("class_id","=","$class")
                 ->setInc('have_num');
-
-            //任意一个表写入失败都会抛出异常：
             if (in_array('0', $re)) {
                 throw new Exception('操作失败');
             }
-
             Db::commit();
             $this->success('操作成功');
 
@@ -78,6 +68,5 @@ class Goods extends Api
             $this->error($e);
 
         }
-
     }
 }

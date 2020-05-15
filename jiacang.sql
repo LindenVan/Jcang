@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2020-05-13 18:28:24
+Date: 2020-05-15 09:06:25
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,12 +28,15 @@ CREATE TABLE `address` (
   `is_default` tinyint(1) DEFAULT NULL COMMENT '是否为默认',
   `add_time` datetime DEFAULT NULL COMMENT '创建时间',
   PRIMARY KEY (`address_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of address
 -- ----------------------------
-INSERT INTO `address` VALUES ('1', 'xiaoli10', '张三', '18805013713', '四川成都市高新区软件园A区1栋505', '1', '2020-04-22 15:44:33');
+INSERT INTO `address` VALUES ('1', '95865eb8bec61de07', '郭某坤', '13111301081', '河北省邯郸市丛台区-连城别苑雅园', '1', '2020-04-22 15:44:33');
+INSERT INTO `address` VALUES ('2', '95865eb8bec61de07', '张三', '18805013713', '河北省邯郸市丛台区-丛台公园', '0', '2020-04-22 15:44:33');
+INSERT INTO `address` VALUES ('3', '95865eb8bec61de07', '张三', '18805013713', '河北省邯郸市丛台区-丛台公园', '0', '2020-04-22 15:44:33');
+INSERT INTO `address` VALUES ('4', null, '郭某坤', '13111301081', '河北省邯郸市丛台区-连城别苑雅园', '1', '2020-05-14 18:39:40');
 
 -- ----------------------------
 -- Table structure for banner
@@ -71,7 +74,7 @@ CREATE TABLE `class` (
 INSERT INTO `class` VALUES ('1', '钱币', '1', '2020-04-23 17:46:02');
 INSERT INTO `class` VALUES ('2', '玉器', '0', '2020-04-26 18:14:48');
 INSERT INTO `class` VALUES ('3', '青铜器', '0', '2020-04-26 18:15:15');
-INSERT INTO `class` VALUES ('4', '古玩', '3', '2020-04-26 18:15:32');
+INSERT INTO `class` VALUES ('4', '古玩', '4', '2020-04-26 18:15:32');
 INSERT INTO `class` VALUES ('5', '瓷器', '0', '2020-05-07 17:55:37');
 INSERT INTO `class` VALUES ('6', '字画', '0', '2020-05-12 11:39:41');
 INSERT INTO `class` VALUES ('7', '书籍', '0', '2020-05-12 11:39:52');
@@ -139,7 +142,7 @@ CREATE TABLE `fa_admin` (
 -- ----------------------------
 -- Records of fa_admin
 -- ----------------------------
-INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1589333757', '127.0.0.1', '1492186163', '1589333757', 'b2f93a82-06ea-47b3-9ade-20070f41a5e0', 'normal');
+INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1589420356', '127.0.0.1', '1492186163', '1589420356', 'ce2c0003-10bd-4ffe-9fd7-4df9a0fb48ef', 'normal');
 INSERT INTO `fa_admin` VALUES ('3', 'admin1', '超管', '6188be37f2157d0d561fc9b47a0dc633', 'BJ0YG4', '/assets/img/avatar.png', 'test@test.com', '0', '1589249242', '127.0.0.1', '1588745058', '1589273307', '', 'normal');
 
 -- ----------------------------
@@ -158,7 +161,7 @@ CREATE TABLE `fa_admin_log` (
   `createtime` int(10) DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`),
   KEY `name` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=598 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=599 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
 
 -- ----------------------------
 -- Records of fa_admin_log
@@ -760,6 +763,7 @@ INSERT INTO `fa_admin_log` VALUES ('594', '1', 'LindenVan', '/rWPFXdqobO.php/ind
 INSERT INTO `fa_admin_log` VALUES ('595', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"24394a6e92f25c23e2cfa25e31ce27d5\",\"username\":\"Lindenvan\",\"captcha\":\"BGMV\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589333757');
 INSERT INTO `fa_admin_log` VALUES ('596', '1', 'LindenVan', '/rWPFXdqobO.php/client/real_name/refuse/ids/3', '客户管理 实名认证 Refuse', '{\"ids\":\"3\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589334260');
 INSERT INTO `fa_admin_log` VALUES ('597', '1', 'LindenVan', '/rWPFXdqobO.php/client/real_name/pass/ids/4', '客户管理 实名认证 Pass', '{\"ids\":\"4\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589336797');
+INSERT INTO `fa_admin_log` VALUES ('598', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"259684d0455fd99fbcc67df1a3b1020d\",\"username\":\"Lindenvan\",\"captcha\":\"CTUQ\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589420357');
 
 -- ----------------------------
 -- Table structure for fa_attachment
@@ -1353,6 +1357,8 @@ CREATE TABLE `fa_user_token` (
 -- ----------------------------
 -- Records of fa_user_token
 -- ----------------------------
+INSERT INTO `fa_user_token` VALUES ('0763172dfdc00f1ead533deaf6e9889441d597c0', '1', '1589447001', '1592039001', '95865eb8bec61de07');
+INSERT INTO `fa_user_token` VALUES ('83993d460916d7cdfbbdc512a5e6252123eb6c84', '1', '1589451228', '1592043228', '95865eb8bec61de07');
 INSERT INTO `fa_user_token` VALUES ('f6f78178665b174247be85bde5486fda2be36204', '1', '1589360604', '1591952604', '95865eb8bec61de07');
 
 -- ----------------------------
@@ -1397,7 +1403,7 @@ CREATE TABLE `goods` (
   `status` tinyint(1) DEFAULT '0' COMMENT '状态',
   `comment` text COMMENT '备注',
   PRIMARY KEY (`goods_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of goods
@@ -1417,6 +1423,7 @@ INSERT INTO `goods` VALUES ('18', '宋代智能手机', null, '4', '998.00', '/u
 INSERT INTO `goods` VALUES ('19', '革委会海报', '北京工艺美院革委会海报', '6', '22.90', '/uploads/20200512/54b51dd79e426cbbb6bf25d34fd4c355.jpg,/uploads/20200512/54b51dd79e426cbbb6bf25d34fd4c355.jpg', '5', '0', '0', '15918364696', '81305eb8beebd9ab5', '2020-05-12 11:40:02', '1', '北京工艺美院革委会海报-全世界无产阶级联合起来打到美帝国主义');
 INSERT INTO `goods` VALUES ('20', '明代智能手机', null, '4', '998.00', '/uploads/20200513/24a1adfbb05ae9a9222d4963390da21a.jpg,/uploads/20200513/124f965714f9d4966ade38b3132c31e2.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-13 18:08:51', '0', '我大明天下无敌啊');
 INSERT INTO `goods` VALUES ('21', '明代智能手机', null, '4', '998.00', '/uploads/20200513/1c44af6a38bffde45fddd6cb6f9f158a.jpg,/uploads/20200513/f1ee164a0fa646619fe5b704a398cbab.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-13 18:09:46', '0', '我大明天下无敌啊');
+INSERT INTO `goods` VALUES ('22', '毛泽东语录', null, '4', '998.00', '/uploads/20200514/6950ff775604740a53d5e05a40d469de.jpg,/uploads/20200514/01fcb8c6fc7e6513bb92db1ad80f56fc.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-14 11:54:01', '0', '毛泽东语录');
 
 -- ----------------------------
 -- Table structure for identify
@@ -1490,16 +1497,19 @@ CREATE TABLE `order` (
   `address` varchar(255) DEFAULT NULL COMMENT '配送地址',
   `logistics` varchar(100) DEFAULT NULL COMMENT '物流公司',
   `logistics_key` varchar(30) DEFAULT NULL COMMENT '物流单号',
-  `logistics_status` tinyint(1) DEFAULT '1' COMMENT '物流状态',
+  `logistics_status` tinyint(1) DEFAULT '0' COMMENT '物流状态',
   `take_time` datetime DEFAULT NULL COMMENT '收货时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of order
 -- ----------------------------
-INSERT INTO `order` VALUES ('1', '11121314151617181910', '18801067975', 'xiaoli10', '张三', '汉五铢', 'http://www.f1f2.com/assets/img/qrcode.png', '暂无简介', '1', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '圆通', '1555555555', '1', '2020-04-11 10:17:40');
-INSERT INTO `order` VALUES ('2', '11121314151617181910', '18801067975', 'xiaoli12', '赵二', '一级会员', 'http://www.f1f2.com/assets/img/qrcode.png', '一级会员', '0', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '无', '1555555555', '1', '2020-04-11 10:17:40');
+INSERT INTO `order` VALUES ('1', '11121314151617181910', '18801067975', '95865eb8bec61de07', '张三', '汉五铢', 'http://www.f1f2.com/assets/img/qrcode.png', '暂无简介', '1', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '圆通', '1555555555', '1', '2020-04-11 10:17:40');
+INSERT INTO `order` VALUES ('2', '11121314151617181910', '18801067975', '95865eb8bec61de07', '赵二', '一级会员', 'http://www.f1f2.com/assets/img/qrcode.png', '一级会员', '0', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '无', '1555555555', '2', '2020-04-11 10:17:40');
+INSERT INTO `order` VALUES ('3', '11121314151617181910', '18801067975', '95865eb8bec61de07', '赵二', '一级会员', 'http://www.f1f2.com/assets/img/qrcode.png', '一级会员', '0', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '无', '1555555555', '2', '2020-04-11 10:17:40');
+INSERT INTO `order` VALUES ('4', '11121314151617181910', '18801067975', '95865eb8bec61de07', '赵二', '一级会员', 'http://www.f1f2.com/assets/img/qrcode.png', '一级会员', '0', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '无', '1555555555', '2', '2020-04-11 10:17:40');
+INSERT INTO `order` VALUES ('5', '11121314151617181910', '18801067975', '95865eb8bec61de07', '赵二', '一级会员', 'http://www.f1f2.com/assets/img/qrcode.png', '一级会员', '0', '18801067975', 'xiaoli10', '100.00', '100.00', '1', '2020-04-09 13:39:26', '四川成都市高新区软件园A区1栋505', '无', '1555555555', '2', '2020-04-11 10:17:40');
 
 -- ----------------------------
 -- Table structure for real_name
@@ -1552,7 +1562,7 @@ CREATE TABLE `users` (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES ('1', '95865eb8bec61de07', 'xiaoli', '18801057371', '0', '0.00', '0.00', '金馆长', '13043019980612217X', '2020-05-09 16:06:00', '2020-05-13 17:03:24', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('1', '95865eb8bec61de07', 'xiaoli', '18801057371', '0', '0.00', '0.00', '金馆长', '13043019980612217X', '2020-05-09 16:06:00', '2020-05-14 18:13:48', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
 INSERT INTO `users` VALUES ('2', '81305eb8beebd9ab5', 'Lin', '18801053084', '0', '0.00', '0.00', null, null, '2020-05-09 16:06:30', '2020-05-13 11:14:52', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
 INSERT INTO `users` VALUES ('4', '27015eb8bef396c67', 'dc483e80a7a0bd9ef71d8cf973673924', '18801053086', '0', '0.00', '0.00', null, null, '2020-05-09 16:51:42', '2020-05-11 18:24:59', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
 INSERT INTO `users` VALUES ('5', '48905eb8cabeccbc5', 'dc483e80a7a0bd9ef71d8cf973673924', '15966693265', '0', '0.00', '0.00', null, null, '2020-05-11 11:47:10', null, '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
