@@ -1,0 +1,2898 @@
+---------------------------------------------------------------
+[ 2020-05-18T09:56:03+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php
+[运行时间：1.190350s] [吞吐率：0.84req/s] [内存消耗：2,467.22kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000148s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.048540s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.019678s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000442s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T10:03:48+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/classes/class
+[运行时间：0.356770s] [吞吐率：2.80req/s] [内存消耗：3,092.91kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000199s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004969s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.classes',
+    2 => 'class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAAXjJieBVyo6j52m',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1016',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001782s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T10:28:03+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/order/myorder
+[运行时间：0.253839s] [吞吐率：3.94req/s] [内存消耗：3,093.41kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000159s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003475s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.order',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiEoLyiffiQPjz0qO',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1016',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001966s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T10:47:33+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/order/goreder/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589769148333
+[运行时间：0.113635s] [吞吐率：8.80req/s] [内存消耗：3,603.81kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005160s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.goreder',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/order/goreder?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'search' => '',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589769148333',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001623s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000285s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/order/goreder.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000265s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T10:58:10+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/client/users?addtabs=1
+[运行时间：0.177377s] [吞吐率：5.64req/s] [内存消耗：3,566.33kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003219s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/client/users?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001637s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000268s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000283s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T11:13:05+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/order/goreder/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589769148334
+[运行时间：0.132086s] [吞吐率：7.57req/s] [内存消耗：3,603.81kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000230s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005884s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.goreder',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/order/goreder?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'search' => '',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589769148334',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001720s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000275s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/order/goreder.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000248s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T11:32:59+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/myGoods?token=32b9ddf1-1d8d-47f9-a130-eabae024098e
+[运行时间：0.100392s] [吞吐率：9.96req/s] [内存消耗：2,954.11kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003504s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'myGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhuG0mdKAgOOwu79v',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1112',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '32b9ddf1-1d8d-47f9-a130-eabae024098e',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'id' => '9',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'status' => 'all',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002695s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->myGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T11:45:24+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/order/goreder/edit/ids/5?dialog=1
+[运行时间：0.112583s] [吞吐率：8.88req/s] [内存消耗：3,576.51kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000150s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003432s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.goreder',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/order/goreder?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '5',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001711s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000321s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/order/goreder.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\order\goreder\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000251s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T11:52:49+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/goodsInfo?token=32b9ddf1-1d8d-47f9-a130-eabae024098e&id=8
+[运行时间：0.142600s] [吞吐率：7.01req/s] [内存消耗：2,952.67kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000229s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003505s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxyvH0GY2zNND0Mjf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1112',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '32b9ddf1-1d8d-47f9-a130-eabae024098e',
+  'id' => '9',
+  'address_name' => '郭某坤',
+  'user_tel' => '13111301081',
+  'address' => 
+  array (
+    1 => '河北省邯郸市丛台区',
+    2 => '连城别苑雅园',
+  ),
+  'is_default' => '1',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+  'status' => 'all',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001980s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->goodsInfo[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T14:42:07+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[运行时间：0.099889s] [吞吐率：10.01req/s] [内存消耗：2,951.28kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005683s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'addGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrTlKiAsGH7XZLNFV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '567',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '32b9ddf1-1d8d-47f9-a130-eabae024098e',
+  'title' => '毛选',
+  'price' => '125.03',
+  'class' => '4',
+  'comment' => '123456778985',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003482s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->addGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T14:55:57+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[运行时间：0.131312s] [吞吐率：7.62req/s] [内存消耗：2,938.53kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000185s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003866s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'addGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygpecpckdl2qCKhSu',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1755489',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '32b9ddf1-1d8d-47f9-a130-eabae024098e',
+  'title' => '毛选',
+  'price' => '125.03',
+  'class' => '4',
+  'comment' => '123456778985',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001703s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->addGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T14:56:36+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[ error ] [2]Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-05-18T14:56:38+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[ error ] [2]Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2020-05-18T15:00:33+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[ error ] [0]致命错误: Call to a member function move() on string
+---------------------------------------------------------------
+[ 2020-05-18T15:00:55+08:00 ] 127.0.0.1 POST yuzhilongja.com/api/app/goods/addGoods
+[ error ] [0]致命错误: Call to a member function move() on string
+---------------------------------------------------------------
+[ 2020-05-18T15:04:58+08:00 ] 127.0.0.1 POST www.f1f2.com/api/app/goods/addGoods
+[运行时间：0.105015s] [吞吐率：9.52req/s] [内存消耗：2,942.02kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000145s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004287s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.goods',
+    2 => 'addGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYD5NRogZR4xOhbT1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '1083615',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '32b9ddf1-1d8d-47f9-a130-eabae024098e',
+  'title' => '毛选',
+  'price' => '125.03',
+  'class' => '4',
+  'comment' => '123456778985',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002027s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->addGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T15:11:36+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/Goods/addGoods
+[运行时间：0.262332s] [吞吐率：3.81req/s] [内存消耗：2,941.59kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004703s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.Goods',
+    2 => 'addGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykiY120Gr4KA8dmSS',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '231519',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'title' => '毛选',
+  'price' => '83.41',
+  'class' => '4',
+  'comment' => 'a96c5031-b294-4415-9699-39884583415e',
+  'num' => '22',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002236s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->addGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T15:36:59+08:00 ] 127.0.0.1 POST www.jcang.com/api/app/Goods/addGoods
+[运行时间：0.100368s] [吞吐率：9.96req/s] [内存消耗：2,950.79kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000171s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003836s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'app.Goods',
+    2 => 'addGoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywzTzNho59fQjLL7Q',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'content-length' => '885',
+  'connection' => 'close',
+  'host' => 'www.jcang.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a96c5031-b294-4415-9699-39884583415e',
+  'title' => '毛选',
+  'price' => '83.41',
+  'class' => '4',
+  'comment' => 'a96c5031-b294-4415-9699-39884583415e',
+  'num' => '22',
+  'tel' => '18801057371',
+  'password' => 'a123456',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002071s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\app\Goods->addGoods[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\api\controller\app\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T15:51:08+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/client/users?addtabs=1
+[运行时间：0.145734s] [吞吐率：6.86req/s] [内存消耗：3,566.33kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004728s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=3%7C86400%7C1589630255%7Cd064cf78d690c59b2d730981883f5a89; PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/client/users?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001712s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000360s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000354s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T15:58:34+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/client/real_name/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589788701175
+[运行时间：0.141640s] [吞吐率：7.06req/s] [内存消耗：3,611.66kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003657s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.real_name',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/client/real_name?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589788701175',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002043s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000287s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/real_name.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000262s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T16:52:49+08:00 ] 127.0.0.1 GET yuzhilongja.com/rWPFXdqobO.php/identify/ident/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589788726083
+[运行时间：0.120447s] [吞吐率：8.30req/s] [内存消耗：3,608.31kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000185s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004384s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t50j67sgrhb5c1mqoip2j660vv',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yuzhilongja.com/rWPFXdqobO.php/identify/ident?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yuzhilongja.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'search' => '',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589788726083',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001775s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000349s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000259s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:19+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php
+[运行时间：0.166051s] [吞吐率：6.02req/s] [内存消耗：2,468.52kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004058s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001726s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000394s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:22+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php
+[运行时间：0.087529s] [吞吐率：11.42req/s] [内存消耗：2,834.71kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002906s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/rWPFXdqobO.php',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001542s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000491s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:22+08:00 ] 127.0.0.1 GET www.f1f2.com/index.php?s=/captcha
+[运行时间：0.042934s] [吞吐率：23.29req/s] [内存消耗：1,756.65kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005811s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:23+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589793982
+[运行时间：0.059761s] [吞吐率：16.73req/s] [内存消耗：2,841.54kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005649s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589793982',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003471s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000206s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:41+08:00 ] 127.0.0.1 GET www.f1f2.com/index.php?s=/captcha&r=0.21679708907159245
+[运行时间：0.098393s] [吞吐率：10.16req/s] [内存消耗：1,756.81kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002980s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.21679708907159245',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:47+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php
+[运行时间：0.371601s] [吞吐率：2.69req/s] [内存消耗：3,547.23kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002930s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php',
+  'origin' => 'http://www.f1f2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/rWPFXdqobO.php',
+  '__token__' => '40501a78de6a302e14ed34e6209c03b2',
+  'username' => 'admin1',
+  'password' => 'admin1',
+  'captcha' => 'XjDu',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000354s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.077773s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:48+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php
+[运行时间：0.314452s] [吞吐率：3.18req/s] [内存消耗：3,766.96kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003787s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002325s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000481s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:48+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589794007
+[运行时间：0.182942s] [吞吐率：5.47req/s] [内存消耗：3,662.08kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002572s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589794007',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001257s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000215s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000200s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:52+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/goods/classes?ref=addtabs
+[运行时间：0.151570s] [吞吐率：6.60req/s] [内存消耗：3,387.75kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002903s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods.classes',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002266s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:52+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.113580s] [吞吐率：8.80req/s] [内存消耗：3,768.75kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002967s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001578s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000207s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:52+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/goods/classes?addtabs=1
+[运行时间：0.134547s] [吞吐率：7.43req/s] [内存消耗：3,527.97kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003980s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods.classes',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001259s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000283s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/goods/classes.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\goods\classes\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000257s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:52+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=goods.classes&v=1589794012
+[运行时间：0.079445s] [吞吐率：12.59req/s] [内存消耗：3,658.74kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003194s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/goods/classes?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'goods.classes',
+  'v' => '1589794012',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000214s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/goods/classes.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:52+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/goods/classes/index?addtabs=1&sort=class_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794012490
+[运行时间：0.119507s] [吞吐率：8.37req/s] [内存消耗：3,601.49kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005060s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods.classes',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/goods/classes?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'class_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794012490',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002958s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000260s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/goods/classes.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:53+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589794012
+[运行时间：0.084524s] [吞吐率：11.83req/s] [内存消耗：3,662.43kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003025s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589794012',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001223s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000205s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000150s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:54+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?ref=addtabs
+[运行时间：0.112534s] [吞吐率：8.89req/s] [内存消耗：3,391.48kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002926s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001403s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000175s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:54+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.128448s] [吞吐率：7.79req/s] [内存消耗：3,768.79kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002947s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000209s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:55+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1
+[运行时间：0.130396s] [吞吐率：7.67req/s] [内存消耗：3,530.23kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004754s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001650s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000469s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\finance\withdrawals\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000283s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:55+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=finance.withdrawals&v=1589794015
+[运行时间：0.090011s] [吞吐率：11.11req/s] [内存消耗：3,659.20kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002884s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'finance.withdrawals',
+  'v' => '1589794015',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001262s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000222s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:55+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/index?addtabs=1&sort=wdr_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794015291
+[运行时间：0.110055s] [吞吐率：9.09req/s] [内存消耗：3,610.53kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002902s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'wdr_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794015291',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001603s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000335s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000158s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:56+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589794014
+[运行时间：0.087314s] [吞吐率：11.45req/s] [内存消耗：3,662.43kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002957s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589794014',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001207s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000213s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000153s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users?ref=addtabs
+[运行时间：0.122213s] [吞吐率：8.18req/s] [内存消耗：3,399.30kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003281s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001384s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.118104s] [吞吐率：8.47req/s] [内存消耗：3,768.77kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002892s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001222s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000205s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000153s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1
+[运行时间：0.149073s] [吞吐率：6.71req/s] [内存消耗：3,538.84kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004852s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001424s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000510s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\client\users\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000256s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=client.users&v=1589794019
+[运行时间：0.076841s] [吞吐率：13.01req/s] [内存消耗：3,659.02kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002507s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'client.users',
+  'v' => '1589794019',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001263s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000206s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000171s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:26:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794019547
+[运行时间：0.111454s] [吞吐率：8.97req/s] [内存消耗：3,619.28kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004375s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794019547',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001937s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000262s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:27:00+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589794019
+[运行时间：0.150023s] [吞吐率：6.67req/s] [内存消耗：3,662.43kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003490s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589794019',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000240s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:28:09+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/users/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794019548
+[运行时间：0.110180s] [吞吐率：9.08req/s] [内存消耗：3,620.44kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003115s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/users?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'search' => '',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794019548',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001254s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000238s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/users.php
+[ info ] [ RUN ] app\admin\controller\client\Users->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\client\Users.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:28:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/identify/ident?ref=addtabs
+[运行时间：0.122025s] [吞吐率：8.20req/s] [内存消耗：3,389.80kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003412s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001470s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:28:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/index
+[运行时间：0.120879s] [吞吐率：8.27req/s] [内存消耗：3,768.77kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003210s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001451s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000447s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:28:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/identify/ident?addtabs=1
+[运行时间：0.313115s] [吞吐率：3.19req/s] [内存消耗：3,528.34kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003670s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002072s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000210s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\identify\ident\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:28:59+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=identify.ident&v=1589794139
+[运行时间：0.095849s] [吞吐率：10.43req/s] [内存消耗：3,658.78kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003062s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/identify/ident?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'identify.ident',
+  'v' => '1589794139',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000239s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:29:00+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/identify/ident/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794139639
+[运行时间：0.109350s] [吞吐率：9.14req/s] [内存消耗：3,608.06kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002810s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/identify/ident?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794139639',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001355s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000309s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:29:00+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/ajax/lang?callback=define&controllername=index&v=1589794139
+[运行时间：0.082682s] [吞吐率：12.09req/s] [内存消耗：3,662.43kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003771s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1589794139',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001319s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000209s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000153s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:37:08+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589794227337
+[运行时间：0.151494s] [吞吐率：6.60req/s] [内存消耗：3,717.66kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004966s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/auth/admin?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589794227337',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002630s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000497s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\auth\Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000255s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:46:27+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/client/real_name/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589795017929
+[运行时间：0.150504s] [吞吐率：6.64req/s] [内存消耗：3,612.52kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004846s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client.real_name',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/client/real_name?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589795017929',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002321s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000451s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/client/real_name.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000275s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:48:40+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/identify/ident/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589795318231
+[运行时间：0.128278s] [吞吐率：7.80req/s] [内存消耗：3,608.07kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004420s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/identify/ident?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589795318231',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001694s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000284s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000339s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T17:56:31+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/auth/rule/edit/ids/8?dialog=1
+[运行时间：0.176499s] [吞吐率：5.67req/s] [内存消耗：3,931.24kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005048s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/auth/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '8',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002897s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000293s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->edit[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\view\auth\rule\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000295s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T18:07:15+08:00 ] 127.0.0.1 POST www.f1f2.com/rWPFXdqobO.php/auth/rule/add?dialog=1
+[运行时间：0.201269s] [吞吐率：4.97req/s] [内存消耗：3,784.73kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004050s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/auth/rule/add?dialog=1',
+  'origin' => 'http://www.f1f2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '307',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  '__token__' => 'db3f39db109bb46372b5ddef0e446b76',
+  'row' => 
+  array (
+    'ismenu' => '0',
+    'pid' => '132',
+    'name' => 'finance/withdrawal/pass finance/withdrawal/refuse',
+    'title' => '提现审核',
+    'icon' => 'fa fa-circle-o',
+    'weigh' => '0',
+    'condition' => '',
+    'remark' => '',
+    'status' => 'normal',
+  ),
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001656s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000363s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->add[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.082285s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T18:09:14+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/identify/ident/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589796552748
+[运行时间：0.173059s] [吞吐率：5.78req/s] [内存消耗：3,609.50kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005415s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'identify.ident',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/identify/ident?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589796552748',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001700s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000427s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/identify/ident.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000261s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T18:17:19+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/finance/withdrawals/index?addtabs=1&sort=wdr_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589796976365
+[运行时间：0.120779s] [吞吐率：8.28req/s] [内存消耗：3,611.97kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000217s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004900s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'finance.withdrawals',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/finance/withdrawals?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'wdr_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1589796976365',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001689s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000316s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/finance/withdrawals.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000249s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-18T18:24:56+08:00 ] 127.0.0.1 GET www.f1f2.com/rWPFXdqobO.php/index/logout
+[运行时间：0.190289s] [吞吐率：5.26req/s] [内存消耗：3,539.33kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000833s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003740s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1587370153; PHPSESSID=9ifa9v8cd9g97c4g09jcisn2s5',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f1f2.com/rWPFXdqobO.php/identify/ident?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.f1f2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001749s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000358s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ E:\phpStudy\PHPTutorial\WWW\jiacang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\jiacang\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000259s ]
+[ info ] [ LOG ] INIT File

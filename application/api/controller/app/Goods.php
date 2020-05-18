@@ -18,8 +18,11 @@ class Goods extends Api
 {
     protected $noNeedLogin = '';
     protected $noNeedRight = '*';
-
-    //我的商品展示
+    /*
+     * 我的商品展示
+     * get
+     * token
+     */
     public function myGoods(){
         $token = input("get.token");
         $id = $this->auth->parsingToken($token)['user_id'];
@@ -51,7 +54,10 @@ class Goods extends Api
         $this->success('获取成功',$goods);
     }
 
-
+    /*
+     * 添加
+     * token,title,price，num，class，comment，file
+     */
     public function addGoods(){
         $data = input("post.");
         $file = request()->file('file')?request()->file('file'):0;
@@ -61,13 +67,14 @@ class Goods extends Api
         $token = $data['token'];
         unset($data['token']);
         $data['user_key'] = $key = $this->auth->parsingToken($token)['user_key'];
-        $id = $this->auth->parsingToken($token)['user_id'];
         $data['tel'] = Db::table('users')
-            ->where('id','=',"$id")
+            ->where('user_key','=',"$key")
             ->value('tel');
         $data['create_time'] = date("Y-m-d H:i:s");
         $data['goods_image'] = $this->uploads($file);
         $class = $data['class'];
+
+//        print_r($file);die();
         try {
             Db::startTrans();
             $re['t1'] = Db::table('goods')

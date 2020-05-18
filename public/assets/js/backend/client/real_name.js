@@ -81,7 +81,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     }
                                 }
                             ],
-                            events: Table.api.events.operate, formatter: Table.api.formatter.operate
+                            events: Table.api.events.operate,
+                            formatter: Table.api.formatter.operate
                         }
                     ]
                 ]

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2020-05-15 16:19:20
+Date: 2020-05-18 17:10:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -80,7 +80,7 @@ CREATE TABLE `class` (
 INSERT INTO `class` VALUES ('1', '钱币', '1', '2020-04-23 17:46:02');
 INSERT INTO `class` VALUES ('2', '玉器', '0', '2020-04-26 18:14:48');
 INSERT INTO `class` VALUES ('3', '青铜器', '0', '2020-04-26 18:15:15');
-INSERT INTO `class` VALUES ('4', '古玩', '4', '2020-04-26 18:15:32');
+INSERT INTO `class` VALUES ('4', '古玩', '5', '2020-04-26 18:15:32');
 INSERT INTO `class` VALUES ('5', '瓷器', '0', '2020-05-07 17:55:37');
 INSERT INTO `class` VALUES ('6', '字画', '0', '2020-05-12 11:39:41');
 INSERT INTO `class` VALUES ('7', '书籍', '0', '2020-05-12 11:39:52');
@@ -148,8 +148,8 @@ CREATE TABLE `fa_admin` (
 -- ----------------------------
 -- Records of fa_admin
 -- ----------------------------
-INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1589420356', '127.0.0.1', '1492186163', '1589420356', 'ce2c0003-10bd-4ffe-9fd7-4df9a0fb48ef', 'normal');
-INSERT INTO `fa_admin` VALUES ('3', 'admin1', '超管', '6188be37f2157d0d561fc9b47a0dc633', 'BJ0YG4', '/assets/img/avatar.png', 'test@test.com', '0', '1589249242', '127.0.0.1', '1588745058', '1589273307', '', 'normal');
+INSERT INTO `fa_admin` VALUES ('1', 'LindenVan', '开发者', '763dd48d9fdf6695d4c51183596861c5', 'hm0udo', '/assets/img/avatar.png', 'admin@admin.com', '0', '1589769139', '127.0.0.1', '1492186163', '1589788686', '', 'normal');
+INSERT INTO `fa_admin` VALUES ('3', 'admin1', '超管', '6188be37f2157d0d561fc9b47a0dc633', 'BJ0YG4', '/assets/img/avatar.png', 'test@test.com', '0', '1589788695', '127.0.0.1', '1588745058', '1589788695', '538f2056-fea9-4cef-b72a-0ea672f46c74', 'normal');
 
 -- ----------------------------
 -- Table structure for fa_admin_log
@@ -167,7 +167,7 @@ CREATE TABLE `fa_admin_log` (
   `createtime` int(10) DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`id`),
   KEY `name` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=599 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=620 DEFAULT CHARSET=utf8 COMMENT='管理员日志表';
 
 -- ----------------------------
 -- Records of fa_admin_log
@@ -770,6 +770,27 @@ INSERT INTO `fa_admin_log` VALUES ('595', '1', 'LindenVan', '/rWPFXdqobO.php/ind
 INSERT INTO `fa_admin_log` VALUES ('596', '1', 'LindenVan', '/rWPFXdqobO.php/client/real_name/refuse/ids/3', '客户管理 实名认证 Refuse', '{\"ids\":\"3\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589334260');
 INSERT INTO `fa_admin_log` VALUES ('597', '1', 'LindenVan', '/rWPFXdqobO.php/client/real_name/pass/ids/4', '客户管理 实名认证 Pass', '{\"ids\":\"4\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589336797');
 INSERT INTO `fa_admin_log` VALUES ('598', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"259684d0455fd99fbcc67df1a3b1020d\",\"username\":\"Lindenvan\",\"captcha\":\"CTUQ\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589420357');
+INSERT INTO `fa_admin_log` VALUES ('599', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"bd6562523df965ebcdcad4cdce05d2d4\",\"username\":\"LindenVan\",\"captcha\":\"B5JK\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589538900');
+INSERT INTO `fa_admin_log` VALUES ('600', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"60a2907321d19ab8b6b1a47acf056497\",\"username\":\"LindenVan\",\"captcha\":\"B5JK\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589538903');
+INSERT INTO `fa_admin_log` VALUES ('601', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"8513d4b6beb3cd43a866e1f42f27cfd3\",\"username\":\"LindenVan\",\"captcha\":\"B5JK\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589539102');
+INSERT INTO `fa_admin_log` VALUES ('602', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"ae469eb97068a69e188bf21a7d2e4692\",\"username\":\"LindenVan\",\"captcha\":\"NDCU\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589539120');
+INSERT INTO `fa_admin_log` VALUES ('603', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"6e7e34017a1f872fde03025b6face306\",\"username\":\"LindenVan\",\"captcha\":\"X58B\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589539142');
+INSERT INTO `fa_admin_log` VALUES ('604', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"be627a609764153a8e3733589048a860\",\"username\":\"LindenVan\",\"captcha\":\"YUXU\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589539233');
+INSERT INTO `fa_admin_log` VALUES ('605', '3', 'admin1', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"bca0cdd3ce59bbc289b23b1cb09f8f87\",\"username\":\"admin1\",\"captcha\":\"6CtE\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589539318');
+INSERT INTO `fa_admin_log` VALUES ('606', '0', 'Unknown', '/rWPFXdqobO.php/index/login', '', '{\"__token__\":\"c9b3b489124806418d2eb9dc13d5078f\",\"username\":\"Lindenvan\",\"captcha\":\"RRCM\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543425');
+INSERT INTO `fa_admin_log` VALUES ('607', '0', 'Unknown', '/rWPFXdqobO.php/index/login', '', '{\"__token__\":\"1c45752ec64511a8660b156c5a1c9838\",\"username\":\"Lindenvan\",\"captcha\":\"RRCM\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543428');
+INSERT INTO `fa_admin_log` VALUES ('608', '3', 'admin1', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"5614f3db42a25ec2804466e544759888\",\"username\":\"admin1\",\"captcha\":\"NFJK\",\"keeplogin\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543460');
+INSERT INTO `fa_admin_log` VALUES ('609', '0', 'Unknown', '/rWPFXdqobO.php/index/login', '', '{\"__token__\":\"222f440e25919e941a33db17c73f08f0\",\"username\":\"Lindenvan\",\"captcha\":\"RRCM\",\"keeplogin\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543547');
+INSERT INTO `fa_admin_log` VALUES ('610', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"6fea0709020bb9bafe71e23dfb464776\",\"username\":\"admin1\",\"captcha\":\"jnhe\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543569');
+INSERT INTO `fa_admin_log` VALUES ('611', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"4718f97ac65559d404a09737703a9cc7\",\"username\":\"Lindenvan\",\"captcha\":\"ppFy\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543729');
+INSERT INTO `fa_admin_log` VALUES ('612', '3', 'admin1', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"f1a74b7f7167e5d9919930e240b1a4e5\",\"username\":\"admin1\",\"captcha\":\"pxfm\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543744');
+INSERT INTO `fa_admin_log` VALUES ('613', '3', 'admin1', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"a6b423a1a4d2f6690ac5d52942b88ec9\",\"username\":\"admin1\",\"captcha\":\"FDNG\",\"keeplogin\":\"1\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589543855');
+INSERT INTO `fa_admin_log` VALUES ('614', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"ba81beb480db192ca965d246047cefa0\",\"username\":\"LindenVan\",\"captcha\":\"HYFT\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safar', '1589767323');
+INSERT INTO `fa_admin_log` VALUES ('615', '0', 'Unknown', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"31c4517ff7e015e4e692d8444425bf1e\",\"username\":\"lindenvan\",\"captcha\":\"5yuk\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589769131');
+INSERT INTO `fa_admin_log` VALUES ('616', '1', 'LindenVan', '/rWPFXdqobO.php/index/login?url=%2FrWPFXdqobO.php', '登录', '{\"url\":\"\\/rWPFXdqobO.php\",\"__token__\":\"68199a3d78e1d2a95c018bf2fca628fd\",\"username\":\"lindenvan\",\"captcha\":\"dwjm\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589769139');
+INSERT INTO `fa_admin_log` VALUES ('617', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/edit/ids/5?dialog=1', '客户管理 客户列表 编辑', '{\"dialog\":\"1\",\"row\":{\"nickname\":\"256\",\"tel\":\"15966693265\",\"comment\":\"\"},\"ids\":\"5\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589788590');
+INSERT INTO `fa_admin_log` VALUES ('618', '1', 'LindenVan', '/rWPFXdqobO.php/client/users/edit/ids/4?dialog=1', '客户管理 客户列表 编辑', '{\"dialog\":\"1\",\"row\":{\"nickname\":\"924\",\"tel\":\"18801053086\",\"comment\":\"\"},\"ids\":\"4\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589788597');
+INSERT INTO `fa_admin_log` VALUES ('619', '3', 'admin1', '/rWPFXdqobO.php/index/login', '登录', '{\"__token__\":\"a5ba7351abdf7676fbfc2a88d6d851db\",\"username\":\"admin1\",\"captcha\":\"HVPT\"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', '1589788695');
 
 -- ----------------------------
 -- Table structure for fa_attachment
@@ -1364,7 +1385,10 @@ CREATE TABLE `fa_user_token` (
 -- Records of fa_user_token
 -- ----------------------------
 INSERT INTO `fa_user_token` VALUES ('0763172dfdc00f1ead533deaf6e9889441d597c0', '1', '1589447001', '1592039001', '95865eb8bec61de07');
+INSERT INTO `fa_user_token` VALUES ('07e7f268133beccc095d4c306bf115194d147734', '1', '1589531105', '1592123105', '95865eb8bec61de07');
+INSERT INTO `fa_user_token` VALUES ('4076c3d03f8ba1cc9b5635a2e769e38f3fcca579', '1', '1589787433', '1592379433', '95865eb8bec61de07');
 INSERT INTO `fa_user_token` VALUES ('83993d460916d7cdfbbdc512a5e6252123eb6c84', '1', '1589451228', '1592043228', '95865eb8bec61de07');
+INSERT INTO `fa_user_token` VALUES ('b85016df9e01b2792c4af9ac18eb7ab49eeefbad', '1', '1589769080', '1592361080', '95865eb8bec61de07');
 INSERT INTO `fa_user_token` VALUES ('f6f78178665b174247be85bde5486fda2be36204', '1', '1589360604', '1591952604', '95865eb8bec61de07');
 
 -- ----------------------------
@@ -1409,7 +1433,7 @@ CREATE TABLE `goods` (
   `status` tinyint(1) DEFAULT '0' COMMENT '状态',
   `comment` text COMMENT '备注',
   PRIMARY KEY (`goods_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of goods
@@ -1430,6 +1454,7 @@ INSERT INTO `goods` VALUES ('19', '革委会海报', '北京工艺美院革委�
 INSERT INTO `goods` VALUES ('20', '明代智能手机', null, '4', '998.00', '/uploads/20200513/24a1adfbb05ae9a9222d4963390da21a.jpg,/uploads/20200513/124f965714f9d4966ade38b3132c31e2.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-13 18:08:51', '0', '这既是简介');
 INSERT INTO `goods` VALUES ('21', '明代智能手机', null, '4', '998.00', '/uploads/20200513/1c44af6a38bffde45fddd6cb6f9f158a.jpg,/uploads/20200513/f1ee164a0fa646619fe5b704a398cbab.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-13 18:09:46', '0', '我就是简介吖');
 INSERT INTO `goods` VALUES ('22', '毛泽东语录', null, '4', '998.00', '/uploads/20200514/6950ff775604740a53d5e05a40d469de.jpg,/uploads/20200514/01fcb8c6fc7e6513bb92db1ad80f56fc.jpg', '10', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-14 11:54:01', '0', '毛泽东语录');
+INSERT INTO `goods` VALUES ('23', '毛选', null, '4', '83.41', '/uploads/20200518/03502d8c1e73a6bf9c8ccbec3dbc6646.jpg,/uploads/20200518/d245219dd9ab4dd244f694a2e6fc779b.jpg', '22', '0', '0', '18801057371', '95865eb8bec61de07', '2020-05-18 15:14:39', '0', 'a96c5031-b294-4415-9699-39884583415e');
 
 -- ----------------------------
 -- Table structure for identify
@@ -1451,13 +1476,13 @@ CREATE TABLE `identify` (
 -- ----------------------------
 -- Records of identify
 -- ----------------------------
-INSERT INTO `identify` VALUES ('1', '张三', '18801057596', 'xiaoli02', '鉴定鉴定鉴定鉴定鉴定鉴定', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<div style=\"text-align: center;\"><b>如假包换</b></div><hr><div style=\"text-align: center;\"><b><br></b></div>');
-INSERT INTO `identify` VALUES ('2', '张三', '18801057596', 'xiaoli02', '鉴定', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '00001 00010 00100 01000 10000');
-INSERT INTO `identify` VALUES ('3', '张三', '18801057596', 'xiaoli02', '鉴定2', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<p>大大所多多所大所多</p>');
-INSERT INTO `identify` VALUES ('4', '张三', '18801057596', 'xiaoli02', '鉴定3', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<p>鉴定完毕假的</p>');
-INSERT INTO `identify` VALUES ('5', '张三', '18801057596', 'xiaoli02', '鉴定4', '/uploads/696.txt', '2020-04-24 14:27:06', '0', '00001 00010 00100 01000 10000');
-INSERT INTO `identify` VALUES ('6', '张某', '12236663666', '5555', '水电费水电费', '/uploads/20200508/e05c70a045af7264f0bc144bfbff1a18.rar	', '2020-05-08 14:25:04', '0', null);
-INSERT INTO `identify` VALUES ('7', '张某', '12236663666', '的说法', '测试附件', '/uploads/20200508/60ae50bc996855de67408045d9369f51.docx', '2020-05-08 14:57:46', '1', '<p>才疏学浅</p>');
+INSERT INTO `identify` VALUES ('1', '张三', '18801057596', '95865eb8bec61de07', '鉴定鉴定鉴定鉴定鉴定鉴定', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<div style=\"text-align: center;\"><b>如假包换</b></div><hr><div style=\"text-align: center;\"><b><br></b></div>');
+INSERT INTO `identify` VALUES ('2', '张三', '18801057596', '95865eb8bec61de07', '鉴定', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '00001 00010 00100 01000 10000');
+INSERT INTO `identify` VALUES ('3', '张三', '18801057596', '95865eb8bec61de07', '鉴定2', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<p>大大所多多所大所多</p>');
+INSERT INTO `identify` VALUES ('4', '张三', '18801057596', '95865eb8bec61de07', '鉴定3', '/uploads/696.txt', '2020-04-24 14:27:06', '1', '<p>鉴定完毕假的</p>');
+INSERT INTO `identify` VALUES ('5', '张三', '18801057596', '81305eb8beebd9ab5', '鉴定4', '/uploads/696.txt', '2020-04-24 14:27:06', '0', '00001 00010 00100 01000 10000');
+INSERT INTO `identify` VALUES ('6', '张某', '12236663666', '81305eb8beebd9ab5', '水电费水电费', '/uploads/20200508/e05c70a045af7264f0bc144bfbff1a18.rar	', '2020-05-08 14:25:04', '0', '<p>鉴定完毕假的</p>');
+INSERT INTO `identify` VALUES ('7', '张某', '12236663666', '81305eb8beebd9ab5', '测试附件', '/uploads/20200508/60ae50bc996855de67408045d9369f51.docx', '2020-05-08 14:57:46', '1', '<p>才疏学浅</p>');
 
 -- ----------------------------
 -- Table structure for message
@@ -1551,6 +1576,7 @@ CREATE TABLE `users` (
   `id` int(5) NOT NULL AUTO_INCREMENT COMMENT '编号',
   `user_key` varchar(25) CHARACTER SET armscii8 DEFAULT NULL COMMENT '佳藏号',
   `nickname` varchar(50) DEFAULT NULL COMMENT '昵称',
+  `head_image` varchar(255) DEFAULT NULL COMMENT '头像',
   `tel` char(11) DEFAULT NULL COMMENT '手机',
   `level` tinyint(1) DEFAULT '0' COMMENT '会员级别',
   `money` float(11,2) DEFAULT '0.00' COMMENT '余额',
@@ -1568,10 +1594,10 @@ CREATE TABLE `users` (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES ('1', '95865eb8bec61de07', 'xiaoli', '18801057371', '0', '0.00', '0.00', '金馆长', '13043019980612217X', '2020-05-09 16:06:00', '2020-05-14 18:13:48', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
-INSERT INTO `users` VALUES ('2', '81305eb8beebd9ab5', 'Lin', '18801053084', '0', '0.00', '0.00', null, null, '2020-05-09 16:06:30', '2020-05-13 11:14:52', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
-INSERT INTO `users` VALUES ('4', '27015eb8bef396c67', 'dc483e80a7a0bd9ef71d8cf973673924', '18801053086', '0', '0.00', '0.00', null, null, '2020-05-09 16:51:42', '2020-05-11 18:24:59', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
-INSERT INTO `users` VALUES ('5', '48905eb8cabeccbc5', 'dc483e80a7a0bd9ef71d8cf973673924', '15966693265', '0', '0.00', '0.00', null, null, '2020-05-11 11:47:10', null, '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('1', '95865eb8bec61de07', 'xiaoli', null, '18801057371', '0', '0.00', '0.00', '金馆长', '13043019980612217X', '2020-05-09 16:06:00', '2020-05-18 15:37:13', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('2', '81305eb8beebd9ab5', 'Lin', null, '18801053084', '0', '0.00', '0.00', null, null, '2020-05-09 16:06:30', '2020-05-13 11:14:52', '0', null, 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('4', '27015eb8bef396c67', '924', null, '18801053086', '0', '0.00', '0.00', null, null, '2020-05-09 16:51:42', '2020-05-11 18:24:59', '0', '', 'dc483e80a7a0bd9ef71d8cf973673924');
+INSERT INTO `users` VALUES ('5', '48905eb8cabeccbc5', '256', null, '15966693265', '0', '0.00', '0.00', null, null, '2020-05-11 11:47:10', null, '0', '', 'dc483e80a7a0bd9ef71d8cf973673924');
 
 -- ----------------------------
 -- Table structure for vorder

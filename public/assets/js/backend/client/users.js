@@ -60,7 +60,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     return '封号';
                                 }
                             },
-                            // formatter:Table.api.formatter.toggle
                         },
 
                         {field: 'comment', title: __('Comment'),operate:false},

@@ -42,9 +42,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                 }
                             }
                         },
-                        {field: 'operate', title: __('Operate'),
+                        {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
-                                {name: 'handling', text: '处理', title: '处理', icon: '',
+                                {name: 'hand', text: '处理', title: '处理', icon: '',
                                     classname: 'btn btn-xs btn-success btn-dialog',refresh:'true',
                                     url: "identify/ident/hand",
                                     visible:function (row) {
@@ -56,7 +56,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                     }
                                 }
                             ],
-                            table: table, events: Table.api.events.operate,
+                            events: Table.api.events.operate,
                             formatter: Table.api.formatter.operate
                         }
                     ]

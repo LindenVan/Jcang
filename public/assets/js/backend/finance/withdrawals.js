@@ -47,7 +47,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'comment', title: __('Comment'),operate:false},
                         {field: 'operate', title: __('Operate'), table: table,
                             buttons: [
-                                {name: 'handling', text: '处理', title: '处理', icon: '',
+                                {
+                                    name: 'pass', text: '处理', title: '处理', icon: '',
                                     classname: 'btn btn-xs btn-success btn-ajax ',refresh:'true',
                                     confirm:"确定通过提现申请？",
                                     url: "finance/withdrawals/pass",
@@ -59,7 +60,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                         }
                                     }
                                 },
-                                {name: 'handling', text: '拒绝', title: '拒绝', icon: '',
+                                {
+                                    name: 'refuse', text: '拒绝', title: '拒绝', icon: '',
                                     classname: 'btn btn-xs btn-danger btn-ajax ',refresh:'true',
                                     confirm:"确定拒绝提现申请？",
                                     url: "finance/withdrawals/refuse",
